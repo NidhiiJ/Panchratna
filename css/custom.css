@@ -388,6 +388,12 @@ body{
 	z-index: 1;
 }
 
+.section-row-services{
+	position: relative;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+
 .section-row .section-title{
 	margin-bottom: 0;
 }
@@ -1164,7 +1170,7 @@ header.main-header .header-sticky.active{
 
 .our-services{
 	position: relative;
-	padding: 100px 0 280px;
+	padding: 100px 0 220px;
 	background: url('../images/our-service-bg.jpg') no-repeat center center;
 	background-size: cover;
 }
@@ -1199,7 +1205,7 @@ header.main-header .header-sticky.active{
 	background: var(--white-color);
 	border: 1px solid var(--secondary-color);
 	border-radius: 40px;
-	padding: 60px;
+	padding: 40px;
 	box-shadow: 0px 4px 30px 0px #0000000A;
 	display: flex;
 	flex-wrap: wrap;
@@ -1235,9 +1241,9 @@ header.main-header .header-sticky.active{
 	max-width: 60px;
 }
 
-.service-body{
+/* .service-body{
 	margin-bottom: 60px;
-}
+} */
 
 .service-body h3{
 	font-size: 20px;
@@ -1423,10 +1429,11 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .what-we-do{
-	background: url('../images/what-we-do-bg.svg'), var(--primary-color);
-	background-repeat: no-repeat;
+	background-color: var(--primary-color)
+	/* background: url('../images/what-we-do-bg.svg'), var(--primary-color); */
+	/* background-repeat: no-repeat;
 	background-position: bottom left;
-	background-size: auto;
+	background-size: auto; */
 }
 
 .what-we-do .container-fluid{
@@ -1448,6 +1455,7 @@ header.main-header .header-sticky.active{
 .what-we-do-list-box-1,
 .what-we-do-list-box-2{
 	display: flex;
+	width: 100%;
 	flex-wrap: wrap;
 	gap: 30px;
 }
@@ -1632,7 +1640,7 @@ header.main-header .header-sticky.active{
 	z-index: 2;
 }
 
-.project-tag a{
+.project-tag p{
 	position: relative;
 	display: block;
 	backdrop-filter: blur(50px);
@@ -2227,7 +2235,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-logo img{
-	max-width: 180px;
+	max-width: 320px;
 }
 
 .about-footer-content{
