@@ -1430,10 +1430,6 @@ header.main-header .header-sticky.active{
 
 .what-we-do{
 	background-color: var(--primary-color)
-	/* background: url('../images/what-we-do-bg.svg'), var(--primary-color); */
-	/* background-repeat: no-repeat;
-	background-position: bottom left;
-	background-size: auto; */
 }
 
 .what-we-do .container-fluid{
@@ -1556,6 +1552,10 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-work{
+	background: url('../images/testimonial-bg.png'), var(--secondary-color);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 	padding: 100px 0 60px;
 }
 
@@ -1955,10 +1955,6 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-testimonial{
-	background: url('../images/testimonial-bg.png'), var(--secondary-color);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
 	padding: 100px 0;
 }
 
