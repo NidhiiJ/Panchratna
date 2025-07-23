@@ -36,11 +36,11 @@
 <body>
 
     <!-- Preloader Start -->
-	<?php include 'components/preloader.php'; ?>
+	<?php include 'preloader.php'; ?>
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<?php include 'components/nav.php'; ?>
+	<?php include 'nav.php'; ?>
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
