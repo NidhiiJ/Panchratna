@@ -36,44 +36,11 @@
 <body>
 
     <!-- Preloader Start -->
-	<div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/panchratnaContent/icon.svg" alt=""></div>
-		</div>
-	</div>
+	<?php include 'components/preloader.php'; ?>
 	<!-- Preloader End -->
 
     <!-- Header Start -->
-	<header class="main-header">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg fixed-top">
-				<div class="container">
-                    <!-- Logo Start -->
-					<a class="navbar-brand" href="./">
-						<img src="images/panchratnaContent/logo.svg" alt="Logo">
-					</a>
-					<!-- Logo End -->
-
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav ms-auto" id="menu">                           
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Products</a></li>
-                                <li class="nav-item"><a class="nav-link" href="projects.html">Industries We Serve</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Infrastructure</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                             
-                            </ul>
-                        </div>  
-					</div>
-					<!-- Main Menu End -->
-					<div class="navbar-toggle"></div>
-				</div>
-                <div class="responsive-menu"></div>
-			</nav>
-		</div>
-	</header>
+	<?php include 'components/nav.php'; ?>
 	<!-- Header End -->
 
     <!-- Hero Section Start -->

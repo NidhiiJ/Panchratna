@@ -1,0 +1,113 @@
+<?php
+/**
+ * Footer Component
+ * Usage: include 'components/footer.php';
+ */
+
+// Company contact information (can be moved to config file)
+$company_info = [
+    'billing_address' => [
+        'line1' => 'SHOP NO 24/28, GROUND FLOOR,',
+        'line2' => 'PLOT-22/24, ABBAS MANSION,',
+        'line3' => 'GIRGAON, MUMBAI-400004,',
+        'line4' => 'MAHARASHTRA'
+    ],
+    'godown_address' => [
+        'line1' => 'PLOT NO.4B, FOSSBERRY ROAD,',
+        'line2' => 'SEWRI, MUMBAI, MAHARASHTRA,',
+        'line3' => 'INDIA, 400015'
+    ],
+    'phones' => ['+91 9082603083', '+22 6743 7736'],
+    'email' => 'panchratnaoverseas.pvt.ltd@gmail.com'
+];
+
+// Social media links
+$social_links = [
+    'pinterest' => '#',
+    'twitter' => '#',
+    'facebook' => '#',
+    'instagram' => '#'
+];
+
+// Quick links
+$quick_links = [
+    'About Us' => 'about.html',
+    'Products' => 'services.html',
+    'Industries we serve' => 'index.html',
+    'Infrastructure' => 'blog.html'
+];
+?>
+
+<!-- Footer Start -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-lg-6 col-md-12">
+                <div class="about-footer">
+                    <div class="footer-logo">
+                        <img src="images/panchratnaContent/logo.svg" alt="Logo">
+                    </div>
+                </div>
+                <div class="footer-social-links d-flex mt-4 mb-4">
+                    <ul>
+                        <li><a href="<?php echo $social_links['pinterest']; ?>"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        <li><a href="<?php echo $social_links['twitter']; ?>"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="<?php echo $social_links['facebook']; ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="<?php echo $social_links['instagram']; ?>"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-4 col-6">
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <?php foreach ($quick_links as $text => $url): ?>
+                            <li><a href="<?php echo $url; ?>"><?php echo $text; ?></a></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="footer-links">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <strong>Billing Address:</strong><br>
+                            <?php echo implode('<br>', $company_info['billing_address']); ?>
+                        </li>
+                        <li>
+                            <strong>Godown Address:</strong><br>
+                            <?php echo implode('<br>', $company_info['godown_address']); ?>
+                        </li>
+                        <?php foreach ($company_info['phones'] as $phone): ?>
+                            <li><img src="images/panchratnaContent/call.svg"/> <?php echo $phone; ?></li>
+                        <?php endforeach; ?>
+                        <li>
+                            <img src="images/panchratnaContent/mail.svg"/> 
+                            <a href="mailto:<?php echo $company_info['email']; ?>">
+                                <?php echo $company_info['email']; ?>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-copyright">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="footer-copyright-text">
+                        <p>Copyright © <?php echo date('Y'); ?> All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
