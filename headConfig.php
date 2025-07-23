@@ -37,7 +37,7 @@ if (!isset($page_author)) {
 <title><?php echo htmlspecialchars($page_title); ?></title>
 
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/panchratnaContent/favicon.svg>
 
 <!-- Google Fonts Css-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
