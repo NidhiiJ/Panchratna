@@ -1,13 +1,4 @@
 <?php
-/**
- * Navigation Component
- * Usage: include 'components/nav.php';
- * 
- * You can pass $current_page variable to highlight active menu item
- * Example: $current_page = 'about'; include 'components/nav.php';
- */
-
-// Set default current page if not defined
 if (!isset($current_page)) {
     $current_page = '';
 }
@@ -55,4 +46,3 @@ $menu_items = [
         </nav>
     </div>
 </header>
-<!-- Header End -->

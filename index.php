@@ -560,76 +560,7 @@
     <!-- Our Testimonial Section End -->
 
     <!-- Footer Start -->
-    <footer class="main-footer">
-    <div class="container">
-        <div class="row">
-            <!-- About Section -->
-            <div class="col-lg-6 col-md-12">
-                <div class="about-footer">
-                    <div class="footer-logo">
-                        <img src="images/panchratnaContent/logo.svg" alt="Logo">
-                    </div>
-                </div>
-                <div class="footer-social-links d-flex mt-4 mb-4">
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="col-lg-2 col-md-4 col-6">
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Products</a></li>
-                        <li><a href="index.html">Industries we serve</a></li>
-                        <li><a href="blog.html">Infrastructure</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Contact Info -->
-            <div class="col-lg-4 col-md-4 col-12">
-                <div class="footer-links">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><strong>Billing Address:</strong><br>
-                            SHOP NO 24/28, GROUND FLOOR,<br>
-                            PLOT-22/24, ABBAS MANSION,<br>
-                            GIRGAON, MUMBAI-400004,<br>
-                            MAHARASHTRA
-                        </li>
-                        <li><strong>Godown Address:</strong><br>
-                            PLOT NO.4B, FOSSBERRY ROAD,<br>
-                            SEWRI, MUMBAI, MAHARASHTRA,<br>
-                            INDIA, 400015
-                        </li>
-                        <li><img src="images/panchratnaContent/call.svg"/> +91 9082603083</li>
-                        <li><img src="images/panchratnaContent/call.svg"/> +22 6743 7736</li>
-                        <li><img src="images/panchratnaContent/mail.svg"/> <a href="mailto:panchratnaoverseas.pvt.ltd@gmail.com">panchratnaoverseas.pvt.ltd@gmail.com</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer Bottom -->
-        <div class="footer-copyright">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="footer-copyright-text">
-                        <p>Copyright © 2025 All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
+    <?php include 'footer.php' ; ?>
     <!-- Footer End -->
 
     <!-- Jquery Library File -->

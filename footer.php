@@ -1,10 +1,4 @@
 <?php
-/**
- * Footer Component
- * Usage: include 'components/footer.php';
- */
-
-// Company contact information (can be moved to config file)
 $company_info = [
     'billing_address' => [
         'line1' => 'SHOP NO 24/28, GROUND FLOOR,',
