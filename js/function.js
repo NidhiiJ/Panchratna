@@ -10,23 +10,39 @@
 	});
 
 	/* Sticky Header */	
-	if($('.active-sticky-header').length){
-		$window.on('resize', function(){
-			setHeaderHeight();
-		});
+	/* Sticky Header with Scroll Direction Detection */
+if ($('.active-sticky-header').length) {
+	let lastScrollTop = 0;
+	let delta = 5;
+	let $header = $('header .header-sticky');
 
-		function setHeaderHeight(){
-	 		$("header.main-header").css("height", $('header .header-sticky').outerHeight());
-		}	
+	function setHeaderHeight() {
+		$("header.main-header").css("height", $header.outerHeight());
+	}
+
+	$window.on('resize', function () {
+		setHeaderHeight();
+	});
+
+	$window.on("scroll", function () {
+		let st = $(this).scrollTop();
+		let headerHeight = $header.outerHeight();
+		setHeaderHeight();
+
+		// Only trigger if more than delta scroll
+		if (Math.abs(st - lastScrollTop) > delta) {
+			if (st > lastScrollTop && st > headerHeight + 100) {
+				// Scrolling down
+				$header.addClass("hide").removeClass("active");
+			} else if (st + $(window).height() < $(document).height()) {
+				// Scrolling up
+				$header.removeClass("hide").addClass("active");
+			}
+			lastScrollTop = st;
+		}
+	});
+}
 	
-		$window.on("scroll", function() {
-			var fromTop = $(window).scrollTop();
-			setHeaderHeight();
-			var headerHeight = $('header .header-sticky').outerHeight()
-			$("header .header-sticky").toggleClass("hide", (fromTop > headerHeight + 100));
-			$("header .header-sticky").toggleClass("active", (fromTop > 600));
-		});
-	}	
 	
 	/* Slick Menu JS */
 	$('#menu').slicknav({

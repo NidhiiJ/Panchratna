@@ -5,7 +5,7 @@ if (!isset($current_page)) {
 
 // Menu items array for easy management
 $menu_items = [
-    'about' => ['url' => 'about.html', 'text' => 'About Us'],
+    'about' => ['url' => 'about.php', 'text' => 'About Us'],
     'products' => ['url' => 'services.html', 'text' => 'Products'],
     'industries' => ['url' => 'projects.html', 'text' => 'Industries We Serve'],
     'infrastructure' => ['url' => 'blog.html', 'text' => 'Infrastructure'],
@@ -14,7 +14,7 @@ $menu_items = [
 ?>
 
 <!-- Header Start -->
-<header class="main-header">
+<header class="main-header active-sticky-header">
     <div class="header-sticky">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
