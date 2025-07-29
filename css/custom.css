@@ -3029,7 +3029,6 @@ header.main-header .header-sticky.active{
 
 .page-header-services{
 	background: url(../images/panchratnaContent/industries-we-serve-banner.jpg) no-repeat center center !important;
-
 }
 
 .page-services{
@@ -4298,6 +4297,11 @@ header.main-header .header-sticky.active{
 /************************************/
 /***     26. Image Gallery css    ***/
 /************************************/
+
+.page-header-infrastructure{
+	background: url(../images/panchratnaContent/infrastructure-banner.jpg) no-repeat center center !important;
+	background-size: cover !important;
+}
 
 .page-gallery{
 	padding: 100px 0 70px;

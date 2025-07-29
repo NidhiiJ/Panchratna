@@ -8,7 +8,7 @@ $menu_items = [
     'about' => ['url' => 'about.php', 'text' => 'About Us'],
     'products' => ['url' => 'projects.html', 'text' => 'Products'],
     'industries' => ['url' => 'industries-we-serve.php  ', 'text' => 'Industries We Serve'],
-    'infrastructure' => ['url' => 'blog.html', 'text' => 'Infrastructure'],
+    'infrastructure' => ['url' => 'infrastructure.php', 'text' => 'Infrastructure'],
     'contact' => ['url' => 'contact.html', 'text' => 'Contact Us']
 ];
 ?>
