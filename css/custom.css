@@ -3027,6 +3027,11 @@ header.main-header .header-sticky.active{
 /***     16. Services Page css    ***/
 /************************************/
 
+.page-header-services{
+	background: url('../images/panchratnaContent/industries-we-serve-banner.jpg') no-repeat center center !important;
+
+}
+
 .page-services{
 	padding: 100px 0 70px;
 }

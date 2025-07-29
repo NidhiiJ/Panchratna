@@ -8,7 +8,7 @@
 </head>
 <body>
 
-        <!-- Preloader Start -->
+    <!-- Preloader Start -->
     <?php include 'preloader.php'; ?>
     <!-- Preloader End -->
 

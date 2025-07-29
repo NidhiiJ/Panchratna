@@ -6,8 +6,8 @@ if (!isset($current_page)) {
 // Menu items array for easy management
 $menu_items = [
     'about' => ['url' => 'about.php', 'text' => 'About Us'],
-    'products' => ['url' => 'services.html', 'text' => 'Products'],
-    'industries' => ['url' => 'projects.html', 'text' => 'Industries We Serve'],
+    'products' => ['url' => 'projects.html', 'text' => 'Products'],
+    'industries' => ['url' => 'industries-we-serve.php  ', 'text' => 'Industries We Serve'],
     'infrastructure' => ['url' => 'blog.html', 'text' => 'Infrastructure'],
     'contact' => ['url' => 'contact.html', 'text' => 'Contact Us']
 ];
