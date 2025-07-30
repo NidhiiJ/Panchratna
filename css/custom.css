@@ -1171,7 +1171,7 @@ header.main-header .header-sticky.active{
 .our-services{
 	position: relative;
 	padding: 100px 0 220px;
-	background: url('../images/our-service-bg.jpg') no-repeat center center;
+	background: url(/images/panchratnaContent/export-bg.png) no-repeat center center;
 	background-size: cover;
 }
 
@@ -1330,12 +1330,17 @@ header.main-header .header-sticky.active{
 
 .our-story-counters{
 	display: flex;
+	background-color: var(--secondary-color);
+	padding: 24px 0px;
+	border-radius: 16px;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 30px;
 	margin-bottom: 60px;
 }
 
 .our-story-counter{
+	text-align: center;
 	width: calc(33.33% - 20px);
 }
 
@@ -4490,6 +4495,11 @@ header.main-header .header-sticky.active{
 /***   29. Contact Us Page css    ***/
 /************************************/
 
+.page-header-contact{
+	background: url(../images/panchratnaContent/contact-us-banner.jpg) no-repeat center center !important;
+	background-size: cover !important;
+}
+
 .page-contact-us{
     padding: 100px 0;
 	background: url(../images/about-us-bg.svg) no-repeat;
@@ -4655,6 +4665,12 @@ header.main-header .header-sticky.active{
 
 a[href^="mailto:"] {
     text-transform: lowercase;
+}
+
+.num-icon{
+	font-size: 3rem;
+	font-weight: 600;
+	color: var(--accent-color)
 }
 
 

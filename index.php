@@ -110,9 +110,30 @@
     </div>
     <!-- Flatbars stop -->
 
-    <!-- About Us Start -->
-    <?php include "about-us-section.php"; ?>
-    <!-- About Us End -->
+    
+    <!-- Our Story Counter Start -->
+      <!-- <div class="container mb-4 mb-lg-0"></div> -->
+    <div class="our-story-counters container mb-4 mb-lg-5">
+        <div class="our-story-counter">
+            <h3><span class="counter">25</span></h3>
+            <p>Employees</p>
+        </div>
+        <!-- Our Story Counter End -->
+
+        <!-- Our Story Counter Start -->
+        <div class="our-story-counter">
+            <h3><span class="counter">850</span>+</h3>
+            <p>Satisfied Clients</p>
+        </div>
+        <!-- Our Story Counter End -->
+
+        <!-- Our Story Counter Start -->
+        <div class="our-story-counter">
+            <h3><span class="counter">300</span>+</h3>
+            <p>Projects Completed</p>
+        </div>
+    </div>
+    <!-- Our Story Counter End -->
 
     <!-- quality Start -->
     <div class="our-services parallaxie">
@@ -122,8 +143,8 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">Export capabilities</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive solutions <span>for
-                                industrial excellence</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Our seamless <span>Export Process</span>
+                        </h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -152,7 +173,8 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-1.svg" alt="">
+                                <span class="num-icon"> 1.</span>
+                                <!-- <img src="images/icon-service-1.svg" alt=""> -->
                             </div>
 
                             <div class="service-body">
@@ -164,7 +186,8 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-2.svg" alt="">
+                                <span class="num-icon"> 2.</span>
+                                <!-- <img src="images/icon-service-2.svg" alt=""> -->
                             </div>
 
                             <div class="service-body">
@@ -176,7 +199,8 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-3.svg" alt="">
+                                <span class="num-icon"> 3.</span>
+                                <!-- <img src="images/icon-service-3.svg" alt=""> -->
                             </div>
 
                             <div class="service-body">
@@ -188,7 +212,8 @@
                         <!-- Service Item Start -->
                         <div class="service-item">
                             <div class="icon-box">
-                                <img src="images/icon-service-4.svg" alt="">
+                                <span class="num-icon"> 4.</span>
+                                <!-- <img src="images/icon-service-4.svg" alt=""> -->
                             </div>
 
                             <div class="service-body">
@@ -203,6 +228,108 @@
         </div>
     </div>
     <!-- quality List End -->
+
+    <!-- About Us Start -->
+    <?php include "about-us-section.php"; ?>
+    <!-- About Us End -->
+
+    <!-- Industries we serve Start -->
+    <div class="what-we-do">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <!-- Industries we serve Content Start -->
+                    <div class="what-we-do-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title dark-section">
+                            <h3 class="wow fadeInUp">Industries We Serve</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Supplying Strength to <span>Core Global
+                                    Sectors</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">
+                                From construction and engineering to manufacturing and infrastructure, our stainless
+                                steel solutions power critical industries across the world.
+                            </p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Industries we serve List Start -->
+                        <div class="what-we-do-list">
+                            <div class="what-we-do-list-box-1">
+                                <!-- Industries we serve Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="images/icon-who-we-do-1.svg" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Oil and Gas</h3>
+                                        <!-- <p>Streamlining processes through cutting-edge technology.</p> -->
+                                    </div>
+                                </div>
+                                <!-- Industries we serve Item End -->
+
+                                <!-- Industries we serve Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="images/icon-who-we-do-2.svg" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Energy</h3>
+                                        <!-- <p>Ensuring product excellence through rigorous testing.</p> -->
+                                    </div>
+                                </div>
+                                <!-- Industries we serve Item End -->
+                            </div>
+
+                            <div class="what-we-do-list-box-2">
+                                <!-- Industries we serve Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="images/icon-who-we-do-3.svg" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Automative</h3>
+                                        <!-- <p>Ensuring product excellence through rigorous testing.</p> -->
+                                    </div>
+                                </div>
+                                <!-- Industries we serve Item End -->
+
+                                <!-- Industries we serve Item Start -->
+                                <div class="what-we-do-item">
+                                    <div class="icon-box">
+                                        <img src="images/icon-who-we-do-4.svg" alt="">
+                                    </div>
+                                    <div class="what-we-item-content">
+                                        <h3>Construction</h3>
+                                        <!-- <p>Streamlining processes through cutting-edge technology.</p> -->
+                                    </div>
+                                </div>
+                                <!-- Industries we serve Item End -->
+                            </div>
+                        </div>
+                        <!-- Industries we serve List Start -->
+                    </div>
+                    <!-- Industries we serve Content End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Industries we serve Image Start -->
+                    <div class="what-we-do-image">
+                        <figure class="image-anime">
+                            <img src="images/panchratnaContent/industry-img-1.png" alt="">
+                        </figure>
+
+                        <!-- Contact Now Circle Start -->
+                        <!-- <a href="/contact.html" class="contact-now-circle">
+                            <img src="images/contact-now-circle.svg" alt="">
+                        </a> -->
+                        <!-- Contact Now Circle End -->
+                    </div>
+                    <!-- Industries we serve Image End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Industries we serve End -->
 
     <!-- Our Work Section Start -->
     <div class="our-work">
@@ -306,104 +433,6 @@
         </div>
     </div>
     <!-- Our Work Section End -->
-
-    <!-- Industries we serve Start -->
-    <div class="what-we-do">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-6">
-                    <!-- Industries we serve Content Start -->
-                    <div class="what-we-do-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title dark-section">
-                            <h3 class="wow fadeInUp">Industries We Serve</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Supplying Strength to <span>Core Global
-                                    Sectors</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">
-                                From construction and engineering to manufacturing and infrastructure, our stainless
-                                steel solutions power critical industries across the world.
-                            </p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Industries we serve List Start -->
-                        <div class="what-we-do-list">
-                            <div class="what-we-do-list-box-1">
-                                <!-- Industries we serve Item Start -->
-                                <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="images/icon-who-we-do-1.svg" alt="">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <h3>Oil and Gas</h3>
-                                        <!-- <p>Streamlining processes through cutting-edge technology.</p> -->
-                                    </div>
-                                </div>
-                                <!-- Industries we serve Item End -->
-
-                                <!-- Industries we serve Item Start -->
-                                <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="images/icon-who-we-do-2.svg" alt="">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <h3>Energy</h3>
-                                        <!-- <p>Ensuring product excellence through rigorous testing.</p> -->
-                                    </div>
-                                </div>
-                                <!-- Industries we serve Item End -->
-                            </div>
-
-                            <div class="what-we-do-list-box-2">
-                                <!-- Industries we serve Item Start -->
-                                <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="images/icon-who-we-do-3.svg" alt="">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <h3>Automative</h3>
-                                        <!-- <p>Ensuring product excellence through rigorous testing.</p> -->
-                                    </div>
-                                </div>
-                                <!-- Industries we serve Item End -->
-
-                                <!-- Industries we serve Item Start -->
-                                <div class="what-we-do-item">
-                                    <div class="icon-box">
-                                        <img src="images/icon-who-we-do-4.svg" alt="">
-                                    </div>
-                                    <div class="what-we-item-content">
-                                        <h3>Construction</h3>
-                                        <!-- <p>Streamlining processes through cutting-edge technology.</p> -->
-                                    </div>
-                                </div>
-                                <!-- Industries we serve Item End -->
-                            </div>
-                        </div>
-                        <!-- Industries we serve List Start -->
-                    </div>
-                    <!-- Industries we serve Content End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Industries we serve Image Start -->
-                    <div class="what-we-do-image">
-                        <figure class="image-anime">
-                            <img src="images/panchratnaContent/industry-img-1.png" alt="">
-                        </figure>
-
-                        <!-- Contact Now Circle Start -->
-                        <!-- <a href="/contact.html" class="contact-now-circle">
-                            <img src="images/contact-now-circle.svg" alt="">
-                        </a> -->
-                        <!-- Contact Now Circle End -->
-                    </div>
-                    <!-- Industries we serve Image End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Industries we serve End -->
 
 
     <!-- Our Testimonial Section Start -->

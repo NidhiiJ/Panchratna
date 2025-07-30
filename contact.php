@@ -17,7 +17,7 @@
     <!-- Header End -->
 
     <!-- Page Header Start -->
-	<div class="page-header parallaxie">
+	<div class="page-header page-header-contact parallaxie">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-12">
