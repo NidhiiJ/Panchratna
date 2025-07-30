@@ -56,16 +56,18 @@
                                         <!-- About Content List Start -->
                                         <div class="about-content-list wow fadeInUp" data-wow-delay="0.5s">
                                             <ul>
-                                                <li>Quick and Reliable Delivery</li>
+                                                <li>Trusted Exporters</li>
                                                 <li>Largest Inventory in India</li>
+                                                <li>Quick and Reliable Delivery</li>
+                                                <li>Wide product availability in standard & custom sizes</li>
                                             </ul>
                                         </div>
                                         <!-- About Content List End -->
 
                                         <!-- About Content Btn Start -->
-                                        <div class="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
+                                        <!-- <div class="about-content-btn wow fadeInUp" data-wow-delay="0.75s">
                                             <a href="about.html" class="btn-default"><span>learn more</span></a>
-                                        </div>
+                                        </div> -->
                                         <!-- About Content Btn End -->
                                     </div>
                                     <!-- About List Btn Box End -->

@@ -50,7 +50,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>custom manufacturing solution</h3>
+                            <h3>AUTOMATIVE</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -70,7 +70,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>industrial automation and robotics</h3>
+                            <h3>ENERGY</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>product design and prototyping</h3>
+                            <h3>WIND MILL</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -110,7 +110,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>equipment maintenance support</h3>
+                            <h3>WATER FILTERATION PLANT</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -130,7 +130,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>research and development</h3>
+                            <h3>PUMPS</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -150,7 +150,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>regulatory compliance consulting</h3>
+                            <h3>BOATS & SHIPS</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -170,7 +170,7 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>quality control and testing</h3>
+                            <h3>OIL & GAS</h3>
                         </div>
 
                         <!-- <div class="service-footer">
@@ -190,7 +190,27 @@
                         </div>
 
                         <div class="service-body">
-                            <h3>supply chain and management</h3>
+                            <h3>VALVES</h3>
+                        </div>
+
+                        <!-- <div class="service-footer">
+                            <a href="service-single.html" class="service-btn">
+                                <img src="images/arrow-dark.svg" alt="">
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item">
+                        <div class="icon-box">
+                            <img src="images/icon-service-8.svg" alt="">
+                        </div>
+
+                        <div class="service-body">
+                            <h3>CONSTRUCTION</h3>
                         </div>
 
                         <!-- <div class="service-footer">

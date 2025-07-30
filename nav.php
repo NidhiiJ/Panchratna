@@ -9,7 +9,7 @@ $menu_items = [
     'products' => ['url' => 'projects.html', 'text' => 'Products'],
     'industries' => ['url' => 'industries-we-serve.php  ', 'text' => 'Industries We Serve'],
     'infrastructure' => ['url' => 'infrastructure.php', 'text' => 'Infrastructure'],
-    'contact' => ['url' => 'contact.html', 'text' => 'Contact Us']
+    'contact' => ['url' => 'contact.php', 'text' => 'Contact Us']
 ];
 ?>
 

@@ -25,10 +25,10 @@ $social_links = [
 
 // Quick links
 $quick_links = [
-    'About Us' => 'about.html',
+    'About Us' => 'about.php',
     'Products' => 'services.html',
-    'Industries we serve' => 'index.html',
-    'Infrastructure' => 'blog.html'
+    'Industries we serve' => 'industries-we-serve.php',
+    'Infrastructure' => 'infrastructure.php'
 ];
 ?>
 
@@ -45,10 +45,14 @@ $quick_links = [
                 </div>
                 <div class="footer-social-links d-flex mt-4 mb-4">
                     <ul>
-                        <li><a href="<?php echo $social_links['pinterest']; ?>"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="<?php echo $social_links['twitter']; ?>"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="<?php echo $social_links['facebook']; ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="<?php echo $social_links['instagram']; ?>"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="<?php echo $social_links['pinterest']; ?>"><i
+                                    class="fa-brands fa-pinterest-p"></i></a></li>
+                        <li><a href="<?php echo $social_links['twitter']; ?>"><i class="fa-brands fa-x-twitter"></i></a>
+                        </li>
+                        <li><a href="<?php echo $social_links['facebook']; ?>"><i
+                                    class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="<?php echo $social_links['instagram']; ?>"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -72,19 +76,27 @@ $quick_links = [
                     <ul>
                         <li>
                             <strong>Billing Address:</strong><br>
-                            <?php echo implode('<br>', $company_info['billing_address']); ?>
+                            <?php
+                            echo implode('<br>', array_map(function ($line) {
+                                return ucwords(strtolower($line));
+                            }, $company_info['billing_address']));
+                            ?>
                         </li>
                         <li>
                             <strong>Godown Address:</strong><br>
-                            <?php echo implode('<br>', $company_info['godown_address']); ?>
+                            <?php
+                            echo implode('<br>', array_map(function ($line) {
+                                return ucwords(strtolower($line));
+                            }, $company_info['godown_address']));
+                            ?>
                         </li>
                         <?php foreach ($company_info['phones'] as $phone): ?>
-                            <li><img src="images/panchratnaContent/call.svg"/> <?php echo $phone; ?></li>
+                            <li><img src="images/panchratnaContent/call.svg" /> <?php echo $phone; ?></li>
                         <?php endforeach; ?>
                         <li>
-                            <img src="images/panchratnaContent/mail.svg"/> 
+                            <img src="images/panchratnaContent/mail.svg" />
                             <a href="mailto:<?php echo $company_info['email']; ?>">
-                                <?php echo $company_info['email']; ?>
+                                <?php echo strtolower($company_info['email']); ?>
                             </a>
                         </li>
                     </ul>
