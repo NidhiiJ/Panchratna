@@ -1040,6 +1040,11 @@ header.main-header .header-sticky.active{
 	max-width: 300px;
 }
 
+.about-img-2{
+	width: 100%;
+	max-width: 24rem;
+}
+
 .about-img-2 figure,
 .about-img-1 figure{
 	display: block;

@@ -44,7 +44,7 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="projects.html" class="btn-default"><span>explore products</span></a>
+                            <a href="about.php" class="btn-default"><span>Know Panchratna</span></a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -89,7 +89,7 @@
                     <!-- Section Title End -->
                     <div class="col-lg-6 d-flex w-100">
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="projects.html" class="btn-default"><span>all products</span></a>
+                            <a href="projects.html" class="btn-default"><span>Explore products</span></a>
                         </div>
                     </div>
 
