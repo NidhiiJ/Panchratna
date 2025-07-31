@@ -35,10 +35,10 @@
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <!-- <h3 class="wow fadeInUp">welcome our industry</h3> -->
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Global Supplier of <span>High-Quality
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">Global Supplier of <span>Stainless
                                     Steel Products</span></h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Delivering precision-engineered steel
-                                worldwide, with a commitment to quality, reliability, and compliance. </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Exporting precision-engineered steel
+                                to 10+ countries across the globe, with a commitment to quality, reliability, and compliance. </p>
                         </div>
                         <!-- Section Title End -->
 
@@ -55,9 +55,9 @@
                     <!-- Excellence Innovating List Start -->
                     <div class="excellence-innovating-list wow fadeInUp" data-wow-delay="0.6s">
                         <ul>
-                            <li>Reliability & Flexibility</li>
-                            <li>Assured Highest Quality</li>
-                            <li>Relation & Collaboration</li>
+                            <li>Global Sourcing Network</li>
+                            <li>Assured Highest Quality Products</li>
+                            <li>On-Time Delivery</li>
                         </ul>
                     </div>
                     <!-- Excellence Innovating List End -->
@@ -115,7 +115,7 @@
       <!-- <div class="container mb-4 mb-lg-0"></div> -->
     <div class="our-story-counters container mb-4 mb-lg-5">
         <div class="our-story-counter">
-            <h3><span class="counter">25</span></h3>
+            <h3><span class="counter">25</span>+</h3>
             <p>Employees</p>
         </div>
         <!-- Our Story Counter End -->
@@ -358,23 +358,7 @@
             <div class="col-lg-12">
                 <!-- Project Item Boxes start -->
                 <div class="row project-item-boxes align-items-center">
-                    <div class="col-md-6 project-item-box manufacturing automation">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="images/panchratnaContent/u-channel-img.png" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <p>Channels</p>
-                            </div>
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
+                    
                     <div class="col-md-6 project-item-box automation sustainability development infrastructure">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
@@ -391,7 +375,7 @@
                         <!-- Project Item End -->
                     </div>
 
-                    <div class="col-md-6 project-item-box sustainability infrastructure">
+                     <div class="col-md-6 project-item-box sustainability infrastructure">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="project-image">
@@ -406,6 +390,23 @@
                         </div>
                         <!-- Project Item End -->
                     </div>
+
+                    <div class="col-md-6 project-item-box manufacturing automation">
+                        <!-- Project Item Start -->
+                        <div class="project-item wow fadeInUp">
+                            <div class="project-image">
+                                <figure class="image-anime">
+                                    <img src="images/panchratnaContent/u-channel-img.png" alt="">
+                                </figure>
+                            </div>
+
+                            <div class="project-tag">
+                                <p>Channels</p>
+                            </div>
+
+                        </div>
+                        <!-- Project Item End -->
+                    </div>                   
 
                     <div class="col-md-6 project-item-box manufacturing development">
                         <!-- Project Item Start -->

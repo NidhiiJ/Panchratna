@@ -90,6 +90,12 @@ $quick_links = [
                             }, $company_info['godown_address']));
                             ?>
                         </li>
+                        <li>
+                            <strong>GSTIN</strong> : 27AAPCP6393R1Z5
+                        </li>
+                        <li>
+                            <strong>IEC</strong> : AAPCP6393R
+                        </li>
                         <?php foreach ($company_info['phones'] as $phone): ?>
                             <li><img src="images/panchratnaContent/call.svg" /> <?php echo $phone; ?></li>
                         <?php endforeach; ?>

@@ -205,9 +205,7 @@
 </div>
 <!-- Our Mission Vision Section End -->
 
-
-
-    <!-- Our Process Section Start -->
+    <!-- Our Compliance and Quality Section Start -->
     <div class="our-process">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -284,9 +282,9 @@
             </div>
         </div>
     </div>
-    <!-- Our Process Section End -->
+    <!-- Our  Compliance and Quality Section End -->
 
-    <!-- Our Team Section Start -->
+    <!-- Our Certificates Section Start -->
     <div class="our-team">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -303,31 +301,52 @@
 
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <!-- Team Member Item Start -->
+                    <!-- certificate Item Start -->
                     <div class="team-member-item wow fadeInUp">
                         <!-- Team Image Start -->
-                        <div class="gallery-items team-image">
-                            <a href="images/panchratnaContent/ISO-certificate.jpg" data-cursor-text="View">
+                        <div class="team-image">
+                            <!-- <a href="images/panchratnaContent/ISO-certificate.jpg" data-cursor-text="View"> -->
                                 <figure class="image-anime">
                                     <img src="images/panchratnaContent/ISO-certificate.jpg" alt="">
                                 </figure>
-                            </a>
+                            <!-- </a> -->
                         </div>
                         <!-- Team Image End -->
                 
                         <!-- Team Content Start -->
                         <div class="team-content">
-                            <h3><a href="team-single.html">Certificate Name</a></h3>
-                            <p>description</p>
+                            <h3><a href="team-single.html">ISO 9001:2015</a></h3>
+                            <p>Quality Management System</p>
                         </div>
                         <!-- Team Content End -->
                     </div>
-                    <!-- Team Member Item End -->
+                    <!-- certificate Item End -->
+                </div>
+                  <div class="col-lg-3 col-md-6">
+                    <!-- certificate Item Start -->
+                    <div class="team-member-item wow fadeInUp">
+                        <!-- Team Image Start -->
+                        <div class="team-image">
+                            <!-- <a href="images/panchratnaContent/ISO-certificate.jpg" data-cursor-text="View"> -->
+                                <figure class="image-anime">
+                                    <img src="images/panchratnaContent/IEC-certificate.jpg" alt="">
+                                </figure>
+                            <!-- </a> -->
+                        </div>
+                        <!-- Team Image End -->
+                
+                        <!-- Team Content Start -->
+                        <div class="team-content">
+                            <h3><a href="team-single.html">Importer Exporter Code</a></h3>
+                        </div>
+                        <!-- Team Content End -->
+                    </div>
+                    <!-- certificate Item End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Team Section End -->
+    <!-- Our Certificates Section End -->
 
     <!-- Footer Start -->
     <?php include 'footer.php'; ?>
