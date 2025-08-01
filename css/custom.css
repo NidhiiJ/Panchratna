@@ -3729,6 +3729,11 @@ header.main-header .header-sticky.active{
 /***     20. Project Page css     ***/
 /************************************/
 
+.page-header-products{
+	background: url(../images/panchratnaContent/products-banner.jpg) no-repeat center center;
+	/* background-size: cover !important; */
+}
+
 .page-projects{
 	padding: 100px 0 60px;
 }

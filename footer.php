@@ -27,7 +27,7 @@ $social_links = [
 // Quick links
 $quick_links = [
     'About Us' => 'about.php',
-    'Products' => 'services.html',
+    'Products' => 'products.php',
     'Industries we serve' => 'industries-we-serve.php',
     'Infrastructure' => 'infrastructure.php'
 ];
