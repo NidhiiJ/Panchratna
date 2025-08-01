@@ -566,12 +566,17 @@ header.main-header{
 }
 
 header.main-header .header-sticky{
+	transition: transform 0.3s ease, opacity 0.3s ease;
+  	will-change: transform, opacity;
 	position: relative;
 	top: 0;
 	z-index: 100;
 }
 
 header.main-header .header-sticky.hide{
+	 transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
 	transform: translateY(-100%);
 	transition: transform 0.3s ease-in-out;
 	border-radius: 0;
@@ -584,6 +589,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	border-radius: 0;
     transform: translateY(0);
+	opacity: 1;
 	background: var(--dark-color);
 	border-bottom: 1px solid var(--dark-divider-color);
 }
@@ -593,7 +599,7 @@ header.main-header .header-sticky.active{
 	margin: 1rem;
 	border-radius: 4rem;
 	align-items: center;
-	background: rgba(0, 0, 0, 0.06); 
+	background: rgba(0, 0, 0, 0.2); 
 	backdrop-filter: blur(10px);
 }
 
@@ -878,7 +884,7 @@ header.main-header .header-sticky.active{
 .hero{
 	padding: 150px 0 40px;
 	position: relative;
-	background: url(../images/panchratnaContent/hero-bg.jpg) no-repeat;
+	background: url(../images/panchratnaContent/hero-bg.png) no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
@@ -5799,6 +5805,18 @@ a[href^="mailto:"] {
 }
 
 @media only screen and (max-width: 767px){
+
+	 .hero-bg-video video{
+		display: none
+	 }
+
+	 .hero::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.4); /* Adjust opacity and color as needed */
+		z-index: 0;
+	}
 
 	.topbar{
         padding: 10px 0;

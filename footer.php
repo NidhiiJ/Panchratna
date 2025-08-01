@@ -1,18 +1,19 @@
 <?php
 $company_info = [
     'billing_address' => [
-        'line1' => 'SHOP NO 24/28, GROUND FLOOR,',
+        'line1' => 'SHOP NO 24/28 ,GROUND FLOOR ,',
         'line2' => 'PLOT-22/24, ABBAS MANSION,',
-        'line3' => 'GIRGAON, MUMBAI-400004,',
-        'line4' => 'MAHARASHTRA'
+        'line3' => '4TH KUMBARDWADA GIRGAON ,',
+        'line4' => 'MAHARASHTRA, INDIA'
     ],
+
     'godown_address' => [
         'line1' => 'PLOT NO.4B, FOSSBERRY ROAD,',
         'line2' => 'SEWRI, MUMBAI, MAHARASHTRA,',
         'line3' => 'INDIA, 400015'
     ],
     'phones' => ['+91 9082603083', '+22 6743 7736'],
-    'email' => 'panchratnaoverseas.pvt.ltd@gmail.com'
+    'email' => 'sales@panchratnaoverseas.com'
 ];
 
 // Social media links

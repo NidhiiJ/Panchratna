@@ -38,7 +38,8 @@
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Global Supplier of <span>Stainless
                                     Steel Products</span></h1>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">Exporting precision-engineered steel
-                                to 10+ countries across the globe, with a commitment to quality, reliability, and compliance. </p>
+                                to 10+ countries across the globe, with a commitment to quality, reliability, and
+                                compliance. </p>
                         </div>
                         <!-- Section Title End -->
 
@@ -79,11 +80,14 @@
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Flagship Products</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Leading exporters of <br>
-                            <span>Flatbars , Angles and Channels</span>
+                            <span>Stainless Steel Flat Bars , Angles and Channels</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">
-                            Trusted by clients worldwide, we offer an extensive size range and top quality in
-                            flat bars, angles, channels and all our products.
+                            Trusted by clients worldwide, we offer an extensive size range and top-quality stainless
+                            steel products including Flat Bars, Angles, Channels, Bright Round Bars, Black/Forged Bars,
+                            Hexagonal Bars, Plates, Sheets, Designer Sheets, Square Bars, Pipes, Tubes, Coils, Circles,
+                            Ingots, Wires, Blooms, Billets, and more.
+                        </p>
                         </p>
                     </div>
                     <!-- Section Title End -->
@@ -110,9 +114,9 @@
     </div>
     <!-- Flatbars stop -->
 
-    
+
     <!-- Our Story Counter Start -->
-      <!-- <div class="container mb-4 mb-lg-0"></div> -->
+    <!-- <div class="container mb-4 mb-lg-0"></div> -->
     <div class="our-story-counters container mb-4 mb-lg-5">
         <div class="our-story-counter">
             <h3><span class="counter">25</span>+</h3>
@@ -358,7 +362,7 @@
             <div class="col-lg-12">
                 <!-- Project Item Boxes start -->
                 <div class="row project-item-boxes align-items-center">
-                    
+
                     <div class="col-md-6 project-item-box automation sustainability development infrastructure">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
@@ -375,7 +379,7 @@
                         <!-- Project Item End -->
                     </div>
 
-                     <div class="col-md-6 project-item-box sustainability infrastructure">
+                    <div class="col-md-6 project-item-box sustainability infrastructure">
                         <!-- Project Item Start -->
                         <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="project-image">
@@ -406,7 +410,7 @@
 
                         </div>
                         <!-- Project Item End -->
-                    </div>                   
+                    </div>
 
                     <div class="col-md-6 project-item-box manufacturing development">
                         <!-- Project Item Start -->

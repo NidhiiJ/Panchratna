@@ -135,7 +135,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Our Billing Address</h3>
-                                    <p>SHOP NO 24/28, GROUND FLOOR, PLOT-22/24, ABBAS MANSION, GIRGAON, MUMBAI-400004, MAHARASHTRA</p>
+                                    <p>SHOP NO 24/28 ,GROUND FLOOR , PLOT-22/24, ABBAS MANSION, 4TH KUMBARDWADA GIRGAON ,MAHARASHTRA, INDIA</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
