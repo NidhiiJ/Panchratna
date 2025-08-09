@@ -2365,7 +2365,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-	background: linear-gradient(270deg, rgba(0, 0, 0, 0) 23.99%, rgba(0, 0, 0, 0.8) 100%);
+	/* background: linear-gradient(270deg, rgba(0, 0, 0, 0) 23.99%, rgba(0, 0, 0, 0.8) 100%); */
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -3743,7 +3743,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-project-single{
-	padding: 100px 0;
+	padding: 0px 0px 100px 0;
 }
 
 .project-sidebar{
@@ -3782,6 +3782,10 @@ header.main-header .header-sticky.active{
 	border-bottom: 1px solid var(--divider-color);
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+}
+
+.project-detail-content a{
+	color: var(--primary-color)
 }
 
 .project-detail-item:last-child{
@@ -3838,7 +3842,7 @@ header.main-header .header-sticky.active{
 .project-single-image img{
     border-radius: 40px;
     width: 100%;
-    aspect-ratio: 1 / 0.67;
+    aspect-ratio: 1 / 0.536;
     object-fit: cover;
 }
 
@@ -4683,11 +4687,68 @@ a[href^="mailto:"] {
     text-transform: lowercase;
 }
 
+.page-header-no-bg{
+	position: relative;
+	background: transparent !important;
+	padding: 150px 0 12px 0;
+}
+
+.page-header-no-bg-box h1{
+    color: var(--primary-color) !important;
+}
+
 .num-icon{
 	font-size: 3rem;
 	font-weight: 600;
 	color: var(--accent-color)
 }
+
+.size-chart-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.size-chart-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.size-chart-table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+}
+
+.size-chart-row {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.size-chart-row:last-child {
+  border-bottom: none;
+}
+
+.size-chart-row > div {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.size-chart-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
 
 
 /************************************/
@@ -5232,6 +5293,10 @@ a[href^="mailto:"] {
 		padding: 120px 0px 80px 0px;
 	}
 
+	.page-header-no-bg{
+		padding: 120px 0px 6px 0px;
+	}
+
 	.page-header-box h1{
 		font-size: 54px;
 	}
@@ -5534,7 +5599,7 @@ a[href^="mailto:"] {
 	}
 
 	.page-project-single{
-		padding: 50px 0;
+		padding: 0px 0px 50px 0;
 	}
 
 	.project-sidebar{
