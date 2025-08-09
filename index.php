@@ -22,7 +22,7 @@
     <div class="hero hero-video">
         <!-- Video Start -->
         <div class="hero-bg-video">
-            <video autoplay muted loop id="myVideo">
+            <video autoplay playsinline muted loop id="myVideo">
                 <source src="./images/panchratnaContent/hero-video.mp4" type="video/mp4">
             </video>
         </div>

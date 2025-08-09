@@ -5876,11 +5876,7 @@ a[href^="mailto:"] {
 
 @media only screen and (max-width: 767px){
 
-	 .hero-bg-video video{
-		display: none
-	 }
-
-	 .hero::before {
+	 .hero-bg-video::before {
 		content: "";
 		position: absolute;
 		inset: 0;
