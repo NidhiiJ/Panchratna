@@ -80,7 +80,7 @@
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Flagship Products</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Leading exporters of <br>
-                            <span>Stainless Steel Flat Bars , Angles and Channels</span>
+                            <span>Stainless Steel Flat Bars, Angles and Channels</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">
                             Trusted by clients worldwide, we offer an extensive size range and top-quality stainless
@@ -101,15 +101,37 @@
                 <!-- Mission Vision Content End -->
             </div>
 
-            <div class="col-lg-6">
-                <!-- Mission Vision Image Start -->
-                <div class="mission-vision-image">
-                    <figure class="image-anime">
-                        <img src="images/panchratnaContent/steel-flat-bar.jpg" alt="">
+            <div class="col-lg-6 mission-vision-image ">
+                <!-- Mission Vision Slideshow Start -->
+                <div id="missionVisionCarousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+                    <figure class="carousel-inner image-anime">
+                        <div class="carousel-item active">
+                            <img src="images/panchratnaContent/flagship-slideshow-1.jpg"
+                                class="d-block w-100  rounded-0" alt="Steel Flat Bar">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/panchratnaContent/flagship-slideshow-2.jpg"
+                                class="d-block w-100  rounded-0" alt="Steel Channel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/panchratnaContent/flagship-slideshow-3.jpg"
+                                class="d-block w-100  rounded-0" alt="Steel Angle">
+                        </div>
                     </figure>
+
+                    <!-- Optional controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#missionVisionCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#missionVisionCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
-                <!-- Mission Vision Image End -->
+                <!-- Mission Vision Slideshow End -->
             </div>
+
         </div>
     </div>
     <!-- Flatbars stop -->
@@ -247,7 +269,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">Industries We Serve</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering <span>Key Global Industries</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering <span>Key Global
+                                    Industries</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
                                 From construction and engineering to manufacturing and infrastructure, our stainless
                                 steel solutions power critical industries across the world.
@@ -316,16 +339,36 @@
 
                 <div class="col-lg-6">
                     <!-- Industries we serve Image Start -->
-                    <div class="what-we-do-image">
-                        <figure class="image-anime">
-                            <img src="images/panchratnaContent/industry-img-2.jpg" alt="">
+                    <div id="industriesCarousel" class="carousel slide what-we-do-image" data-bs-ride="carousel"
+                        data-bs-interval="3000">
+                        <figure class="carousel-inner image-anime">
+                            <div class="carousel-item active">
+                                <img src="images/panchratnaContent/industries-slideshow-1.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/panchratnaContent/industries-slideshow-2.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/panchratnaContent/industries-slideshow-3.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/panchratnaContent/industries-slideshow-4.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
                         </figure>
 
-                        <!-- Contact Now Circle Start -->
-                        <!-- <a href="/contact.html" class="contact-now-circle">
-                            <img src="images/contact-now-circle.svg" alt="">
-                        </a> -->
-                        <!-- Contact Now Circle End -->
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#industriesCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#industriesCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
                     </div>
                     <!-- Industries we serve Image End -->
                 </div>

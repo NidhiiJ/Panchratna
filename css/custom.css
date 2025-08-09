@@ -4687,6 +4687,22 @@ a[href^="mailto:"] {
     text-transform: lowercase;
 }
 
+#industriesCarousel {
+    height: 100%;
+}
+
+#industriesCarousel .carousel-inner,
+#industriesCarousel .carousel-item {
+    height: 100%;
+}
+
+#industriesCarousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .page-header-no-bg{
 	position: relative;
 	background: transparent !important;
