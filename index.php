@@ -358,6 +358,10 @@
                                 <img src="images/panchratnaContent/industries-slideshow-4.jpg" class="d-block w-100"
                                     alt="">
                             </div>
+                            <div class="carousel-item">
+                                <img src="images/panchratnaContent/industries-slideshow-5.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
                         </figure>
 
                         <!-- Controls -->
