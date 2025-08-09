@@ -7,7 +7,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/panchratnaContent/about-img-2.jpg" alt="">
+                                <img src="images/panchratnaContent/about-img-2(2).jpg" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -15,7 +15,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/panchratnaContent/about-img-1.jpg" alt="">
+                                <img src="images/panchratnaContent/about-img-1(2).jpg" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -57,9 +57,9 @@
                                         <div class="about-content-list wow fadeInUp" data-wow-delay="0.5s">
                                             <ul>
                                                 <li>Trusted Exporters</li>
-                                                <li>Largest Inventory in India</li>
+                                                <li>Extensive Inventory in India</li>
                                                 <li>Quick and Reliable Delivery</li>
-                                                <li>Wide product availability in standard & custom sizes</li>
+                                                <li>Diverse product range in standard & custom sizes</li>
                                             </ul>
                                         </div>
                                         <!-- About Content List End -->

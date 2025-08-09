@@ -247,8 +247,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">Industries We Serve</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Supplying Strength to <span>Core Global
-                                    Sectors</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Empowering <span>Key Global Industries</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.25s">
                                 From construction and engineering to manufacturing and infrastructure, our stainless
                                 steel solutions power critical industries across the world.
@@ -319,7 +318,7 @@
                     <!-- Industries we serve Image Start -->
                     <div class="what-we-do-image">
                         <figure class="image-anime">
-                            <img src="images/panchratnaContent/industry-img-1.png" alt="">
+                            <img src="images/panchratnaContent/industry-img-2.jpg" alt="">
                         </figure>
 
                         <!-- Contact Now Circle Start -->

@@ -1,13 +1,13 @@
 <?php
 $company_info = [
-    'billing_address' => [
+    'registered_address' => [
         'line1' => 'SHOP NO 24/28 ,GROUND FLOOR ,',
         'line2' => 'PLOT-22/24, ABBAS MANSION,',
         'line3' => '4TH KUMBARDWADA GIRGAON ,',
         'line4' => 'MAHARASHTRA, INDIA'
     ],
 
-    'godown_address' => [
+    'factory_address' => [
         'line1' => 'PLOT NO.4B, FOSSBERRY ROAD,',
         'line2' => 'SEWRI, MUMBAI, MAHARASHTRA,',
         'line3' => 'INDIA, 400015'
@@ -76,19 +76,19 @@ $quick_links = [
                     <h3>Contact</h3>
                     <ul>
                         <li>
-                            <strong>Billing Address:</strong><br>
+                            <strong>Registered Address:</strong><br>
                             <?php
                             echo implode('<br>', array_map(function ($line) {
                                 return ucwords(strtolower($line));
-                            }, $company_info['billing_address']));
+                            }, $company_info['registered_address']));
                             ?>
                         </li>
                         <li>
-                            <strong>Godown Address:</strong><br>
+                            <strong>Factory Address:</strong><br>
                             <?php
                             echo implode('<br>', array_map(function ($line) {
                                 return ucwords(strtolower($line));
-                            }, $company_info['godown_address']));
+                            }, $company_info['factory_address']));
                             ?>
                         </li>
                         <li>

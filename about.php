@@ -51,7 +51,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">our approach</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Excellence in <span>quality and service</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Commitment to <span>Quality and Service</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -101,7 +101,7 @@
                                     <div class="mission-vision-content-list">
                                         <ul>
                                             <li>Over 30 years of industry presence</li>
-                                            <li>Wide product availability in standard & custom sizes</li>
+                                            <li>Diverse product range in standard & custom sizes</li>
                                             <li>Strict quality control and certifications</li>
                                             <li>Prompt service and delivery logistics</li>
                                             <li>Customer-focused approach</li>
@@ -115,7 +115,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/mission-image.jpg" alt="">
+                                        <img src="images/panchratnaContent/our-strengths.jpg" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -139,9 +139,8 @@
                                             <li>Dimensional accuracy</li>
                                             <li>Material traceability</li>
                                             <li>Surface finish</li>
-                                            <li>Mechanical & chemical properties</li>
-                                            <li>Material Test Certificates (MTCs) provided</li>
-                                            <li>Standards: ASTM, ASME, DIN, EN, ISO</li>
+                                            <li>Magnetic Particle, Ultrasonic, LPT</li>
+                                            <li>Mechanical testing</li>
                                         </ul>
                                     </div>                                    
                                 </div>
@@ -152,7 +151,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/vision-image.jpg" alt="">
+                                        <img src="images/panchratnaContent/quality-assurance.jpg" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -189,7 +188,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/value-image.jpg" alt="">
+                                        <img src="images/panchratnaContent/why-choose-us.png" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -212,8 +211,8 @@
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">our process</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Streamlined processes <span>for optimal efficiency</span></h2>
+                        <h3 class="wow fadeInUp">our vision and mission</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Turning <span>Boundaries Into Opportunities</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -221,7 +220,7 @@
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>Our process is designed to maximize efficiency and quality at every stage of production. By integrating advanced technologies and best practices, we ensure seamless workflows.</p>
+                        <p>At Panchratna Overseas Private limited, our mission is to be a leading provider of high-quality stainless steel products in the import-export market. We are committed to delivering exceptional customer service, fostering long-term relationships, and ensuring that our clients receive the best materials to meet their needs.</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -232,7 +231,7 @@
                     <!-- Our Process Image Start -->
                     <div class="our-process-image">
                         <figure class="image-anime reveal">
-                            <img src="images/our-process-image.jpg" alt="">
+                            <img src="images/panchratnaContent/boundaries-into-opportunities.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Process Image End -->
@@ -247,8 +246,8 @@
                                 <h2>01</h2>
                             </div>
                             <div class="process-step-content">
-                                <h3>understanding your needs</h3>
-                                <p>We begin by thoroughly assessing your requirements and objectives to develop a tailored approach.</p>
+                                <h3>Global leadership</h3>
+                                <p>Aim to be a recognized leader in the global stainless steel market. Drive innovation and set industry benchmarks for quality and service.</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->
@@ -259,8 +258,8 @@
                                 <h2>02</h2>
                             </div>
                             <div class="process-step-content">
-                                <h3>design and planning</h3>
-                                <p>Our team collaborates to create detailed project plans, ensuring all aspects of the process.</p>
+                                <h3>Customer Focus</h3>
+                                <p>Build lasting relationships with customers based on trust and reliability. Offer customized solutions and products tailored to specific customer needs.</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->
@@ -271,8 +270,8 @@
                                 <h2>03</h2>
                             </div>
                             <div class="process-step-content">
-                                <h3>implementation</h3>
-                                <p>Utilizing advanced technologies and skilled personnel, we execute the project</p>
+                                <h3>Innovation and Growth</h3>
+                                <p>Continuously seek opportunities for growth and expansion in the market. Invest in research and development to stay ahead of the curve.</p>
                             </div>
                         </div>
                         <!-- Process Step Item End -->

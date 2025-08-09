@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Email</h3>
-                                    <p>panchratnaoverseas.pvt.ltd@gmail.com</p>
+                                    <p>sales@panchratnaoverseas.com</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->
@@ -134,7 +134,7 @@
                                     <img src="images/icon-location.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Our Billing Address</h3>
+                                    <h3>Our Registered Address</h3>
                                     <p>SHOP NO 24/28 ,GROUND FLOOR , PLOT-22/24, ABBAS MANSION, 4TH KUMBARDWADA GIRGAON ,MAHARASHTRA, INDIA</p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@
                                     <img src="images/icon-location.svg" alt="">
                                 </div>
                                 <div class="contact-info-content">
-                                    <h3>Our Godown Address</h3>
+                                    <h3>Our Factory Address</h3>
                                     <p>PLOT NO.4B, FOSSBERRY ROAD, SEWRI, MUMBAI, MAHARASHTRA, INDIA, 400015</p>
                                 </div>
                             </div>

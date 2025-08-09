@@ -2365,7 +2365,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-	/* background: linear-gradient(270deg, rgba(0, 0, 0, 0) 23.99%, rgba(0, 0, 0, 0.8) 100%); */
+	background: linear-gradient(270deg, rgba(0, 0, 0, 0) 23.99%, rgba(0, 0, 0, 0.8) 100%);
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -2416,12 +2416,13 @@ header.main-header .header-sticky.active{
 }
 
 .our-mission-vision{
+	background: var(--secondary-color);
 	position: relative;
 }
 
 .mission-vision-bg{
 	position: relative;
-	background: url('../images/our-service-bg.jpg');
+	background: url('../images/panchratnaContent/our-approach-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3731,7 +3732,6 @@ header.main-header .header-sticky.active{
 
 .page-header-products{
 	background: url(../images/panchratnaContent/products-banner.jpg) no-repeat center center;
-	/* background-size: cover !important; */
 }
 
 .page-projects{

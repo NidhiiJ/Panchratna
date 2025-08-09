@@ -22,7 +22,7 @@
     <!-- Header End -->
 
     <!-- Page Header Start -->
-    <div class="page-header page-header-no-bg parallaxie">
+    <div class="page-header-no-bg parallaxie">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
