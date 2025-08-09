@@ -73,7 +73,7 @@ $quick_links = [
             <!-- Contact Info -->
             <div class="col-lg-4 col-md-4 col-12">
                 <div class="footer-links">
-                    <h3>Contact</h3>
+                    <h3>Contact Us</h3>
                     <ul>
                         <li>
                             <strong>Registered Address:</strong><br>
