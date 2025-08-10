@@ -37,17 +37,17 @@
 		$message = $_POST["message"];
 	}
 
-	$subject = 'Contact Inquiry from Physiocare Website';
+	$subject = 'Contact Inquiry from Panchratna Website';
 
 	//$EmailTo = "info@yourdomain.com"; // Replace with your email.
     $EmailTo = "popl999663@gmail.com";
     
 	// prepare email body text
 	$Body = "";
-	$Body .= "fname: ";
+	$Body .= "first name: ";
 	$Body .= $fname;
 	$Body .= "\n";
-	$Body .= "lname: ";
+	$Body .= "last name: ";
 	$Body .= $lname;
 	$Body .= "\n";
 	$Body .= "Email: ";
