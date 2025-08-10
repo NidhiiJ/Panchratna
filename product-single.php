@@ -69,10 +69,15 @@ $product_detail = $product_details[$key];
                                 <?php
                                 foreach ($product_detail['products'] as $sub_product) {
                                     $current_product = $sub_product;
-
-                                    include 'product-info.php';
-                                    include 'product-specification.php';
-                                    // skip size chart here to render common one later
+                                    ?>
+                                    <div class="sub-product-wrapper">
+                                        <?php
+                                        include 'product-info.php';
+                                        include 'product-specification.php';
+                                        // skipping size chart here to render common one later
+                                        ?>
+                                    </div>
+                                    <?php
                                 }
 
                                 if (!empty($product_detail['size_charts'])) {
@@ -81,6 +86,7 @@ $product_detail = $product_details[$key];
                                 }
                                 ?>
                             </div>
+
                         </div>
                     <?php endif; ?>
                 </div>

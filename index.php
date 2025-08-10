@@ -10,6 +10,10 @@
 
 <body>
 
+    <!-- include products data -->
+    <?php include 'products-data.php'; ?>
+     <!-- include products data -->
+      
     <!-- Preloader Start -->
     <?php include 'preloader.php'; ?>
     <!-- Preloader End -->
@@ -408,72 +412,34 @@
             <div class="col-lg-12">
                 <!-- Project Item Boxes start -->
                 <div class="row project-item-boxes align-items-center">
+                    <?php
+                    // Limit to first 4 products
+                    $count = 0;
+                    foreach ($products as $product) {
+                        if ($count++ >= 4)
+                            break;
 
-                    <div class="col-md-6 project-item-box automation sustainability development infrastructure">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="images/panchratnaContent/flat-bars-img.png" alt="">
-                                </figure>
+                        // Optional: Set wow-delay dynamically based on $count
+                        $delay = 0.2 * $count;
+                        ?>
+                        <div class="col-md-6 project-item-box <?php echo htmlspecialchars($product['categories']); ?>">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp" data-wow-delay="<?php echo $delay; ?>s">
+                                <div class="project-image">
+                                    <figure class="image-anime">
+                                        <img src="<?php echo htmlspecialchars($product['image']); ?>"
+                                            alt="<?php echo htmlspecialchars($product['title']); ?>">
+                                    </figure>
+                                </div>
+                                <div class="project-tag">
+                                    <p><?php echo htmlspecialchars($product['tag']); ?></p>
+                                </div>
                             </div>
-
-                            <div class="project-tag">
-                                <p>HRAP Flat Bars</p>
-                            </div>
+                            <!-- Project Item End -->
                         </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box sustainability infrastructure">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="images/panchratnaContent/angles-img.jpg" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <p>HRAP Angles</p>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box manufacturing automation">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="images/panchratnaContent/u-channel-img.png" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <p>Channels</p>
-                            </div>
-
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
-
-                    <div class="col-md-6 project-item-box manufacturing development">
-                        <!-- Project Item Start -->
-                        <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="project-image">
-                                <figure class="image-anime">
-                                    <img src="images/panchratnaContent//bright-bars-img.png" alt="">
-                                </figure>
-                            </div>
-
-                            <div class="project-tag">
-                                <p>Bright Bars</p>
-                            </div>
-                        </div>
-                        <!-- Project Item End -->
-                    </div>
+                    <?php } ?>
                 </div>
+
                 <!-- Project Item Boxes End -->
             </div>
             <div class="col-lg-6 d-flex w-100 justify-content-center">

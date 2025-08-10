@@ -4723,6 +4723,16 @@ a[href^="mailto:"] {
 /***      single product page      ***/
 /************************************/
 
+.project-entry{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+#structure-2 .size-chart-container{
+	margin-top: 0 !important;
+}
+
 .specifications-container {
     margin-bottom: 20px;
 }
