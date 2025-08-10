@@ -12,8 +12,8 @@
 
     <!-- include products data -->
     <?php include 'products-data.php'; ?>
-     <!-- include products data -->
-      
+    <!-- include products data -->
+
     <!-- Preloader Start -->
     <?php include 'preloader.php'; ?>
     <!-- Preloader End -->
@@ -49,7 +49,9 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="about.php" class="btn-default"><span>Know Panchratna</span></a>
+                            <a href="images/panchratnaContent/Panchratna_Catalogue.pdf" class="btn-default" download>
+                                <span>Download Catalogue</span>
+                            </a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
