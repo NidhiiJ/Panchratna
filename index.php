@@ -93,7 +93,7 @@
                     <!-- Section Title End -->
                     <div class="col-lg-6 d-flex w-100">
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="projects.html" class="btn-default"><span>Explore products</span></a>
+                            <a href="products.php" class="btn-default"><span>Explore products</span></a>
                         </div>
                     </div>
 
@@ -478,7 +478,7 @@
             </div>
             <div class="col-lg-6 d-flex w-100 justify-content-center">
                 <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                    <a href="projects.html" class="btn-default"><span>all products</span></a>
+                    <a href="products.php" class="btn-default"><span>all products</span></a>
                 </div>
             </div>
         </div>
