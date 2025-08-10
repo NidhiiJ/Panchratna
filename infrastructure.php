@@ -1,5 +1,10 @@
 <?php
 $galleryCategories = [
+    "Panchratna Overseas" => [
+        "images/panchratnaContent/Infrastructure/POPL/gallery-1.jpg",
+        "images/panchratnaContent/Infrastructure/POPL/gallery-2.jpg",
+        "images/panchratnaContent/Infrastructure/POPL/gallery-3.jpg"
+    ],
     "Panchratna Steel" => [
         "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-1.jpg",
         "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-2.jpg",
@@ -10,11 +15,6 @@ $galleryCategories = [
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-2.jpg",
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-3.jpg",
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-4.jpg"
-    ],
-    "POPL" => [
-        "images/panchratnaContent/Infrastructure/POPL/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/POPL/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/POPL/gallery-3.jpg"
     ]
 ];
 ?>
