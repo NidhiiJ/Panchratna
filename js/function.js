@@ -291,7 +291,7 @@ if ($('.active-sticky-header').length) {
 	});
 
 	function submitForm(){
-		console.log("form values", $contactform.serialize())
+		console.log("form values ==>", $contactform.serialize())
 		/* Ajax call to submit form */
 		$.ajax({
 			type: "POST",

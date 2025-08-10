@@ -1,70 +1,77 @@
 <?php
-$errorMSG = "";
 
-// Function to sanitize input
-function clean_input($data) {
-    return htmlspecialchars(trim($data), ENT_QUOTES, 'UTF-8');
-}
+	$errorMSG = "";
 
-// FIRST NAME
-if (empty($_POST["fname"])) {
-    $errorMSG .= "First Name is required. ";
-} else {
-    $fname = clean_input($_POST["fname"]);
-}
+	// FIRSTNAME
+	if (empty($_POST["fname"])) {
+		$errorMSG = "First Name is required. ";
+	} else {
+		$fname = $_POST["fname"];
+	}
 
-// LAST NAME
-if (empty($_POST["lname"])) {
-    $errorMSG .= "Last Name is required. ";
-} else {
-    $lname = clean_input($_POST["lname"]);
-}
+	// LASTNAME
+	if (empty($_POST["lname"])) {
+		$errorMSG = "Last Name is required. ";
+	} else {
+		$lname = $_POST["lname"];
+	}
 
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required. ";
-} else {
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errorMSG .= "Invalid email format. ";
-    }
-}
+	// EMAIL
+	if (empty($_POST["email"])) {
+		$errorMSG .= "Email is required. ";
+	} else {
+		$email = $_POST["email"];
+	}
 
-// PHONE
-if (empty($_POST["phone"])) {
-    $errorMSG .= "Phone is required. ";
-} else {
-    $phone = clean_input($_POST["phone"]);
-}
+	// PHONE
+	if (empty($_POST["phone"])) {
+		$errorMSG .= "Phone is required. ";
+	} else {
+		$phone = $_POST["phone"];
+	}
 
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required. ";
-} else {
-    $message = clean_input($_POST["message"]);
-}
+	// MESSAGE
+	if (empty($_POST["message"])) {
+		$errorMSG .= "Message is required. ";
+	} else {
+		$message = $_POST["message"];
+	}
 
-$EmailTo = "youremail@yourdomain.com"; // Your email here
-$subject = "Contact Inquiry from Panchratna Website";
+	$subject = 'Contact Inquiry from Physiocare Website';
 
-// Send email if no errors
-if ($errorMSG == "") {
-    $headers  = "From: Panchratna Website <{$EmailTo}>\r\n";
-    $headers .= "Reply-To: {$email}\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+	//$EmailTo = "info@yourdomain.com"; // Replace with your email.
+    $EmailTo = "popl999663@gmail.com";
+    
+	// prepare email body text
+	$Body = "";
+	$Body .= "fname: ";
+	$Body .= $fname;
+	$Body .= "\n";
+	$Body .= "lname: ";
+	$Body .= $lname;
+	$Body .= "\n";
+	$Body .= "Email: ";
+	$Body .= $email;
+	$Body .= "\n";
+	$Body .= "Phone: ";
+	$Body .= $phone;
+	$Body .= "\n";
+	$Body .= "Message: ";
+	$Body .= $message;
+	$Body .= "\n";
 
-    $Body  = "First Name: $fname\n";
-    $Body .= "Last Name: $lname\n";
-    $Body .= "Email: $email\n";
-    $Body .= "Phone: $phone\n";
-    $Body .= "Message:\n$message\n";
+	// send email
+	$success = @mail($EmailTo, $subject, $Body, "From:".$email);
 
-    if (mail($EmailTo, $subject, $Body, $headers)) {
-        echo "success";
-    } else {
-        echo "Something went wrong :(";
-    }
-} else {
-    echo $errorMSG;
-}
+	// redirect to success page
+	if ($success && $errorMSG == ""){
+	   echo "success";
+	}else{
+		if($errorMSG == ""){
+			echo "Something went wrong :(";
+		} else {
+			echo $errorMSG;
+		}
+	}
+
 ?>
