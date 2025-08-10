@@ -291,6 +291,7 @@ if ($('.active-sticky-header').length) {
 	});
 
 	function submitForm(){
+		console.log("form values", $contactform.serialize())
 		/* Ajax call to submit form */
 		$.ajax({
 			type: "POST",
@@ -307,6 +308,7 @@ if ($('.active-sticky-header').length) {
 	}
 
 	function formSuccess(){
+		console.log("heree")
 		$contactform[0].reset();
 		submitMSG(true, "Message Sent Successfully!")
 	}
