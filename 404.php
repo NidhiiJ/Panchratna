@@ -21,10 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="error-page-image wow fadeInUp">
-                        <img src="images/404-error-img.png" alt="">
-                    </div>
-                    <div class="error-page-content">
+                    <div class="error-page-content page-header-no-bg">
                         <div class="section-title">
                             <h2 class="wow fadeInUp" data-wow-delay="0.25s">Oops! page <span>not found</span></h2>
                         </div>
