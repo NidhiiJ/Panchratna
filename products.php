@@ -51,30 +51,36 @@
                 <div class="col-lg-12">
                     <!-- Product Item Boxes start -->
                     <div class="row project-item-boxes align-items-center">
-                        <?php foreach ($products as $index => $product): ?>
+                        <?php
+                        $counter = 0;
+                        foreach ($products as $keyName => $product):
+                            ?>
                             <div class="col-md-4 project-item-box <?php echo $product['categories']; ?>">
                                 <!-- Product Item Start -->
                                 <div class="project-item wow fadeInUp"
-                                    data-wow-delay="<?php echo 0.2 + ($index * 0.1); ?>s">
-                                    <a href="<?php echo $product['url']; ?>">
+                                    data-wow-delay="<?php echo 0.2 + ($counter * 0.1); ?>s">
+                                    <a href="/product-single.php?key=<?php echo $keyName; ?>">
                                         <div class="project-image">
                                             <figure class="image-anime">
-                                                <img src="<?php echo $product['image']; ?>" alt="">
+                                                <img src="<?php echo $product['image']; ?>"
+                                                    alt="<?php echo htmlspecialchars($product['name']); ?>">
                                             </figure>
                                         </div>
                                         <div class="project-tag">
                                             <p><?php echo htmlspecialchars($product['tag']); ?></p>
                                         </div>
                                         <div class="project-content d-none">
-                                            <h3><?php echo htmlspecialchars($product['title']); ?></h3>
+                                            <h3><?php echo htmlspecialchars($product['name']); ?></h3>
                                         </div>
                                     </a>
                                 </div>
                                 <!-- Product Item End -->
                             </div>
-                        <?php endforeach; ?>
+                            <?php
+                            $counter++;
+                        endforeach;
+                        ?>
                     </div>
-
                     <!-- Product Item Boxes End -->
                 </div>
             </div>

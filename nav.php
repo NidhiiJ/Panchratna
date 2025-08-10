@@ -3,7 +3,10 @@ if (!isset($current_page)) {
     $current_page = '';
 }
 
-// Menu items array for easy management
+// Import product data
+include 'products-data.php';
+
+// Menu items array
 $menu_items = [
     'home' => ['url' => './', 'text' => 'Home'],
     'about' => ['url' => 'about.php', 'text' => 'About Us'],
@@ -11,23 +14,7 @@ $menu_items = [
     'products' => [
         'url' => 'products.php',
         'text' => 'Products',
-        'submenu' => [
-            ['url' => 'flat-bars.html', 'text' => 'Flat Bars'],
-            ['url' => 'angles.html', 'text' => 'Angles'],
-            ['url' => 'channels.html', 'text' => 'Channels'],
-            ['url' => 'pipes.html', 'text' => 'Pipes & Tubes'],
-            ['url' => 'sheets-coils.html', 'text' => 'Sheets & Coils'],
-            ['url' => 'flat-bars.html', 'text' => 'Flat Bars'],
-            ['url' => 'angles.html', 'text' => 'Angles'],
-            ['url' => 'channels.html', 'text' => 'Channels'],
-            ['url' => 'pipes.html', 'text' => 'Pipes & Tubes'],
-            ['url' => 'sheets-coils.html', 'text' => 'Sheets & Coils'],
-            ['url' => 'flat-bars.html', 'text' => 'Flat Bars'],
-            ['url' => 'angles.html', 'text' => 'Angles'],
-            ['url' => 'channels.html', 'text' => 'Channels'],
-            ['url' => 'pipes.html', 'text' => 'Pipes & Tubes'],
-            ['url' => 'sheets-coils.html', 'text' => 'Sheets & Coils']
-        ]
+        'submenu' => [] // will populate from products array
     ],
 
     'industries' => ['url' => 'industries-we-serve.php', 'text' => 'Industries We Serve'],
@@ -35,6 +22,14 @@ $menu_items = [
     'contact' => ['url' => 'contact.php', 'text' => 'Contact Us']
 ];
 
+// Dynamically generate submenu items from $products
+foreach ($products as $keyName => $product) {
+    // Create SEO-friendly URL using keyName
+    $menu_items['products']['submenu'][] = [
+        'url' => "product-single.php?key=" . urlencode($keyName),
+        'text' => $product['name']
+    ];
+}
 ?>
 
 <!-- Header Start -->
@@ -59,7 +54,7 @@ $menu_items = [
                                         <?php echo $item['text']; ?>
                                     </a>
 
-                                    <?php if (isset($item['submenu'])): ?>
+                                    <?php if (isset($item['submenu']) && !empty($item['submenu'])): ?>
                                         <ul>
                                             <?php foreach ($item['submenu'] as $sub): ?>
                                                 <li class="nav-item">

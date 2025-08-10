@@ -4719,6 +4719,34 @@ a[href^="mailto:"] {
 	color: var(--accent-color)
 }
 
+/************************************/
+/***      single product page      ***/
+/************************************/
+
+.specifications-container {
+    margin-bottom: 20px;
+}
+
+.specifications-container h3{
+	margin-bottom: 8px
+}
+
+.specifications-table {
+    display: flex;
+    flex-direction: column;
+}
+.specifications-row {
+    display: flex;
+    padding: 8px 6px;
+	border-radius: 12px;
+}
+.specifications-row div:nth-child(2) {
+    padding: 0 10px;
+}
+.specifications-row.alt {
+    background-color: #f7f7f7; /* alternate row highlight */
+}
+
 .size-chart-container {
   max-width: 800px;
   margin: 40px auto;
@@ -4760,11 +4788,10 @@ a[href^="mailto:"] {
 }
 
 .size-chart-header {
-  background-color: #007bff;
+  background-color: var(--accent-color);
   color: white;
   font-weight: bold;
 }
-
 
 
 /************************************/
