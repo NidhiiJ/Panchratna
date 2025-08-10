@@ -4683,6 +4683,10 @@ header.main-header .header-sticky.active{
 /***     Panchratna Custom Css      ***/
 /************************************/
 
+.slicknav_btn{
+	background: transparent;
+}
+
 a[href^="mailto:"] {
     text-transform: lowercase;
 }
