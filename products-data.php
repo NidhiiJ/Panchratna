@@ -1,92 +1,148 @@
 <?php
 $products = [
-    'flatbar' => [
-        'name' => 'Flat Bars',
-        'image' => 'images/panchratnaContent/Products/flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Flat Bars',
-        'categories' => 'Bars'
-    ],
     'sschannels' => [
-        'name' => 'SS Channels',
+        'name' => 'S.S. Channels',
         'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
         'url' => 'project-single.php',
-        'tag' => 'SS Channel',
+        'tag' => 'S.S. Channels',
         'categories' => 'Channels'
     ],
-    'ssequalangles' => [
-        'name' => 'SS Equal Angles',
-        'image' => 'images/panchratnaContent/Products/ss-equal-angles.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'SS Equal Angles',
-        'categories' => 'Angles'
-    ],
-    'ssroundbars' => [
-        'name' => 'SS Round Bars',
-        'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'SS Round Bars',
-        'categories' => 'Angles'
-    ],
     'ssbrightbars' => [
-        'name' => 'SS Bright Bars',
+        'name' => 'S.S. Bright Bars',
         'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
         'url' => 'project-single.php',
-        'tag' => 'SS Bright Bars',
-        'categories' => 'Angles'
+        'tag' => 'S.S. Bright Bars',
+        'categories' => 'Bars'
+    ],
+    'ssroundbars' => [
+        'name' => 'S.S. Round Bars',
+        'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Round Bars',
+        'categories' => 'Bars'
     ]
 ];
 
-
 $product_details = [
-    'flatbar' => [
-        'name' => 'Flat Bar',
-        'tagline' => 'Supplier & Stockist in India',
-        'image' => 'images/panchratnaContent/Products/flatbar.jpg',
+    'sschannels' => [
+        'name' => 'S.S. Channels',
+        'tagline' => 'Durable and corrosion-resistant channels',
+        'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
         'description' => [
-            'Flat bars are widely used in industrial and structural applications due to their strength, versatility, and ease of fabrication. These bars can be easily cut, welded, and machined into various components. In addition to excellent machinability, flat bars offer good corrosion resistance, making them suitable for both indoor and outdoor use.',
-            'Flat bars are commonly used in industries such as automotive, construction, shipbuilding, fabrication, heavy equipment, and infrastructure. Their durability and adaptability make them ideal for support structures, brackets, frames, and custom machine parts.'
+            'As a leading stainless steel inventory holder in India, we offer both types – Parallel (Non-Taper) as well as Non-Parallel (Taper) SS channels in different sizes (both imperial & metric) and stainless steel grades.',
+            'All the channels are hot rolled for their high strength . Stainless steel channels are C-shaped structural components made from stainless steel. They are widely used in construction, manufacturing, and various other industries due to their strength, durability, and corrosion resistance.'
         ],
         'specifications' => [
             ['Length', 'Upto 6.4 metres'],
-            ['Hot Rolled', 'Annealed & Pickled (HRAP)'],
-            ['Tolerance', 'ASTM A484, EN 10058'],
-            ['Code', "Both ends are color coded as per the customer's specific requirement"],
-            ['Specifications', 'as per EN, DIN, JIS, ASTM, BS, ASME, etc.'],
-            ['Speciality', 'We can provide customers with custom size and length'],
-            ['Grades (HRAP)', '202, 304, 304L, 316, 316L']
+            ['Supply condition', 'HRAP'],
+            ['Tolerance', 'EN 10279'],
+            ['Bars End Finish', 'Deburred ends or plain ends'],
+            ['Grades', '304, 304L, 316, 316L']
         ],
-        'size_chart' => [
-            ['20', '3 to 12'],
-            ['25', '3 to 16'],
-            ['30', '3 to 20'],
-            ['40 to 150', '3 to 25']
+        'size_charts' => [
+            [
+                'name' => 'Taper Sizes',
+                'headers' => ['Size (mm)', 'Thickness (mm)'],
+                'values' => [
+                    ['101.6, 40.23, 4.76', '7.5'],
+                    ['101.6, 43.71, 8.15', '7.52'],
+                    ['100, 50, 6', '8.5'],
+                    ['65, 42, 5.5', '7.5'],
+                    ['50, 38, 5', '7'],
+                    ['50, 25, 3', '3.3'],
+                    ['50, 25, 5', '6'],
+                    ['76.2, 35.81, 4.32', '6.93'],
+                    ['101.6, 40.23, 4.67', '7.52'],
+                    ['101.6, 43.71, 8.15', '7.52'],
+                    ['127, 47.625', '9.52'],
+                    ['127, 44.45, 4.83', '8.13'],
+                    ['127, 47.88, 8.26', '8.13'],
+                    ['152.4, 48.77, 5.08', '8.71'],
+                    ['152.4, 51.66, 7.98', '8.71'],
+                    ['203.2, 64.26, 12.37', '9.90'],
+                    ['40, 35, 5', '7'],
+                    ['50, 25, 5', '6'],
+                    ['50, 38, 5', '7'],
+                    ['60, 30, 6', '6'],
+                    ['65, 42, 5.5', '7.5'],
+                    ['75, 40, 4.7', '6.9'],
+                    ['80, 45, 6', '8'],
+                    ['100, 50, 6', '8.5'],
+                    ['120, 55, 7', '9'],
+                    ['140, 60, 7', '10'],
+                    ['160, 65, 7.5', '10.5'],
+                ]
+            ],
+            [
+                'name' => 'Non – Taper Sizes',
+                'headers' => ['Size (mm)', 'Thickness (mm)'],
+                'values' => [
+                    ['101.6, 44.45', '6.35'],
+                    ['101.6, 50.8', '6.35'],
+                    ['100, 50, 5', '5'],
+                    ['100, 50, 6', '6'],
+                    ['80, 40, 6', '6'],
+                    ['80, 40, 5', '5'],
+                    ['75, 40, 6', '6'],
+                    ['75, 40, 5', '5'],
+                    ['50, 25, 5', '5'],
+                    ['50.8, 25.4', '3.18'],
+                    ['50.8, 25.4', '4.76'],
+                    ['50.8, 25.4', '6.35'],
+                    ['76.2, 34.925', '4.76'],
+                    ['76.2, 38.1', '4.76'],
+                    ['76.2, 38.1', '6.35'],
+                    ['60, 30, 5', '5'],
+                    ['120, 60, 6', '6'],
+                    ['130, 65, 6', '6'],
+                    ['150, 75, 6', '6'],
+                ]
+            ]
         ]
     ],
-    'roundbar' => [
-        'name' => 'Round Bar',
-        'tagline' => 'Manufacturer & Exporter in India',
-        'image' => 'images/panchratnaContent/Products/roundbar.jpg',
+    'ssbrightbars' => [
+        'name' => 'S.S. Bright Bars',
+        'tagline' => 'Polished finish for precision applications',
+        'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
         'description' => [
-            'Round bars are widely used in manufacturing, machining, and engineering projects. They provide excellent strength and corrosion resistance for a variety of applications.',
-            'They are commonly used in shafts, fasteners, tools, and structural supports across industries.'
+            'Our bright bars are subjected to various testing, such as ultrasonic testing and eddy current testing, which test the surface and internal defects, and this makes us produce high-quality bright bars that promote good business relationships with international clients.',
+            'They have excellent weldability and machinability, which make them highly favourable for precision machining components and constructing large, sturdy structures. These bars are available in various shapes and sizes, including bright square bars, and are used across industries. '
         ],
         'specifications' => [
-            ['Length', 'Upto 7 metres'],
-            ['Finish', 'Polished / Unpolished'],
-            ['Tolerance', 'ASTM A484, EN 10278'],
-            ['Code', 'Marked at both ends with customer-specific details'],
-            ['Specifications', 'as per EN, DIN, JIS, ASTM, BS, ASME, etc.'],
-            ['Speciality', 'Custom diameter and length available'],
-            ['Grades', '304, 316, 321, 410, 420']
+            ['Length', 'Upto 6.5 metres'],
+            ['Cold Drawn', 'Centreless Ground, Peeled & Polished, Rough Peeled or Smooth Turned Bars'],
+            ['Tolerances', 'h7, h8, h9, h10, h11, k12, k13, ASTM A484'],
+            ['Surface Finish', 'Ra upto 0.2 mm (8.7 RMS)'],
+            ['Straightness', 'Upto 0.5 mm per metre'],
+            ['Grit Polish', 'K240, K320 or as per Customer’s requirement'],
+            ['Heat Treatment', 'Soft Annealing, Solution Annealing, Oil & Water Quenching, Tempering & Aging'],
+            ['Bars End Finish', 'Chamfered ends 30°, 45°, 60° and Plain Ends without Burrs or Sharp Edges'],
+            ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, GOST, AISI (NACE MR0175, MR0103)'],
+            ['Grades', '202, 303, 304, 304L, 310/310S, 316, 316L, 316Ti, 317/317L, 321/321H, 347/347H, 410, 416, 420, 430, 431, 440C, 446']
         ],
-        'size_chart' => [
-            ['10', '3 to 8'],
-            ['12', '4 to 10'],
-            ['16', '5 to 12'],
-            ['20 to 100', '5 to 25']
-        ]
+        "one_line_size" => "Diameter: 3mm - 350mm"
+    ],
+    'ssroundbars' => [
+        'name' => 'S.S. Round Bars',
+        'tagline' => 'Versatile and robust',
+        'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
+        'description' => [
+            'Stainless steel round bars are highly resistant to rust, oxidation, and staining, making them ideal for applications in harsh environments, including those exposed to moisture, chemicals, or high salinity. This is due to the chromium content forming a protective oxide layer.',
+            'They possess high tensile strength, enabling them to withstand heavy loads and mechanical stress without deforming, making them suitable for demanding applications in construction, automotive, and aerospace industries.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 8 meters'],
+            ['Tolerance', 'ASTM A484, EN10060'],
+            ['Hot Rolled (Black) Surface', ''],
+            ['100% Ultrasonically Tested', ''],
+            ['Spot ground or fully ground condition', ''],
+            ['Cold-Swappable', ''],
+            ['Heat Treatment', 'Soft Annealing, Solution Annealing, Spheroidized Annealing, Oil and Water Quenching, Tempered & Normalized']
+        ],
+        'one_line_size' => '16 mm – 125 mm (5/8 inch – 5 inch)',
+        'size_charts' => []
     ]
+
 ];
 
 ?>

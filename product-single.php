@@ -12,6 +12,7 @@ $product_detail = $product_details[$key];
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <?php
     $page_title = $product_detail['name'] . " - Panchratna Overseas";
@@ -19,6 +20,7 @@ $product_detail = $product_details[$key];
     include 'headConfig.php';
     ?>
 </head>
+
 <body>
 
     <?php include 'preloader.php'; ?>
@@ -33,6 +35,9 @@ $product_detail = $product_details[$key];
                         <h1 class="text-anime-style-2" data-cursor="-opaque">
                             <?php echo htmlspecialchars($product_detail['name']); ?>
                         </h1>
+                        <?php if (!empty($product_detail['one_line_size'])): ?>
+                            <p class="one-liner-size"><span>Size - </span><?php echo $product_detail['one_line_size']; ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -84,4 +89,5 @@ $product_detail = $product_details[$key];
     <?php include 'footer.php'; ?>
     <?php include 'scriptsImport.php'; ?>
 </body>
+
 </html>
