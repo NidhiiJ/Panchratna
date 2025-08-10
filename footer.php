@@ -18,7 +18,7 @@ $company_info = [
 
 // Social media links
 $social_links = [
-    'pinterest' => '#',
+    'linkedin' => '#',
     'twitter' => '#',
     'facebook' => '#',
     'instagram' => '#'
@@ -46,8 +46,8 @@ $quick_links = [
                 </div>
                 <div class="footer-social-links d-flex mt-4 mb-4">
                     <ul>
-                        <li><a href="<?php echo $social_links['pinterest']; ?>"><i
-                                    class="fa-brands fa-pinterest-p"></i></a></li>
+                        <li><a href="<?php echo $social_links['linkedin']; ?>"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
                         <li><a href="<?php echo $social_links['twitter']; ?>"><i class="fa-brands fa-x-twitter"></i></a>
                         </li>
                         <li><a href="<?php echo $social_links['facebook']; ?>"><i
