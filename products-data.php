@@ -1,30 +1,46 @@
 <?php
 $products = [
+    'ssflatbars' => [
+        'name' => 'S.S. Flat Bar',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Flat Bars'
+    ],
     'sschannels' => [
         'name' => 'S.S. Channels',
         'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
         'url' => 'project-single.php',
-        'tag' => 'S.S. Channels',
-        'categories' => 'Channels'
+        'tag' => 'S.S. Channels'
     ],
     'ssbrightbars' => [
         'name' => 'S.S. Bright Bars',
         'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
         'url' => 'project-single.php',
-        'tag' => 'S.S. Bright Bars',
-        'categories' => 'Bars'
+        'tag' => 'S.S. Bright Bars'
     ],
     'ssroundbars' => [
         'name' => 'S.S. Round Bars',
         'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
         'url' => 'project-single.php',
-        'tag' => 'S.S. Round Bars',
-        'categories' => 'Bars'
+        'tag' => 'S.S. Round Bars'
     ]
 ];
 
+$structureMap = [
+    'structure-1' => [
+        'ssroundbars',
+        'sschannels',
+        'ssbrightbars'
+    ],
+    'structure-2' => [
+        'ssflatbars'
+    ]
+];
+
+
 $product_details = [
     'sschannels' => [
+        "type" => 'structure-1',
         'name' => 'S.S. Channels',
         'tagline' => 'Durable and corrosion-resistant channels',
         'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
@@ -101,6 +117,7 @@ $product_details = [
         ]
     ],
     'ssbrightbars' => [
+        "type" => 'structure-1',
         'name' => 'S.S. Bright Bars',
         'tagline' => 'Polished finish for precision applications',
         'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
@@ -123,6 +140,7 @@ $product_details = [
         "one_line_size" => "Diameter: 3mm - 350mm"
     ],
     'ssroundbars' => [
+        "type" => 'structure-1',
         'name' => 'S.S. Round Bars',
         'tagline' => 'Versatile and robust',
         'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
@@ -141,8 +159,57 @@ $product_details = [
         ],
         'one_line_size' => '16 mm – 125 mm (5/8 inch – 5 inch)',
         'size_charts' => []
-    ]
-
+    ],
+    'ssflatbars' => [
+        "type" => 'structure-2',
+        'name' => 'S.S. Flat Bars',
+        "products" => [
+            [
+                'name' => 'S.S. Angle Bar',
+                'tagline' => 'Precision angles for structural applications',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel angle bars are ideal for structural, architectural, and engineering purposes.',
+                    'They provide excellent corrosion resistance, high strength, and versatility in fabrication.'
+                ],
+                'specifications' => [
+                    ['Length', 'Upto 6 metres'],
+                    ['Finish', 'Polished / HRAP'],
+                    ['Grades', '304, 304L, 316, 316L'],
+                    ['Tolerance', 'EN 10056'],
+                    ['Supply Condition', 'Hot Rolled / Cold Drawn']
+                ]
+            ],
+            [
+                'name' => 'S.S. HRAP Flat Bar',
+                'tagline' => 'High-quality HRAP stainless flat bars',
+                'image' => 'images/panchratnaContent/Products//ss-flatbar.jpg',
+                'description' => [
+                    'HRAP stainless steel flat bars are manufactured through hot rolling and pickling for improved surface quality.',
+                    'They are widely used in fabrication, construction, and decorative applications.'
+                ],
+                'specifications' => [
+                    ['Length', 'Upto 6 metres'],
+                    ['Finish', 'HRAP'],
+                    ['Grades', '304, 304L, 316, 316L'],
+                    ['Tolerance', 'EN 10058'],
+                    ['Supply Condition', 'Hot Rolled Annealed Pickled']
+                ],
+            ]
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Side (mm)', 'Thickness (mm)'],
+                'values' => [
+                    ['20 x 20', '3'],
+                    ['25 x 25', '4'],
+                    ['30 x 30', '5'],
+                    ['40 x 40', '6'],
+                    ['50 x 50', '8']
+                ]
+            ]
+        ]
+    ],
 ];
 
 ?>

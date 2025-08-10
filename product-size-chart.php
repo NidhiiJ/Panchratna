@@ -1,12 +1,12 @@
 <?php
 // Check if size_charts exists and is not empty
-if (!isset($product_detail['size_charts']) || empty($product_detail['size_charts'])) return;
+if (!isset($current_product['size_charts']) || empty($current_product['size_charts'])) return;
 
 echo '<div class="size-chart-container">';
-echo '<h3>' . htmlspecialchars($product_detail['name']) . ' Size Chart</h3>';
+echo '<h3>' . htmlspecialchars($current_product['name']) . ' Size Chart</h3>';
 
 // Handle multiple size charts
-foreach ($product_detail['size_charts'] as $chart) {
+foreach ($current_product['size_charts'] as $chart) {
     // Validate chart structure
     if (!isset($chart['headers']) || !isset($chart['values']) || 
         !is_array($chart['headers']) || !is_array($chart['values'])) {

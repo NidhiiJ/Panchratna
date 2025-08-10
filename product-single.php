@@ -36,7 +36,8 @@ $product_detail = $product_details[$key];
                             <?php echo htmlspecialchars($product_detail['name']); ?>
                         </h1>
                         <?php if (!empty($product_detail['one_line_size'])): ?>
-                            <p class="one-liner-size"><span>Size - </span><?php echo $product_detail['one_line_size']; ?></p>
+                            <p class="one-liner-size"><span>Size - </span><?php echo $product_detail['one_line_size']; ?>
+                            </p>
                         <?php endif; ?>
                     </div>
                 </div>
@@ -50,14 +51,40 @@ $product_detail = $product_details[$key];
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="project-single-content">
-                        <div class="project-entry">
-                            <?php include 'product-info.php'; ?>
-                            <?php include 'product-specification.php'; ?>
-                            <?php include 'product-size-chart.php'; ?>
+                    <?php if ($product_detail['type'] === 'structure-1'): ?>
+                        <div id="structure-1" class="project-single-content">
+                            <div class="project-entry">
+                                <?php
+                                $current_product = $product_detail;
+
+                                include 'product-info.php';
+                                include 'product-specification.php';
+                                include 'product-size-chart.php';
+                                ?>
+                            </div>
                         </div>
-                    </div>
+                    <?php elseif ($product_detail['type'] === 'structure-2'): ?>
+                        <div id="structure-2" class="project-single-content">
+                            <div class="project-entry">
+                                <?php
+                                foreach ($product_detail['products'] as $sub_product) {
+                                    $current_product = $sub_product;
+
+                                    include 'product-info.php';
+                                    include 'product-specification.php';
+                                    // skip size chart here to render common one later
+                                }
+
+                                if (!empty($product_detail['size_charts'])) {
+                                    $current_product = $product_detail;
+                                    include 'product-size-chart.php';
+                                }
+                                ?>
+                            </div>
+                        </div>
+                    <?php endif; ?>
                 </div>
+
 
                 <div class="col-lg-4">
                     <div class="project-sidebar">
