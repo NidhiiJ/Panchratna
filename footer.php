@@ -19,8 +19,8 @@ $company_info = [
 // Social media links
 $social_links = [
     'linkedin' => '#',
-    'twitter' => '#',
-    'facebook' => '#',
+    'twitter' => 'https://x.com/P_O_P_L',
+    'facebook' => 'https://www.facebook.com/profile.php?id=61579134723536',
     'instagram' => '#'
 ];
 
