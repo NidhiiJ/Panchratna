@@ -1656,6 +1656,11 @@ header.main-header .header-sticky.active{
 	z-index: 2;
 }
 
+.product-tag{
+	top: 15px;
+	left: 15px;
+}
+
 .project-tag p{
 	position: relative;
 	display: block;
@@ -6155,6 +6160,10 @@ a[href^="mailto:"] {
 
 	.project-tag a{
 		padding: 8px 10px;
+	}
+
+	.project-entry{
+		gap: 1rem;
 	}
 
 	.project-content h3{

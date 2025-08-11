@@ -50,15 +50,15 @@
 
                 <div class="col-lg-12">
                     <!-- Product Item Boxes start -->
-                    <div class="row project-item-boxes align-items-center">
+                    <div class="row gap-4 project-item-boxes align-items-center">
                         <?php
                         $counter = 0;
                         foreach ($products as $keyName => $product):
                             ?>
-                            <div class="col-md-4 project-item-box <?php echo $product['categories']; ?>">
+                            <div class="col-md-4 col-lg-3 project-item-box <?php echo $product['categories']; ?>">
                                 <!-- Product Item Start -->
-                                <div class="project-item wow fadeInUp"
-                                    data-wow-delay="<?php echo 0.2 + ($counter * 0.1); ?>s">
+                                <div class="project-item mb-0 wow fadeInUp"
+                                    data-wow-delay="<?php echo 0.02 + ($counter * 0.01); ?>s">
                                     <a href="/product-single.php?key=<?php echo $keyName; ?>">
                                         <div class="project-image">
                                             <figure class="image-anime">
@@ -66,7 +66,7 @@
                                                     alt="<?php echo htmlspecialchars($product['name']); ?>">
                                             </figure>
                                         </div>
-                                        <div class="project-tag">
+                                        <div class="project-tag product-tag">
                                             <p><?php echo htmlspecialchars($product['tag']); ?></p>
                                         </div>
                                         <div class="project-content d-none">
