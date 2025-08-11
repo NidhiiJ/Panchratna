@@ -1,28 +1,125 @@
 <?php
 $products = [
-    'ssflatbars' => [
-        'name' => 'S.S. Flat Bar',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Flat Bars'
-    ],
     'sschannels' => [
         'name' => 'S.S. Channels',
-        'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Channels'
     ],
     'ssbrightbars' => [
         'name' => 'S.S. Bright Bars',
-        'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Bright Bars'
     ],
+    'sshexagonalbars' => [
+        'name' => 'S.S. Hexagonal Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Hexagonal Bars'
+    ],
     'ssroundbars' => [
         'name' => 'S.S. Round Bars',
-        'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Round Bars'
+    ],
+    'sssheetscoilsplates' => [
+        'name' => 'S.S. Sheets / Coils / Plates',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Sheets / Coils / Plates'
+    ],
+    'sspsqbars' => [
+        'name' => 'S.S. PSQ Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. PSQ Bars'
+    ],
+    'sssquarebars' => [
+        'name' => 'S.S. Square Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Square Bars'
+    ],
+    'continuouscastbilletsblooms' => [
+        'name' => 'Continuous Cast Billets / Blooms',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Continuous Cast Billets / Blooms'
+    ],
+    'ssflanges' => [
+        'name' => 'S.S. Flanges',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Flanges'
+    ],
+    'ssblackforgedbars' => [
+        'name' => 'S.S. Black / Forged Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Black / Forged Bars'
+    ],
+    'sshotrolledrcsbars' => [
+        'name' => 'Hot Rolled RCS Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Hot Rolled RCS Bars'
+    ],
+    'ssforgedqualityingots' => [
+        'name' => 'Forged Quality Ingots',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Forged Quality Ingots'
+    ],
+    'duplexstainlesssteel' => [
+        'name' => 'Duplex Stainless Steel',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Duplex Stainless Steel'
+    ],
+    'deformedbars' => [
+        'name' => 'Deformed Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Deformed Bars'
+    ],
+    'threadedbars' => [
+        'name' => 'Threaded Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Threaded Bars'
+    ],
+    // Structure 2 products
+    'ssflatbars' => [
+        'name' => 'S.S. Flat Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Flat Bars'
+    ],
+    'ssanglebars' => [
+        'name' => 'S.S. Angle Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Angle Bars'
+    ],
+    'sspipes' => [
+        'name' => 'S.S. Pipes',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Pipes'
+    ],
+    'ssheatexchangertubes' => [
+        'name' => 'S.S. Heat Exchanger Tubes',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Heat Exchanger Tubes'
+    ],
+    'plates' => [
+        'name' => 'Plates',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Plates'
     ]
 ];
 
@@ -39,14 +136,70 @@ $structureMap = [
 
 
 $product_details = [
+    // Original Flat Bars from your code
+    // 'ssflatbars' => [
+    //     "type" => 'structure-2',
+    //     'name' => 'S.S. Flat Bars',
+    //     "products" => [
+    //         [
+    //             'name' => 'S.S. Angle Bar',
+    //             'tagline' => 'Precision angles for structural applications',
+    //             'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+    //             'description' => [
+    //                 'Stainless steel angle bars are ideal for structural, architectural, and engineering purposes.',
+    //                 'They provide excellent corrosion resistance, high strength, and versatility in fabrication.'
+    //             ],
+    //             'specifications' => [
+    //                 ['Length', 'Upto 6 metres'],
+    //                 ['Finish', 'Polished / HRAP'],
+    //                 ['Grades', '304, 304L, 316, 316L'],
+    //                 ['Tolerance', 'EN 10056'],
+    //                 ['Supply Condition', 'Hot Rolled / Cold Drawn']
+    //             ]
+    //         ],
+    //         [
+    //             'name' => 'S.S. HRAP Flat Bar',
+    //             'tagline' => 'High-quality HRAP stainless flat bars',
+    //             'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+    //             'description' => [
+    //                 'HRAP stainless steel flat bars are manufactured through hot rolling and pickling for improved surface quality.',
+    //                 'They are widely used in fabrication, construction, and decorative applications.'
+    //             ],
+    //             'specifications' => [
+    //                 ['Length', 'Upto 6 metres'],
+    //                 ['Finish', 'HRAP'],
+    //                 ['Grades', '304, 304L, 316, 316L'],
+    //                 ['Tolerance', 'EN 10058'],
+    //                 ['Supply Condition', 'Hot Rolled Annealed Pickled']
+    //             ],
+    //         ]
+    //     ],
+    //     'size_charts' => [
+    //         [
+    //             'headers' => ['Side (mm)', 'Thickness (mm)'],
+    //             'values' => [
+    //                 ['20 x 20', '3'],
+    //                 ['25 x 25', '4'],
+    //                 ['30 x 30', '5'],
+    //                 ['40 x 40', '6'],
+    //                 ['50 x 50', '8']
+    //             ]
+    //         ]
+    //     ]
+    // ],
+
+    // ===== STRUCTURE 1 =====
+
+    // S.S. Channels
+
     'sschannels' => [
         "type" => 'structure-1',
         'name' => 'S.S. Channels',
         'tagline' => 'Durable and corrosion-resistant channels',
-        'image' => 'images/panchratnaContent/Products/ss-channel.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'description' => [
-            'As a leading stainless steel inventory holder in India, we offer both types – Parallel (Non-Taper) as well as Non-Parallel (Taper) SS channels in different sizes (both imperial & metric) and stainless steel grades.',
-            'All the channels are hot rolled for their high strength . Stainless steel channels are C-shaped structural components made from stainless steel. They are widely used in construction, manufacturing, and various other industries due to their strength, durability, and corrosion resistance.'
+            'Stainless steel channels are C-shaped structural components made from stainless steel.',
+            'We offer both Parallel (Non-Taper) and Non-Parallel (Taper) channels in various sizes and grades, all hot rolled for high strength.'
         ],
         'specifications' => [
             ['Length', 'Upto 6.4 metres'],
@@ -58,72 +211,75 @@ $product_details = [
         'size_charts' => [
             [
                 'name' => 'Taper Sizes',
-                'headers' => ['Size (mm)', 'Thickness (mm)'],
+                'headers' => ['Size (In mm)'],
                 'values' => [
-                    ['101.6, 40.23, 4.76', '7.5'],
-                    ['101.6, 43.71, 8.15', '7.52'],
-                    ['100, 50, 6', '8.5'],
-                    ['65, 42, 5.5', '7.5'],
-                    ['50, 38, 5', '7'],
-                    ['50, 25, 3', '3.3'],
-                    ['50, 25, 5', '6'],
-                    ['76.2, 35.81, 4.32', '6.93'],
-                    ['101.6, 40.23, 4.67', '7.52'],
-                    ['101.6, 43.71, 8.15', '7.52'],
-                    ['127, 47.625', '9.52'],
-                    ['127, 44.45, 4.83', '8.13'],
-                    ['127, 47.88, 8.26', '8.13'],
-                    ['152.4, 48.77, 5.08', '8.71'],
-                    ['152.4, 51.66, 7.98', '8.71'],
-                    ['203.2, 64.26, 12.37', '9.90'],
-                    ['40, 35, 5', '7'],
-                    ['50, 25, 5', '6'],
-                    ['50, 38, 5', '7'],
-                    ['60, 30, 6', '6'],
-                    ['65, 42, 5.5', '7.5'],
-                    ['75, 40, 4.7', '6.9'],
-                    ['80, 45, 6', '8'],
-                    ['100, 50, 6', '8.5'],
-                    ['120, 55, 7', '9'],
-                    ['140, 60, 7', '10'],
-                    ['160, 65, 7.5', '10.5'],
+                    ['101.6 X 40.23 X 4.76 X 7.5'],
+                    ['101.6 X 43.71 X 8.15 X 7.52'],
+                    ['100 X 50 X 6 X 8.5'],
+                    ['65 X 42 X 5.5 X 7.5'],
+                    ['50 X 38 X 5 X 7'],
+                    ['50 X 25 X 3 X 3.3'],
+                    ['50 X 25 X 5 X 6'],
+                    ['76.2 X 35.81 X 4.32 X 6.93'],
+                    ['101.6 X 40.23 X 4.67 X 7.52'],
+                    ['101.6 X 43.71 X 8.15 X 7.52'],
+                    ['127 X 47.625 X 9.52'],
+                    ['127 X 44.45 X 4.83 X 8.13'],
+                    ['127 X 47.88 X 8.26 X 8.13'],
+                    ['152.4 X 48.77 X 5.08 X 8.71'],
+                    ['152.4 X 51.66 X 7.98 X 8.71'],
+                    ['203.2 X 64.26 X 12.37 X 9.90'],
+                    ['40 X 35 X 5 X 7'],
+                    ['50 X 25 X 5 X 6'],
+                    ['50 X 38 X 5 X 7'],
+                    ['60 X 30 X 6 X 6'],
+                    ['65 X 42 X 5.5 X 7.5'],
+                    ['75 X 40 X 4.7 X 6.9'],
+                    ['80 X 45 X 6 X 8'],
+                    ['100 X 50 X 6 X 8.5'],
+                    ['120 X 55 X 7 X 9'],
+                    ['140 X 60 X 7 X 10'],
+                    ['160 X 65 X 7.5 X 10.5']
                 ]
             ],
             [
                 'name' => 'Non – Taper Sizes',
-                'headers' => ['Size (mm)', 'Thickness (mm)'],
+                'headers' => ['Size (In mm)'],
                 'values' => [
-                    ['101.6, 44.45', '6.35'],
-                    ['101.6, 50.8', '6.35'],
-                    ['100, 50, 5', '5'],
-                    ['100, 50, 6', '6'],
-                    ['80, 40, 6', '6'],
-                    ['80, 40, 5', '5'],
-                    ['75, 40, 6', '6'],
-                    ['75, 40, 5', '5'],
-                    ['50, 25, 5', '5'],
-                    ['50.8, 25.4', '3.18'],
-                    ['50.8, 25.4', '4.76'],
-                    ['50.8, 25.4', '6.35'],
-                    ['76.2, 34.925', '4.76'],
-                    ['76.2, 38.1', '4.76'],
-                    ['76.2, 38.1', '6.35'],
-                    ['60, 30, 5', '5'],
-                    ['120, 60, 6', '6'],
-                    ['130, 65, 6', '6'],
-                    ['150, 75, 6', '6'],
+                    ['101.6 X 44.45 X 6.35'],
+                    ['101.6 X 50.8 X 6.35'],
+                    ['100 X 50 X 5 X 5'],
+                    ['100 X 50 X 6 X 6'],
+                    ['80 X 40 X 6 X 6'],
+                    ['80 X 40 X 5 X 5'],
+                    ['75 X 40 X 6 X 6'],
+                    ['75 X 40 X 5 X 5'],
+                    ['50 X 25 X 5 X 5'],
+                    ['50.8 X 25.4 X 3.18'],
+                    ['50.8 X 25.4 X 4.76'],
+                    ['50.8 X 25.4 X 6.35'],
+                    ['76.2 X 34.925 X 4.76'],
+                    ['76.2 X 38.1 X 4.76'],
+                    ['76.2 X 38.1 X 6.35'],
+                    ['60 X 30 X 5 X 5'],
+                    ['120 X 60 X 6 X 6'],
+                    ['130 X 65 X 6 X 6'],
+                    ['150 X 75 X 6 X 6']
                 ]
             ]
         ]
     ],
+
+
+    // S.S. Bright Bars
     'ssbrightbars' => [
         "type" => 'structure-1',
         'name' => 'S.S. Bright Bars',
         'tagline' => 'Polished finish for precision applications',
-        'image' => 'images/panchratnaContent/Products/ss-bright-bar.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'description' => [
-            'Our bright bars are subjected to various testing, such as ultrasonic testing and eddy current testing, which test the surface and internal defects, and this makes us produce high-quality bright bars that promote good business relationships with international clients.',
-            'They have excellent weldability and machinability, which make them highly favourable for precision machining components and constructing large, sturdy structures. These bars are available in various shapes and sizes, including bright square bars, and are used across industries. '
+            'Bright bars have excellent weldability and machinability, ideal for precision machining components and large structures.',
+            'They are produced with cold working processes and fine-finishing such as peeling, turning, grinding, and polishing.'
         ],
         'specifications' => [
             ['Length', 'Upto 6.5 metres'],
@@ -137,16 +293,72 @@ $product_details = [
             ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, GOST, AISI (NACE MR0175, MR0103)'],
             ['Grades', '202, 303, 304, 304L, 310/310S, 316, 316L, 316Ti, 317/317L, 321/321H, 347/347H, 410, 416, 420, 430, 431, 440C, 446']
         ],
-        "one_line_size" => "Diameter: 3mm - 350mm"
+        'one_line_size' => 'Diameter: 3mm - 350mm'
     ],
+
+    // S.S. Hexagonal Bars
+    'sshexagonalbars' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Hexagonal Bars',
+        'tagline' => 'Six-sided precision bars for versatile applications',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel hexagonal bars are manufactured in various grades, each offering specific mechanical and corrosion-resistance properties.',
+            'They are solid metal bars with a six-sided cross-section, used in many engineering and industrial applications.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 6 metres'],
+            ['Tolerances', 'h11, k12, k13, ASTM A484'],
+            ['Grit Polish', 'As per customer’s request'],
+            ['Heat Treatment', 'Solution Annealed, Oil & Water Quenched / Tempered'],
+            ['Bars End Finish', 'Chamfered ends, 30°, 45°, 60°, and Plain Ends without Burrs or Sharp Edges'],
+            ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, AISI, etc.'],
+            ['Grades', '202, 303, 304, 304L, 310/310S, 316, 316L, 316Ti, 317/317L, 321/321H, 347/347H, 410, 416, 420, 430, 431, 440C, 446']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Black', 'Bright'],
+                'values' => [
+                    ['16', '15'],
+                    ['17', '16'],
+                    ['18', '17'],
+                    ['19', '18'],
+                    ['20', '19'],
+                    ['21', '20'],
+                    ['22', '21'],
+                    ['23', '22'],
+                    ['24', '23'],
+                    ['25', '24'],
+                    ['26', '25'],
+                    ['27', '26'],
+                    ['28', '27'],
+                    ['30', '28'],
+                    ['32', '30'],
+                    ['34', '30'],
+                    ['36', '34'],
+                    ['38', '36'],
+                    ['40', '38'],
+                    ['42', '40'],
+                    ['43', '42'],
+                    ['45', '43'],
+                    ['47', '45'],
+                    ['53', '50'],
+                    ['55', '52'],
+                    ['57', '55']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S Round Bars
     'ssroundbars' => [
         "type" => 'structure-1',
         'name' => 'S.S. Round Bars',
         'tagline' => 'Versatile and robust',
-        'image' => 'images/panchratnaContent/Products/ss-round-bar.jpg',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'description' => [
-            'Stainless steel round bars are highly resistant to rust, oxidation, and staining, making them ideal for applications in harsh environments, including those exposed to moisture, chemicals, or high salinity. This is due to the chromium content forming a protective oxide layer.',
-            'They possess high tensile strength, enabling them to withstand heavy loads and mechanical stress without deforming, making them suitable for demanding applications in construction, automotive, and aerospace industries.'
+            'Stainless steel round bars are highly resistant to rust, oxidation, and staining, making them ideal for harsh environments such as those with moisture, chemicals, or high salinity.',
+            'They possess high tensile strength, enabling them to withstand heavy loads and mechanical stress, making them suitable for demanding construction, automotive, and aerospace applications.'
         ],
         'specifications' => [
             ['Length', 'Upto 8 meters'],
@@ -157,59 +369,696 @@ $product_details = [
             ['Cold-Swappable', ''],
             ['Heat Treatment', 'Soft Annealing, Solution Annealing, Spheroidized Annealing, Oil and Water Quenching, Tempered & Normalized']
         ],
-        'one_line_size' => '16 mm – 125 mm (5/8 inch – 5 inch)',
-        'size_charts' => []
+        'one_line_size' => '16mm – 125mm'
     ],
+
+    //  S.S. Sheets / Coils / Plates
+    'sssheetscoilsplates' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Sheets / Coils / Plates',
+        'tagline' => 'High-quality stainless steel sheets, coils, and plates',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel sheets are flat, thin panels made from a steel alloy with at least 10.5% chromium, providing resistance to rust and corrosion.',
+            'Stainless steel coils and plates are valued in various industries for their strength, durability, and corrosion resistance, especially in harsh environments.'
+        ],
+        'specifications' => [
+            ['Length', '2000mm, 2440mm, 3000mm, 5800mm, 6000mm, etc'],
+            ['Surface', '2B, 2D, BA, NO.1, NO.4, NO.8, 8K, mirror, checkered, embossed, hair line, sand blast, Brush, etching, etc'],
+            ['Form', 'Sheets, Foils, Rolls, Plain Sheet, Shim Sheet, Perforated Sheet, Chequered Plate, Cut Plates etc'],
+            ['Grades', '201, 202, 205, 301, 302, 303, 304, 304L, 308, 309, 309S, 310, 310S, 314, 316, 316L, 316TI, 317, 317L, 321, 347, 405, 409, 429, 430, 430F, 430FSe, 434, 436, 442, 446, 403, 410, 414, 416, 416Se, 420, 420F, 422, 431, 440A, 440B, 440C']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Thickness (In mm)', 'Width (In mm)'],
+                'values' => [
+                    ['4', '2500, 2800, 3000, 3200'],
+                    ['6', '2500, 2800, 3000, 3200'],
+                    ['8', '2500, 2800, 3000, 3200'],
+                    ['10', '2000, 2200, 2500, 2800, 3000, 3200, 3500'],
+                    ['12', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200'],
+                    ['14', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500'],
+                    ['16', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800'],
+                    ['18', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['20', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['22', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['24', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['25', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['28', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['30', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['32', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['35', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['36', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['40', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['45', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['50', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['56', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['63', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['70', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['75', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['80', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['90', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['100', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['105', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['110', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['115', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['120', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['125', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['130', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['135', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['140', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['145', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800'],
+                    ['150', '1500, 1800, 2000, 2200, 2500, 2800, 3000, 3200, 3500, 3800, 4000, 4200, 4500, 4600, 4800']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S. PSQ Bars
+    'sspsqbars' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. PSQ Bars',
+        'tagline' => 'Precision Shaft Quality stainless bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel PSQ (Precision Shaft Quality) bars are manufactured with precise dimensional tolerances, exceptional straightness, and a smooth surface finish.',
+            'They are specifically designed for demanding rotating applications, particularly in the pump industry.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 6.4 metres'],
+            ['Tolerances', 'h7, h8, h9, j6, f7, f8'],
+            ['Straightness', '0.015” TIR per 10 ft.'],
+            ['Heat Treatments', 'Soft Annealing, Solution Annealing, Quench & Tempered']
+        ],
+        'one_line_size' => '8mm – 81mm'
+    ],
+
+    // S.S. Square Bars
+    'sssquarebars' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Square Bars',
+        'tagline' => 'Strong and reliable stainless square bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel square bars maintain their structural integrity at high temperatures, making them suitable for furnace parts and heat exchangers.',
+            'They offer high tensile strength and can withstand heavy loads, making them ideal for structural and load-bearing applications.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 6 metres'],
+            ['Tolerances', 'h11, k12, k13, ASTM A484'],
+            ['Grit Polish', 'As per customer’s request'],
+            ['Heat Treatment', 'Solution Annealed, Oil & Water Quenched / Tempered'],
+            ['Bars End Finish', 'Deburred Ends, Plain Ends without Burrs or Sharp Edges'],
+            ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, AISI, etc.'],
+            ['Grades', '202, 303, 304, 304L, 310/310S, 316, 316L, 316Ti, 317/317L, 321/321H, 347/347H, 410, 416, 420, 430, 431, 440C, 446']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Black', 'Bright'],
+                'values' => [
+                    ['14', '12'],
+                    ['14', '12.7'],
+                    ['16', '14'],
+                    ['16', '15'],
+                    ['18', '16'],
+                    ['18', '17'],
+                    ['19', '18'],
+                    ['20', '19'],
+                    ['21', '20'],
+                    ['22', '21'],
+                    ['23', '22'],
+                    ['24', '23'],
+                    ['25', '24'],
+                    ['26', '25'],
+                    ['27', '26'],
+                    ['28', '27'],
+                    ['30', '28'],
+                    ['32', '30'],
+                    ['34', '32'],
+                    ['36', '34'],
+                    ['38', '36'],
+                    ['40', '38'],
+                    ['42', '40'],
+                    ['43', '41'],
+                    ['45', '43'],
+                    ['46', '44'],
+                    ['47', '45'],
+                    ['50', '47'],
+                    ['50', '48'],
+                    ['53', '50'],
+                    ['58', '55']
+                ]
+            ]
+        ]
+    ],
+
+    // Continuous Cast Billets / Blooms
+    'continuouscastbilletsblooms' => [
+        "type" => 'structure-1',
+        'name' => 'Continuous Cast Billets / Blooms',
+        'tagline' => 'High-quality stainless billets and blooms for manufacturing',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Continuous cast billets and blooms are semi-finished stainless steel products manufactured to rigorous international standards to ensure consistent quality and performance.',
+            'They are available in a wide range of grades and sizes and are suitable for forging, rolling, ring rolling, up-setting and other heavy manufacturing processes.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 8.5 metres, Saw end cuts'],
+            ['Finish', 'Spot ground or fully ground condition (as per request)'],
+            ['Suitable for', 'Forging, Rolling, Ring Rolling & Up-setting'],
+            ['Marking', 'Marked with Heat number, Grade, Size & Weight'],
+            ['Contamination', 'Free from Radioactive elements, Mercury & Lead Contamination'],
+            ['Testing', 'Grade confirmation through PMI testing with Handheld Spectrometers']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size (In mm)', 'Shape', 'Weight (Kg/Mtr)'],
+                'values' => [
+                    ['100 x 100', 'Square', '77'],
+                    ['120 x 120', 'Square', '112'],
+                    ['130 x 130', 'Square', '130'],
+                    ['140 x 140', 'Square', '152'],
+                    ['160 x 160', 'Square', '198'],
+                    ['200 x 200', 'Square', '314'],
+                    ['240 x 240', 'Square', '452'],
+                    ['300 x 300', 'Square', '706'],
+                    ['220 x 250', 'Rectangular', '428'],
+                    ['190 x 130', 'Rectangular', '192'],
+                    ['280 x 140', 'Rectangular', '305'],
+                    ['300 x 160', 'Rectangular', '375'],
+                    ['150 MM CC', 'Round', '140'],
+                    ['200 MM CC', 'Round', '246'],
+                    ['250 MM CC', 'Round', '385'],
+                    ['300 MM CC', 'Round', '560']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S. Flanges
+    'ssflanges' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Flanges',
+        'tagline' => 'Durable stainless steel flanges for secure pipe connections',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel flanges are designed to connect pipes, valves, pumps, and other equipment in a piping system. They provide easy access for cleaning, inspection, or modification.',
+            'These flanges are corrosion-resistant and are available in various grades, making them suitable for high-pressure and high-temperature applications in industries such as oil, gas, chemical, and food processing.'
+        ],
+        'specifications' => [
+            ['Type', 'Weld Neck, Slip On, Socket Weld, Threaded, Blind, Lap Joint'],
+            ['Face Type', 'Flat Face, Raised Face, Ring Type Joint'],
+            ['Standards', 'ANSI B16.5, ANSI B16.47, MSS-SP-44, ASME, DIN, BS, EN, JIS'],
+            ['Grades', '304, 304L, 316, 316L, 321, 347, Duplex 2205, Super Duplex 2507'],
+            ['Testing', 'Ultrasonic Testing, PMI Testing, Hydrostatic Testing']
+        ],
+        'one_line_size' => '½" NB – 48" NB'
+    ],
+
+    // S.S. Black / Forged Bars
+    'ssblackforgedbars' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Black / Forged Bars',
+        'tagline' => 'Hot-rolled black & forged stainless bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel black bars are hot-rolled bars that have a dark, oxidized surface formed during cooling after hot rolling.',
+            'Stainless steel forged bars are produced by shaping metal under heat and pressure to refine the internal grain structure and enhance mechanical properties.'
+        ],
+        'specifications' => [
+            ['Dimensions', 'ASTM, ASME'],
+            ['Length', 'Random, Fix & Cut Length'],
+            ['Grade', '202']
+        ],
+        'one_line_size' => '20mm – 150mm'
+    ],
+
+    // Hot Rolled RCS (Round Corner Square) Bars
+    'sshotrolledrcsbars' => [
+        "type" => 'structure-1',
+        'name' => 'Hot Rolled RCS (Round Corner Square) Bars',
+        'tagline' => 'High-strength hot rolled RCS stainless bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Hot rolled RCS (Round Corner Square) bars are produced through a hot rolling process, resulting in enhanced toughness and strength.',
+            'They are widely used in forging, machining, and manufacturing applications where dimensional accuracy and durability are required.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 6 metres'],
+            ['Finish', 'Black'],
+            ['Grades', '304, 304L, 316, 316L, 321, 410, 416, 420, 430, Duplex Grades']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size (In mm)'],
+                'values' => [
+                    ['65'],
+                    ['75'],
+                    ['80'],
+                    ['90'],
+                    ['100'],
+                    ['105'],
+                    ['110'],
+                    ['115'],
+                    ['120'],
+                    ['125'],
+                    ['130'],
+                    ['140'],
+                    ['150'],
+                    ['160'],
+                    ['180'],
+                    ['200']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S. Forged Quality Ingots
+    'ssforgedqualityingots' => [
+        "type" => 'structure-1',
+        'name' => 'S.S. Forged Quality Ingots',
+        'tagline' => 'High-quality forged ingots for forging applications',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel forged quality ingots are large cast metal blocks designed to be reheated and forged into finished shapes.',
+            'They are produced with controlled chemical composition and superior internal soundness, making them suitable for critical engineering applications.'
+        ],
+        'specifications' => [
+            ['Ingots are supplied in spot ground or fully ground condition'],
+            ['Free from surface defects or cracks'],
+            ['Grade confirmation through PMI testing with Handheld Spectrometers'],
+            ['Every piece is marked with Heat number, Colour Code, Grade, Size and Weight'],
+            ['Free from Radioactive elements, Mercury & Lead Contamination']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size (In mm)', 'Shape', 'Weight (Per PC in Kg)'],
+                'values' => [
+                    ['200 X 230 X 1320', 'Square', '470'],
+                    ['247 X 222 X 1524', 'Square', '654'],
+                    ['230 X 270 X 1370', 'Square', '630'],
+                    ['250 X 305 X 1320', 'Square', '815'],
+                    ['280 X 305 X 1320', 'Square', '875'],
+                    ['280 X 330 X 1320', 'Square', '950'],
+                    ['330 X 380 X 1575', 'Fluted', '1160'],
+                    ['330 X 380 X 1575', 'Square', '1550'],
+                    ['355 X 430 X 1830', 'Square', '2050'],
+                    ['420 X 510 X 1650', 'Square', '2550'],
+                    ['455 X 530 X 1700', 'Fluted', '2500'],
+                    ['530 X 585 X 1700', 'Fluted', '3400'],
+                    ['20 X 24 X 73"', 'Square', '4100'],
+                    ['585 X 685 X 1780', 'Fluted', '5100'],
+                    ['685 X 760 X 1575', 'Fluted', '6100'],
+                    ['800 X 965 X 1855', 'Fluted', '10200'],
+                    ['965 X 1195 X 1780', 'Fluted', '14500'],
+                    ['1080 X 1330 X 2220', 'Fluted', '22000'],
+                    ['400 X 2.3 Mtr.', 'Round', '2000'],
+                    ['500 X 2.2 Mtr.', 'Round', '3800'],
+                    ['600 X 2 Mtr.', 'Round', '5100'],
+                    ['400 X 4 Mtr.', 'Round', '3800'],
+                    ['500 X 4 Mtr.', 'Round', '5800']
+                ]
+            ]
+        ]
+    ],
+
+    // Duplex Stainless Steel
+    'duplexstainlesssteel' => [
+        "type" => 'structure-1',
+        'name' => 'Duplex Stainless Steel',
+        'tagline' => 'High strength, corrosion-resistant duplex stainless steel',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Duplex stainless steels bars have enormous hardness, making them the first choice for applications that need high strength, such as in the oil and gas industry.',
+            'Duplex stainless steels are called "duplex" because they have a two-phase microstructure consisting of grains of Ferrite and Austenite stainless steel.'
+        ],
+        'specifications' => [
+            ['Strength', 'Duplex stainless steels are about twice as strong as regular austenitic or ferritic stainless steel.'],
+            ['Corrosion resistance', 'As with all stainless steels, corrosion resistance depends mostly on the composition of the stainless steel; duplex compositions improve corrosion resistance.'],
+            ['Toughness and ductility', 'Duplex stainless steel has significantly better toughness and ductility than ferritic grades.'],
+            ['Grades', '1.4410, 1.4821, 1.4462, 1.4362, 1.4460, UNS S31803, UNS S32205, UNS S32750, F-51, F-60, F-53'],
+            ['Dimensions', 'ASTM A 182:2018, ASTM A 276:2017, ASTM A 240:2018, DIN EN 10088-3:2014, EN 10095:1999, EN 10028-7:2000']
+        ]
+    ],
+
+    // Deformed Bars
+    'deformedbars' => [
+        "type" => 'structure-1',
+        'name' => 'Deformed Bars',
+        'tagline' => 'High-strength stainless steel deformed bars for construction',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Deformed bars are developed with the highest value of quality for the tough requirements of contemporary infrastructure.',
+            'These bars, composed of HYSD steel and hot-rolled deformed steel, are designed to deliver high performance and superior resistance, making them ideal for reinforcing concrete structures.'
+        ],
+        'specifications' => [
+            ['Length', 'Upto 12 metres'],
+            ['Rolled Size', '16, 20, 25, 28, 32, 36, 40'],
+            ['Tolerances', 'IS 16651, BS 6744']
+        ],
+    ],
+
+    // Threaded Bars
+    'threadedbars' => [
+        "type" => 'structure-1',
+        'name' => 'Threaded Bars',
+        'tagline' => 'Precision-engineered stainless steel threaded bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless Steel Threaded bars that ease the need to have precise threading for mechanical applications; 304 and 316 stainless options are commonly used in fastener manufacturing.',
+            '316 stainless steel threaded bars (including A2-70 threaded rod and acme threaded rod) are known for high corrosion resistance; double-ended rods and various sizes like M12 are frequently used across industries.'
+        ],
+        'specifications' => [
+            ['Grades', 'A2 / 304 (Class-50, 70, 80), B8 / 304 (Class-1 & 2), A4 / 316 (Class-50, 70, 80), B8M / 316 (Class-1 & 2)'],
+            ['Threading Method', 'Thread Rolling'],
+            ['Threading condition', 'Fully Threaded'],
+            ['Thread Type', 'ANSI B1.1 Class 2A Fit'],
+            ['Length', 'Upto 6 metres'],
+            ['Tolerance', 'ASME B1.1 & B1.13 M'],
+            ['Applications', 'Fasteners, Construction, Automotive, Fittings and many others']
+        ],
+        'one_line_size' => 'M 6 - M 45 (1/4 inch – 1-7/9 inch)'
+    ],
+
+    // ===== STRUCTURE 2 =====
+
+    // S.S. Flat Bars
+
     'ssflatbars' => [
         "type" => 'structure-2',
         'name' => 'S.S. Flat Bars',
         "products" => [
             [
-                'name' => 'S.S. Angle Bar',
-                'tagline' => 'Precision angles for structural applications',
+                'name' => 'S.S. HRAP Flat Bar',
+                'tagline' => 'High resistance against corrosion with HRAP finish',
                 'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
                 'description' => [
-                    'Stainless steel angle bars are ideal for structural, architectural, and engineering purposes.',
-                    'They provide excellent corrosion resistance, high strength, and versatility in fabrication.'
+                    'HRAP Flat Bars are produced when the steel is hot rolled and then solution annealed.',
+                    'This ensures the highest level of resistance against corrosion, including chloride ion corrosion. In the final step, the pickling process is performed by immersing the prepared steel in an acid solution to remove any marks or scale on the steel surface.'
                 ],
                 'specifications' => [
-                    ['Length', 'Upto 6 metres'],
-                    ['Finish', 'Polished / HRAP'],
-                    ['Grades', '304, 304L, 316, 316L'],
-                    ['Tolerance', 'EN 10056'],
-                    ['Supply Condition', 'Hot Rolled / Cold Drawn']
+                    ['Length', 'Upto 6.4 metres'],
+                    ['Hot Rolled', 'Annealed & Pickled (HRAP)'],
+                    ['Tolerance', 'ASTM A484, EN 10058'],
+                    ['Code', 'Both ends are color coded as per the customer\'s specific requirement'],
+                    ['Specifications', 'as per EN, DIN, JIS, ASTM, BS, ASME, etc.'],
+                    ['Speciality', 'We can provide customers with custom size and length'],
+                    ['Grades (HRAP)', '202, 304, 304L, 316, 316L']
                 ]
             ],
             [
-                'name' => 'S.S. HRAP Flat Bar',
-                'tagline' => 'High-quality HRAP stainless flat bars',
-                'image' => 'images/panchratnaContent/Products//ss-flatbar.jpg',
+                'name' => 'S.S. Cold Drawn Flat Bar',
+                'tagline' => 'Precision finish with improved mechanical properties',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
                 'description' => [
-                    'HRAP stainless steel flat bars are manufactured through hot rolling and pickling for improved surface quality.',
-                    'They are widely used in fabrication, construction, and decorative applications.'
+                    'A cold-drawn flat bar is a type of steel bar that has been processed at room temperature to improve its surface finish, dimensional accuracy, and mechanical properties.',
+                    'This process, known as cold drawing, involves pulling a steel bar through a die to reduce its cross-sectional area and refine its shape.'
                 ],
                 'specifications' => [
-                    ['Length', 'Upto 6 metres'],
-                    ['Finish', 'HRAP'],
-                    ['Grades', '304, 304L, 316, 316L'],
-                    ['Tolerance', 'EN 10058'],
-                    ['Supply Condition', 'Hot Rolled Annealed Pickled']
-                ],
+                    ['Length', '2 meters – 6 metres (8 feet to 20 feet)'],
+                    ['Tolerance', 'h11 and ASTM A 484'],
+                    ['Surface Finish', 'Cold Drawn and Pickled Condition'],
+                    ['Heat Treatment', 'Solution Annealed']
+                ]
             ]
         ],
         'size_charts' => [
             [
-                'headers' => ['Side (mm)', 'Thickness (mm)'],
+                'headers' => ['Width (in mm)', 'Thickness (in mm)'],
                 'values' => [
-                    ['20 x 20', '3'],
-                    ['25 x 25', '4'],
-                    ['30 x 30', '5'],
-                    ['40 x 40', '6'],
-                    ['50 x 50', '8']
+                    ['20', '3, 4, 5, 6, 8, 10, 12, 15'],
+                    ['25', '3, 4, 5, 6, 8, 10, 12, 16, 20'],
+                    ['30', '3, 4, 5, 6, 8, 10, 12, 16, 20, 25'],
+                    ['32', '3, 4, 5, 6, 8, 10, 12, 16, 20, 25'],
+                    ['40', '3, 4, 5, 6, 8, 10, 12, 16, 20, 25, 30'],
+                    ['50', '3, 4, 5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 35, 40'],
+                    ['60', '5, 6, 8, 10, 12, 16, 20, 25, 30, 40'],
+                    ['65', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['70', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['75', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['80', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['90', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['100', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['110', '5, 6, 8, 10, 12, 16, 20, 25, 30, 32, 40, 50'],
+                    ['120', '6, 8, 10, 12, 16, 20, 25, 30'],
+                    ['125', '6, 8, 10, 12, 16, 20, 25, 30'],
+                    ['152', '6, 8, 10, 12, 16, 20, 25, 30, 32'],
+                    ['200', '8, 10, 12, 16, 20, 25'],
+                    ['205', '8, 10, 12, 16, 20'],
+                    ['225', '8, 10, 12, 16, 20'],
+                    ['250', '8, 10, 12, 16, 20'],
+                    ['300', '8, 10, 12, 16, 20'],
+                    ['325', '8, 10, 12, 16, 20'],
+                    ['350', '8, 10, 12, 16, 20'],
+                    ['400', '8, 10, 12, 16, 20']
                 ]
             ]
         ]
     ],
+
+    // S.S. Angle Bars
+    'ssanglebars' => [
+        "type" => 'structure-2',
+        'name' => 'S.S. Angle Bars',
+        "products" => [
+            [
+                'name' => 'Equal Angle',
+                'tagline' => 'L-shaped bars with equal legs for structural support',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel equal angles are L-shaped metal bars with legs of equal length and a 90-degree angle.',
+                    'The symmetrical shape of equal angles makes them suitable for applications requiring consistent support across two perpendicular surfaces, such as beams, braces, and frames.'
+                ],
+                'specifications' => [
+                    ['Length', 'Up to 6.4 metres'],
+                    ['Tolerances', 'ASTM A484, EN10056'],
+                    ['Heat Treatment Process', 'Hot rolled, Solution Annealed & Pickled (HRAP)'],
+                    ['Shot Blasting', 'As per customer’s request'],
+                    ['Grit Polish', 'As per customer’s request'],
+                    ['Bars End Finish', 'Deburred Ends, Plain Ends without Burrs or Sharp Edges'],
+                    ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, etc.'],
+                    ['Grades', '202, 304, 304L, 316, 316L']
+                ]
+            ],
+            [
+                'name' => 'Unequal Angle',
+                'tagline' => 'Asymmetric L-shaped bars for specialised structural needs',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless Steel HRAP unequal angles have one leg longer than the other and are used where unequal support is required.',
+                    'They are commonly applied in automotive, construction and heavy-duty applications where asymmetrical profiles are needed.'
+                ],
+                'specifications' => [
+                    ['Length', 'Up to 6.4 metres'],
+                    ['Tolerances', 'ASTM A484, EN10056'],
+                    ['Heat Treatment Process', 'Solution Annealed & Pickled (HRAP)'],
+                    ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, AISI, etc.'],
+                    ['Bars End Finish', 'Deburred Ends, Plain Ends without Burrs or Sharp Edges'],
+                    ['Grades', '202, 304, 304L, 316, 316L']
+                ]
+            ]
+        ],
+        'size_charts' => [
+            [
+                'name' => 'Equal Angles',
+                'headers' => ['Width (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['20 x 20', '3, 4'],
+                    ['25 x 25', '3, 4, 5, 6'],
+                    ['30 x 30', '3, 4, 5, 6'],
+                    ['32 x 32', '3, 4, 5, 6'],
+                    ['35 x 35', '3, 4, 5, 6'],
+                    ['40 x 40', '3, 4, 5, 6'],
+                    ['45 x 45', '3, 4, 5, 6'],
+                    ['50 x 50', '3, 4, 4.5, 5, 6, 7, 8, 9, 10'],
+                    ['60 x 60', '5, 6, 7, 8, 10'],
+                    ['65 x 65', '5, 6, 7, 8, 9, 10'],
+                    ['70 x 70', '5, 6, 7, 8, 9, 10'],
+                    ['75 x 75', '5, 6, 7, 8, 9, 10, 12'],
+                    ['80 x 80', '6, 7, 8, 10'],
+                    ['90 x 90', '6, 8, 9, 10'],
+                    ['100 x 100', '6, 7, 8, 9, 10, 12'],
+                    ['120 x 120', '10, 12'],
+                    ['150 x 150', '10, 12, 13, 15']
+                ]
+            ],
+            [
+                'name' => 'Unequal Angles',
+                'headers' => ['Width (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['50 x 30', '5'],
+                    ['60 x 30', '5'],
+                    ['60 x 40', '5, 6'],
+                    ['75 x 50', '6'],
+                    ['80 x 40', '6'],
+                    ['100 x 50', '6'],
+                    ['120 x 80', '8, 10'],
+                    ['125 x 75', '9'],
+                    ['127 x 76.2', '6.35, 9.53'],
+                    ['130 x 65', '8, 10'],
+                    ['150 x 100', '10'],
+                    ['152 x 76.2', '9.53'],
+                    ['152.4 x 101.6', '9.53, 12.7']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S. Pipes
+    'sspipes' => [
+        "type" => 'structure-2',
+        'name' => 'S.S. Pipes',
+        "products" => [
+            [
+                'name' => 'Seamless Pipes',
+                'tagline' => 'High-strength jointless pipes with superior corrosion resistance',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel seamless pipes are high-quality, jointless cylindrical tubes renowned for their strength, durability, and corrosion resistance.',
+                    'They are manufactured without a welded seam by piercing a solid stainless steel billet and then elongating it to the desired dimensions.'
+                ],
+                'specifications' => [
+                    ['Supply Condition', 'Solution Annealed & Passivated, Stabilization Heat Treatment for Stabilized Grades'],
+                    ['Grades', 'ASTM A-312, A-376, A-790, A-511 SB-167,SB-407,SB-423,SB-444'],
+                    ['Material Grades', 'TP-304/L/IN/H/N, TP-316/L/IN/H/N, TP-321/TP-347/H, UNS 31060, UNS 31254, UNS N04400, N08000, N06620, N08800, N08825'],
+                    ['Length', 'Single OR Double Random Length']
+                ]
+            ],
+            [
+                'name' => 'Welded Pipes',
+                'tagline' => 'Precision welded pipes with smooth finish and excellent durability',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel welded pipes are manufactured by shaping stainless steel plates or coils into a round or other specified form and then joining the edges through various welding processes.',
+                    'They are known for their strength, durability, corrosion resistance, and smooth surface finish. Typically produced using Electric Resistance Welding (ERW) or Electric Fusion Welding (EFW) processes.'
+                ],
+                'specifications' => [
+                    ['Supply Condition', 'Welded & Bead Rolled / Welded & Cold Drawn, Bright Annealed / Solution Annealed & Passivated, Stabilization Heat Treatment'],
+                    ['Grades', 'TP-304/L/LN/H/N, TP-316/L/LN/H/N/Ti, TP-317/L, TP-321/H, TP-347/H, UNS S31254, TP-409, TP-430Ti, TP-439, UNS S44735, UNS S31803, S32205'],
+                    ['European Grades', 'Various grades as per European Norms'],
+                    ['Length', 'Straight / U bend condition having developed length upto 40 meters']
+                ]
+            ]
+        ],
+        'size_charts' => [
+            [
+                'name' => 'Seamless Pipes',
+                'headers' => ['Size/Range', 'Thickness'],
+                'values' => [
+                    ['1/8 NPS to 10 NPS', 'Sch5s to Sch160']
+                ]
+            ],
+            [
+                'name' => 'Welded Pipes',
+                'headers' => ['Products', 'Size/Range', 'Thickness', 'Specification'],
+                'values' => [
+                    ['Welded Pipes', '1/8 NPS TO 12 NPS', 'SCH.5S TO SCH40S', 'ASTM A-312, A 554, A 778, A 790'],
+                    ['Longitudinal Pipes', '8 NPS NB TO 72 NPS', '2.77 MM To 50.00 MM', 'ASTM A 358, A 409, A 778, A 928'],
+                    ['Longitudinal with Circumferential Seam Welded Pipes', '20 NPS to 72 NPS', '5.54 MM to 20.00 MM', 'ASTM A 358, A 409, A 778']
+                ]
+            ]
+        ]
+    ],
+
+    // S.S. Heat Exchanger Tubes
+    'ssheatexchangertubes' => [
+        "type" => 'structure-2',
+        'name' => 'S.S. Heat Exchanger Tubes',
+        "products" => [
+            [
+                'name' => 'Seamless Tubes',
+                'tagline' => 'Superior heat transfer efficiency with seamless construction',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel seamless heat exchanger tubes are high-performance tubular components designed specifically for applications requiring efficient heat transfer between two fluids without direct contact.',
+                    'These tubes are manufactured without a welded seam, ensuring superior structural integrity and reliability, especially crucial in demanding industrial environments.'
+                ],
+                'specifications' => [
+                    ['Length', 'Straight / U bend condition having developed length upto 40 meters'],
+                    ['Heat Treatment', 'Bright Annealed / Solution Annealed & Passivated'],
+                    ['Grades', 'TP-304/L/H, TP-316/L/N/H/N/TL, TP-317/L, TP-321/H, TP-347/H, UNS S31050, S31254, UNS N08904, N08800, N08825, N08020, N08028, TP-405, TP-410, TP-430, TP-446, UNS S31260, S31500, S32304, S31803, S32206, S32750, S32760, UNS N04400, N06600, N10276'],
+                    ['Dimensions', 'ASTM A 213, A 268, A269, A 270, A688, A 789, EN 10216-5, SB-163, SB-167, SB-407, SB-423, SB-444'],
+                    ['Custom Options', 'U-Tubes as per Customer\'s Drawing, AFNOR, GOST, JIS, EN specifications']
+                ]
+            ],
+            [
+                'name' => 'Welded Tubes',
+                'tagline' => 'Cost-effective welded construction for efficient heat exchange',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Stainless steel welded heat exchanger tubes are commonly used in heat exchangers.',
+                    'They are produced by forming a flat strip of stainless steel into a cylindrical shape and then welding the edges longitudinally or spirally to create a continuous tube.'
+                ],
+                'specifications' => [
+                    ['Supply Conditions', 'Welded & Bead Rolled / Welded & Cold Drawn'],
+                    ['Heat Treatment', 'Bright Annealed / Solution Annealed & Passivated'],
+                    ['Length', 'Straight / U bend condition having developed length upto 40 meters'],
+                    ['Grades', 'TP-304/L/LN/H/N, TP-316/L/LN/H/N/Ti, TP-317/L, TP-321/H, TP-347/H, UNS S31254, TP-409, TP-430Ti, TP-439, UNS S44735, UNS S31803, S32205'],
+                    ['European Grades', 'Various grades as per European Norms']
+                ]
+            ]
+        ],
+        'size_charts' => [
+            [
+                'name' => 'Seamless Tubes',
+                'headers' => ['Size/Range (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['10.00 MM to 76.00 MM OD', '0.70 MM TO 6.00 MM']
+                ]
+            ],
+            [
+                'name' => 'Welded Tubes',
+                'headers' => ['Size/Range (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['10.00 MM to 114.3 MM OD', '0.50 MM to 4.00 MM']
+                ]
+            ]
+        ]
+    ],
+
+    // Plates
+    'plates' => [
+        "type" => 'structure-2',
+        'name' => 'Plates',
+        "products" => [
+            [
+                'name' => 'Rockhard Plates',
+                'tagline' => 'Exceptional wear resistance for mining and construction applications',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Rockhard plates offer exceptional wear resistance, especially in applications involving severe abrasion in mining and construction.',
+                    'They provide a strong combination of high hardness (like Rockhard 500 plates with 470 – 550 HBW) and toughness for impact resistance. These plates are also designed for ease of fabrication, allowing for cutting, welding, and forming using standard techniques.'
+                ]
+            ],
+            [
+                'name' => 'Discrete Plates',
+                'tagline' => 'Precision-rolled plates with superior finish and dimensional accuracy',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'description' => [
+                    'Discrete plates are typically manufactured through hot rolling or cold rolling. Hot rolling involves heating the steel above its recrystallization temperature and then rolling it into the desired shape.',
+                    'Hot rolled discrete plates are known for their durability and strength. Cold rolling is carried out at room temperature, producing plates with a smoother finish and tighter dimensional tolerances.'
+                ]
+            ]
+        ],
+        'size_charts' => [
+            [
+                'name' => 'Rockhard Plates',
+                'headers' => ['Grade', 'Width (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['Rockhard 400, 450, 500', '1500-4800', '8-100']
+                ]
+            ],
+            [
+                'name' => 'Discrete Plates',
+                'headers' => ['Width (in mm)', 'Thickness (in mm)'],
+                'values' => [
+                    ['1500 – 4900 (Trimmed Edge)', '5-150'],
+                    ['1500 – 5000 (Mill Edge)', '> 150 mm can be discussed for particular grade and specifications']
+                ]
+            ]
+        ]
+    ]
+
 ];
 
 ?>
