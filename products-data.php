@@ -136,57 +136,6 @@ $structureMap = [
 
 
 $product_details = [
-    // Original Flat Bars from your code
-    // 'ssflatbars' => [
-    //     "type" => 'structure-2',
-    //     'name' => 'S.S. Flat Bars',
-    //     "products" => [
-    //         [
-    //             'name' => 'S.S. Angle Bar',
-    //             'tagline' => 'Precision angles for structural applications',
-    //             'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-    //             'description' => [
-    //                 'Stainless steel angle bars are ideal for structural, architectural, and engineering purposes.',
-    //                 'They provide excellent corrosion resistance, high strength, and versatility in fabrication.'
-    //             ],
-    //             'specifications' => [
-    //                 ['Length', 'Upto 6 metres'],
-    //                 ['Finish', 'Polished / HRAP'],
-    //                 ['Grades', '304, 304L, 316, 316L'],
-    //                 ['Tolerance', 'EN 10056'],
-    //                 ['Supply Condition', 'Hot Rolled / Cold Drawn']
-    //             ]
-    //         ],
-    //         [
-    //             'name' => 'S.S. HRAP Flat Bar',
-    //             'tagline' => 'High-quality HRAP stainless flat bars',
-    //             'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-    //             'description' => [
-    //                 'HRAP stainless steel flat bars are manufactured through hot rolling and pickling for improved surface quality.',
-    //                 'They are widely used in fabrication, construction, and decorative applications.'
-    //             ],
-    //             'specifications' => [
-    //                 ['Length', 'Upto 6 metres'],
-    //                 ['Finish', 'HRAP'],
-    //                 ['Grades', '304, 304L, 316, 316L'],
-    //                 ['Tolerance', 'EN 10058'],
-    //                 ['Supply Condition', 'Hot Rolled Annealed Pickled']
-    //             ],
-    //         ]
-    //     ],
-    //     'size_charts' => [
-    //         [
-    //             'headers' => ['Side (mm)', 'Thickness (mm)'],
-    //             'values' => [
-    //                 ['20 x 20', '3'],
-    //                 ['25 x 25', '4'],
-    //                 ['30 x 30', '5'],
-    //                 ['40 x 40', '6'],
-    //                 ['50 x 50', '8']
-    //             ]
-    //         ]
-    //     ]
-    // ],
 
     // ===== STRUCTURE 1 =====
 
@@ -202,7 +151,7 @@ $product_details = [
             'We offer both Parallel (Non-Taper) and Non-Parallel (Taper) channels in various sizes and grades, all hot rolled for high strength.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6.4 metres'],
+            ['Length', 'Upto 6.4 metre'],
             ['Supply condition', 'HRAP'],
             ['Tolerance', 'EN 10279'],
             ['Bars End Finish', 'Deburred ends or plain ends'],
@@ -282,7 +231,7 @@ $product_details = [
             'They are produced with cold working processes and fine-finishing such as peeling, turning, grinding, and polishing.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6.5 metres'],
+            ['Length', 'Upto 6.5 metre'],
             ['Cold Drawn', 'Centreless Ground, Peeled & Polished, Rough Peeled or Smooth Turned Bars'],
             ['Tolerances', 'h7, h8, h9, h10, h11, k12, k13, ASTM A484'],
             ['Surface Finish', 'Ra upto 0.2 mm (8.7 RMS)'],
@@ -307,7 +256,7 @@ $product_details = [
             'They are solid metal bars with a six-sided cross-section, used in many engineering and industrial applications.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6 metres'],
+            ['Length', 'Upto 6 metre'],
             ['Tolerances', 'h11, k12, k13, ASTM A484'],
             ['Grit Polish', 'As per customer’s request'],
             ['Heat Treatment', 'Solution Annealed, Oil & Water Quenched / Tempered'],
@@ -361,7 +310,7 @@ $product_details = [
             'They possess high tensile strength, enabling them to withstand heavy loads and mechanical stress, making them suitable for demanding construction, automotive, and aerospace applications.'
         ],
         'specifications' => [
-            ['Length', 'Upto 8 meters'],
+            ['Length', 'Upto 8 metre'],
             ['Tolerance', 'ASTM A484, EN10060'],
             ['Hot Rolled (Black) Surface', ''],
             ['100% Ultrasonically Tested', ''],
@@ -445,7 +394,7 @@ $product_details = [
             'They are specifically designed for demanding rotating applications, particularly in the pump industry.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6.4 metres'],
+            ['Length', 'Upto 6.4 metre'],
             ['Tolerances', 'h7, h8, h9, j6, f7, f8'],
             ['Straightness', '0.015” TIR per 10 ft.'],
             ['Heat Treatments', 'Soft Annealing, Solution Annealing, Quench & Tempered']
@@ -464,7 +413,7 @@ $product_details = [
             'They offer high tensile strength and can withstand heavy loads, making them ideal for structural and load-bearing applications.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6 metres'],
+            ['Length', 'Upto 6 metre'],
             ['Tolerances', 'h11, k12, k13, ASTM A484'],
             ['Grit Polish', 'As per customer’s request'],
             ['Heat Treatment', 'Solution Annealed, Oil & Water Quenched / Tempered'],
@@ -523,7 +472,7 @@ $product_details = [
             'They are available in a wide range of grades and sizes and are suitable for forging, rolling, ring rolling, up-setting and other heavy manufacturing processes.'
         ],
         'specifications' => [
-            ['Length', 'Upto 8.5 metres, Saw end cuts'],
+            ['Length', 'Upto 8.5 metre, Saw end cuts'],
             ['Finish', 'Spot ground or fully ground condition (as per request)'],
             ['Suitable for', 'Forging, Rolling, Ring Rolling & Up-setting'],
             ['Marking', 'Marked with Heat number, Grade, Size & Weight'],
@@ -604,7 +553,7 @@ $product_details = [
             'They are widely used in forging, machining, and manufacturing applications where dimensional accuracy and durability are required.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6 metres'],
+            ['Length', 'Upto 6 metre'],
             ['Finish', 'Black'],
             ['Grades', '304, 304L, 316, 316L, 321, 410, 416, 420, 430, Duplex Grades']
         ],
@@ -712,7 +661,7 @@ $product_details = [
             'These bars, composed of HYSD steel and hot-rolled deformed steel, are designed to deliver high performance and superior resistance, making them ideal for reinforcing concrete structures.'
         ],
         'specifications' => [
-            ['Length', 'Upto 12 metres'],
+            ['Length', 'Upto 12 metre'],
             ['Rolled Size', '16, 20, 25, 28, 32, 36, 40'],
             ['Tolerances', 'IS 16651, BS 6744']
         ],
@@ -733,7 +682,7 @@ $product_details = [
             ['Threading Method', 'Thread Rolling'],
             ['Threading condition', 'Fully Threaded'],
             ['Thread Type', 'ANSI B1.1 Class 2A Fit'],
-            ['Length', 'Upto 6 metres'],
+            ['Length', 'Upto 6 metre'],
             ['Tolerance', 'ASME B1.1 & B1.13 M'],
             ['Applications', 'Fasteners, Construction, Automotive, Fittings and many others']
         ],
@@ -757,7 +706,7 @@ $product_details = [
                     'This ensures the highest level of resistance against corrosion, including chloride ion corrosion. In the final step, the pickling process is performed by immersing the prepared steel in an acid solution to remove any marks or scale on the steel surface.'
                 ],
                 'specifications' => [
-                    ['Length', 'Upto 6.4 metres'],
+                    ['Length', 'Upto 6.4 metre'],
                     ['Hot Rolled', 'Annealed & Pickled (HRAP)'],
                     ['Tolerance', 'ASTM A484, EN 10058'],
                     ['Code', 'Both ends are color coded as per the customer\'s specific requirement'],
@@ -775,7 +724,7 @@ $product_details = [
                     'This process, known as cold drawing, involves pulling a steel bar through a die to reduce its cross-sectional area and refine its shape.'
                 ],
                 'specifications' => [
-                    ['Length', '2 meters – 6 metres (8 feet to 20 feet)'],
+                    ['Length', '2 metre – 6 metre (8 feet to 20 feet)'],
                     ['Tolerance', 'h11 and ASTM A 484'],
                     ['Surface Finish', 'Cold Drawn and Pickled Condition'],
                     ['Heat Treatment', 'Solution Annealed']
@@ -830,7 +779,7 @@ $product_details = [
                     'The symmetrical shape of equal angles makes them suitable for applications requiring consistent support across two perpendicular surfaces, such as beams, braces, and frames.'
                 ],
                 'specifications' => [
-                    ['Length', 'Up to 6.4 metres'],
+                    ['Length', 'Up to 6.4 metre'],
                     ['Tolerances', 'ASTM A484, EN10056'],
                     ['Heat Treatment Process', 'Hot rolled, Solution Annealed & Pickled (HRAP)'],
                     ['Shot Blasting', 'As per customer’s request'],
@@ -849,7 +798,7 @@ $product_details = [
                     'They are commonly applied in automotive, construction and heavy-duty applications where asymmetrical profiles are needed.'
                 ],
                 'specifications' => [
-                    ['Length', 'Up to 6.4 metres'],
+                    ['Length', 'Up to 6.4 metre'],
                     ['Tolerances', 'ASTM A484, EN10056'],
                     ['Heat Treatment Process', 'Solution Annealed & Pickled (HRAP)'],
                     ['Dimensions', 'As per EN, DIN, JIS, ASTM, BS, ASME, AISI, etc.'],
@@ -936,7 +885,7 @@ $product_details = [
                     ['Supply Condition', 'Welded & Bead Rolled / Welded & Cold Drawn, Bright Annealed / Solution Annealed & Passivated, Stabilization Heat Treatment'],
                     ['Grades', 'TP-304/L/LN/H/N, TP-316/L/LN/H/N/Ti, TP-317/L, TP-321/H, TP-347/H, UNS S31254, TP-409, TP-430Ti, TP-439, UNS S44735, UNS S31803, S32205'],
                     ['European Grades', 'Various grades as per European Norms'],
-                    ['Length', 'Straight / U bend condition having developed length upto 40 meters']
+                    ['Length', 'Straight / U bend condition having developed length upto 40 metre']
                 ]
             ]
         ],
@@ -974,7 +923,7 @@ $product_details = [
                     'These tubes are manufactured without a welded seam, ensuring superior structural integrity and reliability, especially crucial in demanding industrial environments.'
                 ],
                 'specifications' => [
-                    ['Length', 'Straight / U bend condition having developed length upto 40 meters'],
+                    ['Length', 'Straight / U bend condition having developed length upto 40 metre'],
                     ['Heat Treatment', 'Bright Annealed / Solution Annealed & Passivated'],
                     ['Grades', 'TP-304/L/H, TP-316/L/N/H/N/TL, TP-317/L, TP-321/H, TP-347/H, UNS S31050, S31254, UNS N08904, N08800, N08825, N08020, N08028, TP-405, TP-410, TP-430, TP-446, UNS S31260, S31500, S32304, S31803, S32206, S32750, S32760, UNS N04400, N06600, N10276'],
                     ['Dimensions', 'ASTM A 213, A 268, A269, A 270, A688, A 789, EN 10216-5, SB-163, SB-167, SB-407, SB-423, SB-444'],
@@ -992,7 +941,7 @@ $product_details = [
                 'specifications' => [
                     ['Supply Conditions', 'Welded & Bead Rolled / Welded & Cold Drawn'],
                     ['Heat Treatment', 'Bright Annealed / Solution Annealed & Passivated'],
-                    ['Length', 'Straight / U bend condition having developed length upto 40 meters'],
+                    ['Length', 'Straight / U bend condition having developed length upto 40 metre'],
                     ['Grades', 'TP-304/L/LN/H/N, TP-316/L/LN/H/N/Ti, TP-317/L, TP-321/H, TP-347/H, UNS S31254, TP-409, TP-430Ti, TP-439, UNS S44735, UNS S31803, S32205'],
                     ['European Grades', 'Various grades as per European Norms']
                 ]

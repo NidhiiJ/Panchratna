@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="contact-info-content">
                                     <h3>Our Factory Address</h3>
-                                    <p>PLOT NO.4B, FOSSBERRY ROAD, SEWRI, MUMBAI, MAHARASHTRA, INDIA, 400015</p>
+                                    <p>PLOT NO.4B, FORSBERRY ROAD, SEWRI, MUMBAI, MAHARASHTRA, INDIA, 400015</p>
                                 </div>
                             </div>
                             <!-- Page Contact Item End -->

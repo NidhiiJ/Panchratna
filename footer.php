@@ -8,7 +8,7 @@ $company_info = [
     ],
 
     'factory_address' => [
-        'line1' => 'PLOT NO.4B, FOSSBERRY ROAD,',
+        'line1' => 'PLOT NO.4B, FORSBERRY ROAD,',
         'line2' => 'SEWRI, MUMBAI, MAHARASHTRA,',
         'line3' => 'INDIA, 400015'
     ],
@@ -116,7 +116,7 @@ $quick_links = [
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="footer-copyright-text">
-                        <p>Copyright © <?php echo date('Y'); ?> All Rights Reserved.</p>
+                        <p>© <?php echo date('Y'); ?> Panchratna Overseas. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
