@@ -33,8 +33,7 @@ $galleryCategories = [
         "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-3.jpg",
         "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-4.jpg",
         "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-5.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-6.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-7.jpg"
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-6.jpg"
     ]
 ];
 
