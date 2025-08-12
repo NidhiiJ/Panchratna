@@ -817,7 +817,7 @@ header.main-header .header-sticky.active{
 
 .slicknav_menu{
     width: 100%;
-	max-height: 80vh;
+	max-height: 60vh;
 	overflow: auto;
 	border-radius: 0 0.5rem 0.5rem 0.5rem;
 	padding: 0;
