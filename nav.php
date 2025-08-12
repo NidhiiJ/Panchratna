@@ -22,6 +22,12 @@ $menu_items = [
     'contact' => ['url' => 'contact.php', 'text' => 'Contact Us']
 ];
 
+// Add "All Products" as the first submenu item
+$menu_items['products']['submenu'][] = [
+    'url' => 'products.php',
+    'text' => 'All Products'
+];
+
 // Dynamically generate submenu items from $products
 foreach ($products as $keyName => $product) {
     // Create SEO-friendly URL using keyName

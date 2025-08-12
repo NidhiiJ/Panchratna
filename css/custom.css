@@ -670,7 +670,9 @@ header.main-header .header-sticky.active{
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	width: 230px;
+	width: 320px;
+	max-height: 60vh;
+	overflow:auto;
 	border-radius: 20px;
 	position: absolute;
 	left: 0;
@@ -679,9 +681,8 @@ header.main-header .header-sticky.active{
 	text-align: left;
 	transition: all 0.3s ease-in-out;
 }
-
 .main-menu ul li.submenu:first-child ul{
-    width: 230px;
+    width: 100%;
 }
 
 .main-menu ul ul ul{
@@ -729,7 +730,7 @@ header.main-header .header-sticky.active{
 .main-menu ul ul li .nav-link:focus{
 	color: var(--primary-color);
 	background-color: transparent;
-	padding: 4px 20px 4px 23px !important;
+	/* padding: 4px 20px 4px 23px !important; */
 }
 
 .header-social-links ul{
@@ -816,6 +817,8 @@ header.main-header .header-sticky.active{
 
 .slicknav_menu{
     width: 100%;
+	max-height: 80vh;
+	overflow: auto;
 	border-radius: 0 0.5rem 0.5rem 0.5rem;
 	padding: 0;
 	background: var(--accent-color);
@@ -4687,6 +4690,46 @@ header.main-header .header-sticky.active{
 /************************************/
 /***     Panchratna Custom Css      ***/
 /************************************/
+
+/* Remove scrollbar arrows/buttons everywhere (WebKit/Blink) */
+*::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
+
+/* Global scrollbar styling (WebKit/Blink) */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important; /* no track bg */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4); /* thin rounded line */
+  border-radius: 999px;
+}
+
+/* Optional hover effect */
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Firefox global scrollbar */
+* {
+  scrollbar-width: thin; /* slim */
+  scrollbar-color: rgba(0, 0, 0, 0.4) transparent; /* thumb + track */
+}
+
 
 .slicknav_btn{
 	background: transparent;
