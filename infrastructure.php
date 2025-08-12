@@ -15,8 +15,29 @@ $galleryCategories = [
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-2.jpg",
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-3.jpg",
         "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-4.jpg"
+    ],
+    "Factory Unit 1" => [
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-1.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-2.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-3.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-4.jpg"
+    ],
+    "Factory Unit 2" => [
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-1.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-2.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-3.jpg"
+    ],
+    "Factory Unit 3" => [
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-1.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-2.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-3.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-4.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-5.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-6.jpg",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-7.jpg"
     ]
 ];
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
