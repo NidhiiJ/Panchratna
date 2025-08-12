@@ -426,36 +426,36 @@ $product_details = [
                 'headers' => ['Black', 'Bright'],
                 'values' => [
                     ['14', '12'],
-                    ['14', '12.7'],
-                    ['16', '14'],
-                    ['16', '15'],
-                    ['18', '16'],
-                    ['18', '17'],
-                    ['19', '18'],
-                    ['20', '19'],
-                    ['21', '20'],
-                    ['22', '21'],
-                    ['23', '22'],
-                    ['24', '23'],
-                    ['25', '24'],
-                    ['26', '25'],
-                    ['27', '26'],
-                    ['28', '27'],
-                    ['30', '28'],
-                    ['32', '30'],
-                    ['34', '32'],
-                    ['36', '34'],
-                    ['38', '36'],
-                    ['40', '38'],
-                    ['42', '40'],
-                    ['43', '41'],
-                    ['45', '43'],
-                    ['46', '44'],
-                    ['47', '45'],
-                    ['50', '47'],
-                    ['50', '48'],
-                    ['53', '50'],
-                    ['58', '55']
+                    ['16', '12.7'],
+                    ['18', '14'],
+                    ['19', '15'],
+                    ['20', '16'],
+                    ['21', '17'],
+                    ['22', '18'],
+                    ['23', '19'],
+                    ['24', '20'],
+                    ['25', '21'],
+                    ['26', '22'],
+                    ['27', '23'],
+                    ['28', '24'],
+                    ['30', '25'],
+                    ['32', '26'],
+                    ['34', '27'],
+                    ['36', '28'],
+                    ['38', '30'],
+                    ['40', '32'],
+                    ['42', '34'],
+                    ['43', '36'],
+                    ['45', '38'],
+                    ['46', '40'],
+                    ['47', '41'],
+                    ['50', '43'],
+                    ['', '44'],
+                    ['', '45'],
+                    ['', '47'],
+                    ['', '48'],
+                    ['', '50'],
+                    ['', '55']
                 ]
             ]
         ]
@@ -515,11 +515,10 @@ $product_details = [
             'These flanges are corrosion-resistant and are available in various grades, making them suitable for high-pressure and high-temperature applications in industries such as oil, gas, chemical, and food processing.'
         ],
         'specifications' => [
-            ['Type', 'Weld Neck, Slip On, Socket Weld, Threaded, Blind, Lap Joint'],
-            ['Face Type', 'Flat Face, Raised Face, Ring Type Joint'],
-            ['Standards', 'ANSI B16.5, ANSI B16.47, MSS-SP-44, ASME, DIN, BS, EN, JIS'],
-            ['Grades', '304, 304L, 316, 316L, 321, 347, Duplex 2205, Super Duplex 2507'],
-            ['Testing', 'Ultrasonic Testing, PMI Testing, Hydrostatic Testing']
+            ['Specifications', 'A 182 / A 240, SA 182 / SA 240'],
+            ['Standard', 'ANSI Flanges, ASME Flanges, DIN Flanges, EN Flanges, BS Flanges etc.'],
+            ['Dimensions', 'ANSI B16.5, ANSI B16.47 Series A & B, MSS SP44, ASA, API-605, AWWA, Custom Drawings'],
+            ['Class', '150#, 300#, 400#, 600#, 900#, 1500# & 2500#']
         ],
         'one_line_size' => '½" NB – 48" NB'
     ],
@@ -553,30 +552,24 @@ $product_details = [
             'They are widely used in forging, machining, and manufacturing applications where dimensional accuracy and durability are required.'
         ],
         'specifications' => [
-            ['Length', 'Upto 6 metre'],
-            ['Finish', 'Black'],
-            ['Grades', '304, 304L, 316, 316L, 321, 410, 416, 420, 430, Duplex Grades']
+            ['Length', 'Up to 8 meters'],
+            ['Surface', 'Hot rolled (black), Free of surface defects/cracks'],
+            ['Supply Conditions', 'Spot ground or fully ground condition, Cold-Swappable'],
+            ['Edges', 'Smooth ends without sharp edges']
         ],
         'size_charts' => [
             [
-                'headers' => ['Size (In mm)'],
+                'headers' => ['Size'],
                 'values' => [
-                    ['65'],
-                    ['75'],
-                    ['80'],
-                    ['90'],
-                    ['100'],
-                    ['105'],
-                    ['110'],
-                    ['115'],
-                    ['120'],
-                    ['125'],
-                    ['130'],
-                    ['140'],
-                    ['150'],
-                    ['160'],
-                    ['180'],
-                    ['200']
+                    ['45 RCS'],
+                    ['55 RCS'],
+                    ['63 RCS'],
+                    ['75 RCS'],
+                    ['80 RCS'],
+                    ['85 RCS'],
+                    ['90 RCS'],
+                    ['95 RCS'],
+                    ['100 RCS']
                 ]
             ]
         ]
