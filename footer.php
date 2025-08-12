@@ -20,8 +20,7 @@ $company_info = [
 $social_links = [
     'linkedin' => '#',
     'twitter' => 'https://x.com/P_O_P_L',
-    'facebook' => 'https://www.facebook.com/profile.php?id=61579134723536',
-    'instagram' => '#'
+    'facebook' => 'https://www.facebook.com/profile.php?id=61579134723536'
 ];
 
 // Quick links
