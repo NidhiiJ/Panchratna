@@ -410,7 +410,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. PSQ Bars',
         'tagline' => 'Precision Shaft Quality stainless bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/sspsqbars.jpg',
         'description' => [
             'Stainless steel PSQ (Precision Shaft Quality) bars are manufactured with precise dimensional tolerances, exceptional straightness, and a smooth surface finish.',
             'They are specifically designed for demanding rotating applications, particularly in the pump industry.'
@@ -429,7 +429,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Square Bars',
         'tagline' => 'Strong and reliable stainless square bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/sssquarebars.jpg',
         'description' => [
             'Stainless steel square bars maintain their structural integrity at high temperatures, making them suitable for furnace parts and heat exchangers.',
             'They offer high tensile strength and can withstand heavy loads, making them ideal for structural and load-bearing applications.'
@@ -531,7 +531,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Flanges',
         'tagline' => 'Durable stainless steel flanges for secure pipe connections',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/ssflanges.jpg',
         'description' => [
             'Stainless steel flanges are designed to connect pipes, valves, pumps, and other equipment in a piping system. They provide easy access for cleaning, inspection, or modification.',
             'These flanges are corrosion-resistant and are available in various grades, making them suitable for high-pressure and high-temperature applications in industries such as oil, gas, chemical, and food processing.'
@@ -550,7 +550,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Black / Forged Bars',
         'tagline' => 'Hot-rolled black & forged stainless bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/ssblackforgedbars.jpg',
         'description' => [
             'Stainless steel black bars are hot-rolled bars that have a dark, oxidized surface formed during cooling after hot rolling.',
             'Stainless steel forged bars are produced by shaping metal under heat and pressure to refine the internal grain structure and enhance mechanical properties.'
@@ -568,7 +568,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Hot Rolled RCS (Round Corner Square) Bars',
         'tagline' => 'High-strength hot rolled RCS stainless bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/sshotrolledrcsbars.jpg',
         'description' => [
             'Hot rolled RCS (Round Corner Square) bars are produced through a hot rolling process, resulting in enhanced toughness and strength.',
             'They are widely used in forging, machining, and manufacturing applications where dimensional accuracy and durability are required.'
@@ -602,7 +602,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Forged Quality Ingots',
         'tagline' => 'High-quality forged ingots for forging applications',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/ssforgedqualityingots.jpg',
         'description' => [
             'Stainless steel forged quality ingots are large cast metal blocks designed to be reheated and forged into finished shapes.',
             'They are produced with controlled chemical composition and superior internal soundness, making them suitable for critical engineering applications.'
@@ -651,7 +651,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Duplex Stainless Steel',
         'tagline' => 'High strength, corrosion-resistant duplex stainless steel',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/duplexstainlesssteel.jpg',
         'description' => [
             'Duplex stainless steels bars have enormous hardness, making them the first choice for applications that need high strength, such as in the oil and gas industry.',
             'Duplex stainless steels are called "duplex" because they have a two-phase microstructure consisting of grains of Ferrite and Austenite stainless steel.'
@@ -670,7 +670,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Deformed Bars',
         'tagline' => 'High-strength stainless steel deformed bars for construction',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/deformedbars.jpg',
         'description' => [
             'Deformed bars are developed with the highest value of quality for the tough requirements of contemporary infrastructure.',
             'These bars, composed of HYSD steel and hot-rolled deformed steel, are designed to deliver high performance and superior resistance, making them ideal for reinforcing concrete structures.'
@@ -687,7 +687,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Threaded Bars',
         'tagline' => 'Precision-engineered stainless steel threaded bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'image' => 'images/panchratnaContent/Products/threadedbars.jpg',
         'description' => [
             'Stainless Steel Threaded bars that ease the need to have precise threading for mechanical applications; 304 and 316 stainless options are commonly used in fastener manufacturing.',
             '316 stainless steel threaded bars (including A2-70 threaded rod and acme threaded rod) are known for high corrosion resistance; double-ended rods and various sizes like M12 are frequently used across industries.'
@@ -988,7 +988,7 @@ $product_details = [
             [
                 'name' => 'Rockhard Plates',
                 'tagline' => 'Exceptional wear resistance for mining and construction applications',
-                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'image' => 'images/panchratnaContent/Products/plates.jpg',
                 'description' => [
                     'Rockhard plates offer exceptional wear resistance, especially in applications involving severe abrasion in mining and construction.',
                     'They provide a strong combination of high hardness (like Rockhard 500 plates with 470 – 550 HBW) and toughness for impact resistance. These plates are also designed for ease of fabrication, allowing for cutting, welding, and forming using standard techniques.'
@@ -997,7 +997,7 @@ $product_details = [
             [
                 'name' => 'Discrete Plates',
                 'tagline' => 'Precision-rolled plates with superior finish and dimensional accuracy',
-                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'image' => 'images/panchratnaContent/Products/plates-discrete.jpg',
                 'description' => [
                     'Discrete plates are typically manufactured through hot rolling or cold rolling. Hot rolling involves heating the steel above its recrystallization temperature and then rolling it into the desired shape.',
                     'Hot rolled discrete plates are known for their durability and strength. Cold rolling is carried out at room temperature, producing plates with a smoother finish and tighter dimensional tolerances.'
