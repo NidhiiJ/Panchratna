@@ -88,9 +88,70 @@ $product_detail = $product_details[$key];
                             </div>
 
                         </div>
+                    <?php elseif ($product_detail['type'] === 'structure-3'): ?>
+                        <div id="structure-3" class="project-single-content">
+                            <div class="project-entry">
+
+                                <!-- Subproducts Grid -->
+                                <div class="subproducts-section">
+                                    <h3 class="section-title">Available Products</h3>
+                                    <div class="row">
+                                        <?php if (isset($product_detail['subproducts']) && is_array($product_detail['subproducts'])): ?>
+                                            <?php foreach ($product_detail['subproducts'] as $subKeyName => $subproduct): ?>
+                                                <div class="col-md-6 mb-2">
+                                                    <div class="subproduct-detail-card">
+                                                        <!-- Subproduct Image -->
+                                                        <div class="subproduct-image">
+                                                            <img src="<?php echo $subproduct['image']; ?>"
+                                                                alt="<?php echo htmlspecialchars($subproduct['name']); ?>"
+                                                                class="img-fluid rounded">
+                                                        </div>
+
+                                                        <!-- Subproduct Content -->
+                                                        <div class="subproduct-content">
+                                                            <h4 class="subproduct-title">
+                                                                <?php echo htmlspecialchars($subproduct['name']); ?></h4>
+                                                            <p class="subproduct-tagline text-muted ">
+                                                                <?php echo htmlspecialchars($subproduct['tagline']); ?></p>
+                                                            <p class="subproduct-description">
+                                                                <?php echo htmlspecialchars($subproduct['card_description']); ?></p>
+
+                                                            </div>
+                                                            <!-- View Details Button -->
+                                                        <div class="subproduct-action mt-3">
+                                                            <!-- <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s"> -->
+                                                            <a href="/product-single.php?key=<?php echo $subKeyName; ?>"
+                                                                class="btn-default"><span>View Details</span></a>
+                                                            <!-- </div> -->
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            <?php endforeach; ?>
+                                        <?php else: ?>
+                                            <div class="col-12">
+                                                <div class="alert alert-warning">
+                                                    No subproducts available for this category.
+                                                </div>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+
+                                <!-- Category Specifications (if any) -->
+                                <?php if (!empty($product_detail['specifications'])): ?>
+                                    <div class="category-specifications mt-5">
+                                        <h3 class="section-title ">Category Specifications</h3>
+                                        <?php
+                                        $current_product = $product_detail;
+                                        include 'product-specification.php';
+                                        ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+                        </div>
                     <?php endif; ?>
                 </div>
-
 
                 <div class="col-lg-4">
                     <div class="project-sidebar">

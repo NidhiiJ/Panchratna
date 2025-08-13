@@ -4691,6 +4691,154 @@ header.main-header .header-sticky.active{
 /***     Panchratna Custom Css      ***/
 /************************************/
 
+/* Structure-3 Single Product Page Styles */
+
+#structure-3 .main-category-info {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+#structure-3 .section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/* Subproducts Section */
+.subproducts-section {
+    margin-top: 1rem;
+}
+
+.subproduct-content{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	flex-grow: 1;
+}
+
+.subproduct-detail-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 100%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	gap:0.5rem
+}
+
+.subproduct-detail-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.subproduct-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.subproduct-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.subproduct-detail-card:hover .subproduct-image img {
+    transform: scale(1.05);
+}
+
+.subproduct-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.subproduct-tagline {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #666 !important;
+}
+
+.subproduct-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Category Specifications */
+.category-specifications {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .subproduct-detail-card {
+        margin-bottom: 2rem;
+    }
+    
+    .subproduct-image {
+        height: 180px;
+    }
+    
+    #structure-3 .main-category-info {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #structure-3 .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .subproduct-image {
+        height: 160px;
+    }
+    
+    .subproduct-title {
+        font-size: 1.2rem;
+    }
+    
+    #structure-3 .main-category-info {
+        padding: 1rem;
+    }
+    
+    .category-specifications {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .subproduct-detail-card {
+        padding: 1rem;
+    }
+    
+    .subproduct-image {
+        height: 140px;
+    }
+    
+    .subproduct-title {
+        font-size: 1.1rem;
+    }
+    
+    .subproduct-description {
+        font-size: 0.95rem;
+    }
+}
+
 /* Remove scrollbar arrows/buttons everywhere (WebKit/Blink) */
 *::-webkit-scrollbar-button {
   display: none !important;

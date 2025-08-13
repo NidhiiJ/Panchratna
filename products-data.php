@@ -120,6 +120,12 @@ $products = [
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Plates'
+    ],
+    'sswires' => [
+        'name' => 'S.S. Wires',
+        'image' => 'images/panchratnaContent/Products/ss-wires-main.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Wires'
     ]
 ];
 
@@ -999,6 +1005,138 @@ $product_details = [
                 ]
             ]
         ]
+    ],
+
+    // ===== STRUCTURE 3 ======
+
+    // S.S. Wires
+    'sswires' => [
+        "type" => 'structure-3',
+        'name' => 'S.S. Wires',
+        'tagline' => 'Premium quality stainless steel wires for diverse applications',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Our comprehensive range of stainless steel wires offers exceptional durability, corrosion resistance, and versatility for various industrial and commercial applications.',
+            'Available in multiple grades and finishes, these wires meet international standards and are suitable for applications ranging from automotive to construction and manufacturing.'
+        ],
+        'subproducts' => [
+            'springwire' => [
+                'name' => 'Spring Wire',
+                'tagline' => 'High tensile strength wire for spring applications',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Precision-manufactured spring wire with excellent elasticity and fatigue resistance, ideal for automotive and industrial spring manufacturing.',
+                'button_text' => 'View Details'
+            ],
+            'weldingwire' => [
+                'name' => 'Welding Wire',
+                'tagline' => 'Professional grade welding wire for superior joints',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Premium quality welding wire ensuring clean, strong welds with minimal spatter and excellent arc stability.',
+                'button_text' => 'View Details'
+            ],
+            'finewire' => [
+                'name' => 'Fine Wire',
+                'tagline' => 'Ultra-fine precision wire for delicate applications',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Extremely fine diameter wire with superior surface finish, perfect for electronics, medical devices, and precision instruments.',
+                'button_text' => 'View Details'
+            ],
+            'shapedwire' => [
+                'name' => 'Shaped Wire',
+                'tagline' => 'Custom profiled wire solutions',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Specially formed wires in various cross-sectional shapes including flat, square, hexagonal, and custom profiles.',
+                'button_text' => 'View Details'
+            ]
+        ]
+    ],
+
+    // Spring Wire (Individual product details - structure-1 format)
+    'springwire' => [
+        "type" => 'structure-1',
+        'name' => 'Spring Wire',
+        'tagline' => 'High tensile strength wire for spring applications',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Our spring wire is manufactured to exacting standards with superior tensile strength and excellent fatigue resistance properties.',
+            'Designed specifically for spring manufacturing, this wire maintains consistent mechanical properties and provides reliable performance in demanding applications such as automotive suspension systems, industrial machinery, and precision instruments.'
+        ],
+        'specifications' => [
+            ['Diameter Range', '0.1mm to 17mm'],
+            ['Tensile Strength', '1800-2200 N/mm²'],
+            ['Grades', '302, 304, 316, 316L, 17-7 PH'],
+            ['Surface Finish', 'Bright, Pickled, or as specified'],
+            ['Coil Weight', '25kg to 500kg'],
+            ['Standards', 'ASTM A313, EN 10270-3, JIS G4314'],
+            ['Applications', 'Compression springs, Extension springs, Torsion springs']
+        ],
+        'one_line_size' => '0.1mm – 17mm diameter'
+    ],
+
+    // Welding Wire (Individual product details - structure-1 format)
+    'weldingwire' => [
+        "type" => 'structure-1',
+        'name' => 'Welding Wire',
+        'tagline' => 'Professional grade welding wire for superior joints',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Premium quality stainless steel welding wire engineered for superior arc stability and minimal spatter production.',
+            'Our welding wire ensures excellent corrosion resistance in the final weld and provides consistent feeding characteristics for automated welding processes.'
+        ],
+        'specifications' => [
+            ['Diameter', '0.6mm, 0.8mm, 1.0mm, 1.2mm, 1.6mm, 2.0mm, 2.4mm, 3.2mm'],
+            ['Grades', 'ER308, ER308L, ER309, ER309L, ER316, ER316L, ER347'],
+            ['Standards', 'AWS A5.9, EN ISO 14343-A'],
+            ['Packaging', '15kg spools, 25kg spools'],
+            ['Shielding Gas', 'Argon, Argon-CO2 mix'],
+            ['Applications', 'TIG welding, MIG welding, Automated welding'],
+            ['Industries', 'Chemical, Food processing, Pharmaceutical, Marine']
+        ],
+        'one_line_size' => '0.6mm – 3.2mm diameter'
+    ],
+
+    // Fine Wire (Individual product details - structure-1 format)
+    'finewire' => [
+        "type" => 'structure-1',
+        'name' => 'Fine Wire',
+        'tagline' => 'Ultra-fine precision wire for delicate applications',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Ultra-fine stainless steel wire manufactured with exceptional precision and superior surface quality for demanding applications.',
+            'Our fine wire offers excellent conductivity, biocompatibility, and corrosion resistance, making it ideal for medical devices, electronics, and precision instruments.'
+        ],
+        'specifications' => [
+            ['Diameter Range', '0.025mm to 0.5mm'],
+            ['Tolerance', '±0.002mm to ±0.01mm'],
+            ['Grades', '304, 316L, 321, Custom alloys'],
+            ['Surface Finish', 'Bright annealed, Ultra-smooth'],
+            ['Tensile Strength', '1000-1800 N/mm²'],
+            ['Packaging', 'Precision spools, Clean room packaging'],
+            ['Applications', 'Medical implants, Electronics, Sensors, Filters']
+        ],
+        'one_line_size' => '0.025mm – 0.5mm diameter'
+    ],
+
+    // Shaped Wire (Individual product details - structure-1 format)
+    'shapedwire' => [
+        "type" => 'structure-1',
+        'name' => 'Shaped Wire',
+        'tagline' => 'Custom profiled wire solutions',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Custom-formed stainless steel wire available in various cross-sectional profiles to meet specific application requirements.',
+            'Our shaped wire solutions offer improved functionality, better space utilization, and enhanced performance compared to traditional round wire in specialized applications.'
+        ],
+        'specifications' => [
+            ['Profiles', 'Flat, Square, Rectangular, Hexagonal, Oval, D-shape, Custom'],
+            ['Size Range', '1mm to 25mm (largest dimension)'],
+            ['Grades', '302, 304, 316, 316L, 321, 347'],
+            ['Length', 'Cut to length or continuous coil'],
+            ['Tolerance', 'As per customer specification'],
+            ['Surface Finish', 'Bright, Pickled, Ground'],
+            ['Applications', 'Conveyor belts, Architectural, Springs, Fasteners']
+        ],
+        'one_line_size' => '1mm – 25mm (largest dimension)'
     ]
 
 ];
