@@ -1,126 +1,146 @@
 <?php
 $products = [
-    'sschannels' => [
-        'name' => 'S.S. Channels',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Channels'
-    ],
-    'ssbrightbars' => [
-        'name' => 'S.S. Bright Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Bright Bars'
-    ],
-    'sshexagonalbars' => [
-        'name' => 'S.S. Hexagonal Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Hexagonal Bars'
-    ],
-    'ssroundbars' => [
-        'name' => 'S.S. Round Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Round Bars'
-    ],
-    'sssheetscoilsplates' => [
-        'name' => 'S.S. Sheets / Coils / Plates',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Sheets / Coils / Plates'
-    ],
-    'sspsqbars' => [
-        'name' => 'S.S. PSQ Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. PSQ Bars'
-    ],
-    'sssquarebars' => [
-        'name' => 'S.S. Square Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Square Bars'
-    ],
-    'continuouscastbilletsblooms' => [
-        'name' => 'Continuous Cast Billets / Blooms',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Continuous Cast Billets / Blooms'
-    ],
-    'ssflanges' => [
-        'name' => 'S.S. Flanges',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Flanges'
-    ],
-    'ssblackforgedbars' => [
-        'name' => 'S.S. Black / Forged Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Black / Forged Bars'
-    ],
-    'sshotrolledrcsbars' => [
-        'name' => 'Hot Rolled RCS Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Hot Rolled RCS Bars'
-    ],
-    'ssforgedqualityingots' => [
-        'name' => 'Forged Quality Ingots',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Forged Quality Ingots'
-    ],
-    'duplexstainlesssteel' => [
-        'name' => 'Duplex Stainless Steel',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Duplex Stainless Steel'
-    ],
-    'deformedbars' => [
-        'name' => 'Deformed Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Deformed Bars'
-    ],
-    'threadedbars' => [
-        'name' => 'Threaded Bars',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'Threaded Bars'
-    ],
-    // Structure 2 products
+    // 1. SS Flat bars
     'ssflatbars' => [
         'name' => 'S.S. Flat Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Flat Bars'
     ],
+    // 2. SS Angle bars
     'ssanglebars' => [
         'name' => 'S.S. Angle Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Angle Bars'
     ],
+    // 3. SS Channels
+    'sschannels' => [
+        'name' => 'S.S. Channels',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Channels'
+    ],
+    // 4. SS Round bars
+    'ssroundbars' => [
+        'name' => 'S.S. Round Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Round Bars'
+    ],
+    // 5. SS Pipes
     'sspipes' => [
         'name' => 'S.S. Pipes',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Pipes'
     ],
+    // 6. SS Heat Exchanger Tubes
     'ssheatexchangertubes' => [
         'name' => 'S.S. Heat Exchanger Tubes',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Heat Exchanger Tubes'
     ],
+    // 7. SS Bright bars
+    'ssbrightbars' => [
+        'name' => 'S.S. Bright Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Bright Bars'
+    ],
+    // 8. SS Hexagonal bars
+    'sshexagonalbars' => [
+        'name' => 'S.S. Hexagonal Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Hexagonal Bars'
+    ],
+    // 9. SS Sheets / Coils / Plates
+    'sssheetscoilsplates' => [
+        'name' => 'S.S. Sheets / Coils / Plates',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Sheets / Coils / Plates'
+    ],
+    // 10. SS PSQ Bars
+    'sspsqbars' => [
+        'name' => 'S.S. PSQ Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. PSQ Bars'
+    ],
+    // 11. SS Square bar
+    'sssquarebars' => [
+        'name' => 'S.S. Square Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Square Bars'
+    ],
+    // 12. SS Flanges
+    'ssflanges' => [
+        'name' => 'S.S. Flanges',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Flanges'
+    ],
+    // 13. SS Black / Forged bars
+    'ssblackforgedbars' => [
+        'name' => 'S.S. Black / Forged Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Black / Forged Bars'
+    ],
+    // 14. Plates
     'plates' => [
         'name' => 'Plates',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Plates'
     ],
+    // 15. Continuous Cast Billets / Blooms
+    'continuouscastbilletsblooms' => [
+        'name' => 'Continuous Cast Billets / Blooms',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Continuous Cast Billets / Blooms'
+    ],
+    // 16. Duplex Stainless Steel
+    'duplexstainlesssteel' => [
+        'name' => 'Duplex Stainless Steel',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Duplex Stainless Steel'
+    ],
+    // 17. Hot Rolled RCS bars
+    'sshotrolledrcsbars' => [
+        'name' => 'Hot Rolled RCS Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Hot Rolled RCS Bars'
+    ],
+    // 18. Forged Quality Ingots
+    'ssforgedqualityingots' => [
+        'name' => 'Forged Quality Ingots',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Forged Quality Ingots'
+    ],
+    // 19. Deformed bars
+    'deformedbars' => [
+        'name' => 'Deformed Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Deformed Bars'
+    ],
+    // 20. Threaded bars
+    'threadedbars' => [
+        'name' => 'Threaded Bars',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'Threaded Bars'
+    ],
+    // Additional product not in the original list - appended at the end
     'sswires' => [
         'name' => 'S.S. Wires',
         'image' => 'images/panchratnaContent/Products/ss-wires-main.jpg',
