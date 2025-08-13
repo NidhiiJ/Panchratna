@@ -106,8 +106,8 @@ $products = [
         'tag' => 'S.S. Black / Forged Bars'
     ],
     // 16. Plates
-    'plates' => [
-        'name' => 'Plates',
+    'ssplates' => [
+        'name' => 'S.S. Plates',
         'image' => 'images/panchratnaContent/Products/plates.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Plates'
@@ -981,9 +981,9 @@ $product_details = [
     ],
 
     // Plates
-    'plates' => [
+    'ssplates' => [
         "type" => 'structure-2',
-        'name' => 'Plates',
+        'name' => 'S.S. Plates',
         "products" => [
             [
                 'name' => 'Rockhard Plates',
