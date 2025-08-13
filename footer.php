@@ -51,8 +51,6 @@ $quick_links = [
                         </li>
                         <li><a href="<?php echo $social_links['facebook']; ?>"><i
                                     class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="<?php echo $social_links['instagram']; ?>"><i
-                                    class="fa-brands fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
