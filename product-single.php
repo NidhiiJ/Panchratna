@@ -35,10 +35,6 @@ $product_detail = $product_details[$key];
                         <h1 class="text-anime-style-2" data-cursor="-opaque">
                             <?php echo htmlspecialchars($product_detail['name']); ?>
                         </h1>
-                        <?php if (!empty($product_detail['one_line_size'])): ?>
-                            <p class="one-liner-size"><span>Size - </span><?php echo $product_detail['one_line_size']; ?>
-                            </p>
-                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -58,6 +54,14 @@ $product_detail = $product_details[$key];
                                 $current_product = $product_detail;
 
                                 include 'product-info.php';
+
+                                if (!empty($current_product['one_line_size'])): ?>
+                                    <div class="one-liner-size">
+                                        <span>Size - </span><?php echo $current_product['one_line_size']; ?>
+                                    </div>
+                                    <?php
+                                endif;
+
                                 include 'product-specification.php';
                                 include 'product-size-chart.php';
                                 ?>
@@ -84,6 +88,13 @@ $product_detail = $product_details[$key];
                                     $current_product = $product_detail;
                                     include 'product-size-chart.php';
                                 }
+                                if (!empty($current_product['one_line_size'])): ?>
+                                    <div class="one-liner-size">
+                                        <span>Size - </span><?php echo $current_product['one_line_size']; ?>
+                                    </div>
+                                    <?php
+                                endif;
+
                                 ?>
                             </div>
 
@@ -110,14 +121,17 @@ $product_detail = $product_details[$key];
                                                         <!-- Subproduct Content -->
                                                         <div class="subproduct-content">
                                                             <h4 class="subproduct-title">
-                                                                <?php echo htmlspecialchars($subproduct['name']); ?></h4>
+                                                                <?php echo htmlspecialchars($subproduct['name']); ?>
+                                                            </h4>
                                                             <p class="subproduct-tagline text-muted ">
-                                                                <?php echo htmlspecialchars($subproduct['tagline']); ?></p>
+                                                                <?php echo htmlspecialchars($subproduct['tagline']); ?>
+                                                            </p>
                                                             <p class="subproduct-description">
-                                                                <?php echo htmlspecialchars($subproduct['card_description']); ?></p>
+                                                                <?php echo htmlspecialchars($subproduct['card_description']); ?>
+                                                            </p>
 
-                                                            </div>
-                                                            <!-- View Details Button -->
+                                                        </div>
+                                                        <!-- View Details Button -->
                                                         <div class="subproduct-action mt-3">
                                                             <!-- <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s"> -->
                                                             <a href="/product-single.php?key=<?php echo $subKeyName; ?>"

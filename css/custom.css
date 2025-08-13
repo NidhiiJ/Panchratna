@@ -3837,9 +3837,9 @@ header.main-header .header-sticky.active{
 	margin-bottom: 0;
 }
 
-.project-single-image{
+/* .project-single-image{
     margin-bottom: 30px;
-}
+} */
 
 .project-single-image figure{
     display: block;
@@ -3858,10 +3858,10 @@ header.main-header .header-sticky.active{
     margin-bottom: 60px;
 }
 
-.project-info,
+/* .project-info,
 .project-goal{
 	margin-bottom: 60px;
-}
+} */
 
 .project-entry h2{
     font-size: 50px;
@@ -4691,6 +4691,12 @@ header.main-header .header-sticky.active{
 /***     Panchratna Custom Css      ***/
 /************************************/
 
+.sub-product-wrapper{
+	display:flex;
+	flex-direction:column;
+	gap:2rem
+}
+
 /* Structure-3 Single Product Page Styles */
 
 #structure-3 .main-category-info {
@@ -4933,9 +4939,9 @@ a[href^="mailto:"] {
 	margin-top: 0 !important;
 }
 
-.specifications-container {
+/* .specifications-container {
     margin-bottom: 20px;
-}
+} */
 
 .specifications-container h3{
 	margin-bottom: 8px
@@ -4959,7 +4965,7 @@ a[href^="mailto:"] {
 }
 
 .size-chart-container {
-  margin: 40px 0;
+  margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
   background-color: var(--secondary-color);
@@ -4982,6 +4988,10 @@ a[href^="mailto:"] {
   margin-top: 25px; /* space above subheading */
   margin-bottom: 10px; /* space below subheading */
   padding-bottom: 4px;
+}
+
+.one-liner-size{
+	font-size: 1.4rem;
 }
 
 .one-liner-size span{
@@ -5896,9 +5906,9 @@ a[href^="mailto:"] {
 		margin-bottom: 15px;
 	}
 
-	.project-single-image{
+	/* .project-single-image{
 		margin-bottom: 20px;
-	}
+	} */
 
 	.project-single-image figure{
 		border-radius: 30px;
@@ -5913,10 +5923,10 @@ a[href^="mailto:"] {
 		margin-bottom: 30px;
 	}
 
-	.project-info,
+	/* .project-info,
 	.project-goal{
 		margin-bottom: 30px;
-	}
+	} */
 
 	.project-entry h2{
 		font-size: 40px;
@@ -6354,7 +6364,7 @@ a[href^="mailto:"] {
 	}
 
 	.project-entry{
-		gap: 1rem;
+		gap: 2rem;
 	}
 
 	.project-content h3{

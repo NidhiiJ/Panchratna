@@ -42,110 +42,117 @@ $products = [
         'url' => 'project-single.php',
         'tag' => 'S.S. Heat Exchanger Tubes'
     ],
-    // 7. SS Bright bars
+    // 7. S.S. Welded Wires (4 types)
+    'ssweldedwires' => [
+        'name' => 'S.S. Welded Wires',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Welded Wires'
+    ],
+    // 8. S.S. Wires (8 types)  
+    'sswires' => [
+        'name' => 'S.S. Wires',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'url' => 'project-single.php',
+        'tag' => 'S.S. Wires'
+    ],
+    // 9. SS Bright bars
     'ssbrightbars' => [
         'name' => 'S.S. Bright Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Bright Bars'
     ],
-    // 8. SS Hexagonal bars
+    // 10. SS Hexagonal bars
     'sshexagonalbars' => [
         'name' => 'S.S. Hexagonal Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Hexagonal Bars'
     ],
-    // 9. SS Sheets / Coils / Plates
+    // 11. SS Sheets / Coils / Plates
     'sssheetscoilsplates' => [
         'name' => 'S.S. Sheets / Coils / Plates',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Sheets / Coils / Plates'
     ],
-    // 10. SS PSQ Bars
+    // 12. SS PSQ Bars
     'sspsqbars' => [
         'name' => 'S.S. PSQ Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. PSQ Bars'
     ],
-    // 11. SS Square bar
+    // 13. SS Square bar
     'sssquarebars' => [
         'name' => 'S.S. Square Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Square Bars'
     ],
-    // 12. SS Flanges
+    // 14. SS Flanges
     'ssflanges' => [
         'name' => 'S.S. Flanges',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Flanges'
     ],
-    // 13. SS Black / Forged bars
+    // 15. SS Black / Forged bars
     'ssblackforgedbars' => [
         'name' => 'S.S. Black / Forged Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Black / Forged Bars'
     ],
-    // 14. Plates
+    // 16. Plates
     'plates' => [
         'name' => 'Plates',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'S.S. Plates'
     ],
-    // 15. Continuous Cast Billets / Blooms
+    // 17. Continuous Cast Billets / Blooms
     'continuouscastbilletsblooms' => [
         'name' => 'Continuous Cast Billets / Blooms',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Continuous Cast Billets / Blooms'
     ],
-    // 16. Duplex Stainless Steel
+    // 18. Duplex Stainless Steel
     'duplexstainlesssteel' => [
         'name' => 'Duplex Stainless Steel',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Duplex Stainless Steel'
     ],
-    // 17. Hot Rolled RCS bars
+    // 19. Hot Rolled RCS bars
     'sshotrolledrcsbars' => [
         'name' => 'Hot Rolled RCS Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Hot Rolled RCS Bars'
     ],
-    // 18. Forged Quality Ingots
+    // 20. Forged Quality Ingots
     'ssforgedqualityingots' => [
         'name' => 'Forged Quality Ingots',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Forged Quality Ingots'
     ],
-    // 19. Deformed bars
+    // 21. Deformed bars
     'deformedbars' => [
         'name' => 'Deformed Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Deformed Bars'
     ],
-    // 20. Threaded bars
+    // 22. Threaded bars
     'threadedbars' => [
         'name' => 'Threaded Bars',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'url' => 'project-single.php',
         'tag' => 'Threaded Bars'
-    ],
-    // Additional product not in the original list - appended at the end
-    'sswires' => [
-        'name' => 'S.S. Wires',
-        'image' => 'images/panchratnaContent/Products/ss-wires-main.jpg',
-        'url' => 'project-single.php',
-        'tag' => 'S.S. Wires'
     ]
 ];
 
@@ -1029,135 +1036,361 @@ $product_details = [
 
     // ===== STRUCTURE 3 ======
 
-    // S.S. Wires
-    'sswires' => [
+    // 7. S.S. Welded Wires
+
+    'ssweldedwires' => [
         "type" => 'structure-3',
-        'name' => 'S.S. Wires',
-        'tagline' => 'Premium quality stainless steel wires for diverse applications',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-        'description' => [
-            'Our comprehensive range of stainless steel wires offers exceptional durability, corrosion resistance, and versatility for various industrial and commercial applications.',
-            'Available in multiple grades and finishes, these wires meet international standards and are suitable for applications ranging from automotive to construction and manufacturing.'
-        ],
+        'name' => 'S.S. Welded Wires',
         'subproducts' => [
-            'springwire' => [
-                'name' => 'Spring Wire',
-                'tagline' => 'High tensile strength wire for spring applications',
+            'migwire' => [
+                'name' => 'MIG Wire',
+                'tagline' => 'High-performance MIG wire for stainless steel welding',
                 'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-                'card_description' => 'Precision-manufactured spring wire with excellent elasticity and fatigue resistance, ideal for automotive and industrial spring manufacturing.',
+                'card_description' => 'Stainless steel (SS) MIG (Metal Inert Gas) wire, also known as GMAW (Gas Metal Arc Welding) wire, is a consumable filler metal specifically designed for welding stainless steel and dissimilar metals.',
                 'button_text' => 'View Details'
             ],
-            'weldingwire' => [
-                'name' => 'Welding Wire',
-                'tagline' => 'Professional grade welding wire for superior joints',
+            'tigwire' => [
+                'name' => 'TIG Wire',
+                'tagline' => 'Precision TIG filler rods for high-quality welds',
                 'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-                'card_description' => 'Premium quality welding wire ensuring clean, strong welds with minimal spatter and excellent arc stability.',
+                'card_description' => 'Stainless steel (SS) TIG (Tungsten Inert Gas) wire, also known as GTAW (Gas Tungsten Arc Welding) wire or filler rods, is a high-quality consumable filler metal used in TIG welding for stainless steel and high-grade alloys.',
                 'button_text' => 'View Details'
             ],
-            'finewire' => [
-                'name' => 'Fine Wire',
-                'tagline' => 'Ultra-fine precision wire for delicate applications',
+            'sawwire' => [
+                'name' => 'SAW Wire',
+                'tagline' => 'Durable SAW wire for submerged arc welding',
                 'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-                'card_description' => 'Extremely fine diameter wire with superior surface finish, perfect for electronics, medical devices, and precision instruments.',
+                'card_description' => 'Stainless steel (SS) SAW wire is a consumable filler metal specifically designed for use in Submerged Arc Welding (SAW), a high-productivity process.',
                 'button_text' => 'View Details'
             ],
-            'shapedwire' => [
-                'name' => 'Shaped Wire',
-                'tagline' => 'Custom profiled wire solutions',
+            'corewire' => [
+                'name' => 'Core Wire',
+                'tagline' => 'Flux-cored stainless steel wire for FCAW',
                 'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
-                'card_description' => 'Specially formed wires in various cross-sectional shapes including flat, square, hexagonal, and custom profiles.',
+                'card_description' => 'Stainless steel (SS) cored wire, particularly flux-cored wire, is a type of welding wire used in the Flux-Cored Arc Welding (FCAW) process.',
                 'button_text' => 'View Details'
             ]
         ]
     ],
 
-    // Spring Wire (Individual product details - structure-1 format)
+    // MIG Wire Details
+    'migwire' => [
+        "type" => 'structure-1',
+        'name' => 'MIG Wire',
+        'tagline' => 'High-performance MIG wire for stainless steel welding',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel (SS) MIG (Metal Inert Gas) wire, also known as GMAW (Gas Metal Arc Welding) wire, is a consumable filler metal specifically designed for welding stainless steel and, in some cases, dissimilar metals.',
+            'This wire feeds into a welding gun, melts, and fuses with the base metal to create a strong, clean weld.'
+        ],
+        'specifications' => [
+            ['Grades', '307Si, 308L, 308LSi, 309L, 309LSi, 310, 312, 316L, etc.'],
+            ['Surface Finish', 'Bright & Matt finish']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size Range (In mm)'],
+                'values' => [
+                    ['0.60mm'],
+                    ['0.80mm'],
+                    ['0.90mm'],
+                    ['1.00mm'],
+                    ['1.20mm'],
+                    ['1.60mm']
+                ]
+            ]
+        ]
+    ],
+
+    // TIG Wire
+    'tigwire' => [
+        "type" => 'structure-1',
+        'name' => 'TIG Wire',
+        'tagline' => 'Precision TIG filler rods for high-quality welds',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel (SS) TIG (Tungsten Inert Gas) wire, also known as GTAW (Gas Tungsten Arc Welding) wire or filler rods, is a high-quality consumable filler metal used in the TIG welding process, especially for stainless steel and other high-grade alloys.',
+            'In TIG welding, a non-consumable tungsten electrode creates the arc, and the TIG wire is manually fed into the weld pool for strong, precise, and aesthetically pleasing welds. TIG welding is favored for its control, precision, and ability to produce high-quality welds with excellent finish and corrosion resistance.'
+        ],
+        'specifications' => [
+            ['Grades', '307Si, 308L, 308LSi, 309L, 309LSi, 310, 312, 316L, etc.'],
+            ['Surface Finish', 'Bright & Matt finish']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size Range (In mm)'],
+                'values' => [
+                    ['1.00mm'],
+                    ['1.20mm'],
+                    ['1.60mm'],
+                    ['2.00mm'],
+                    ['2.40mm'],
+                    ['3.20mm'],
+                    ['4.00mm'],
+                    ['5.00mm']
+                ]
+            ]
+        ]
+    ],
+
+    // SAW Wire
+    'sawwire' => [
+        "type" => 'structure-1',
+        'name' => 'SAW Wire',
+        'tagline' => 'Durable SAW wire for submerged arc welding',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel (SS) SAW wire is a consumable filler metal specifically designed for use in Submerged Arc Welding (SAW), a high-productivity welding process.',
+            'In SAW, the welding arc is submerged under a layer of granular flux, shielding the weld from atmospheric contamination and producing deep weld penetration with minimal spatter. This method is ideal for heavy fabrication and structural welding applications.'
+        ],
+        'specifications' => [
+            ['Grades', '307Si, 308L, 308LSi, 309L, 309LSi, 310, 312, 316L, etc.'],
+            ['Surface Finish', 'Bright & Matt finish']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size Range (In mm)'],
+                'values' => [
+                    ['1.60mm'],
+                    ['2.00mm'],
+                    ['2.40mm'],
+                    ['3.20mm'],
+                    ['4.00mm']
+                ]
+            ]
+        ]
+    ],
+
+    // Core Wire
+    'corewire' => [
+        "type" => 'structure-1',
+        'name' => 'Core Wire',
+        'tagline' => 'Flux-cored stainless steel wire for FCAW',
+        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'description' => [
+            'Stainless steel (SS) cored wire, particularly flux-cored wire, is a type of welding wire used in the Flux-Cored Arc Welding (FCAW) process.',
+            'Unlike solid wire, cored wire is tubular with a core containing flux materials (for flux-cored wires) or metallic powders (for metal-cored wires). This design enhances welding performance by providing additional shielding, deoxidizers, and alloying elements. FCAW offers high deposition rates and strong welds, making it suitable for heavy fabrication and outdoor welding.'
+        ],
+        'specifications' => [
+            ['Grades', '307Si, 308L, 308LSi, 309L, 309LSi, 310, 312, 316L, etc.'],
+            ['Shape', 'Round'],
+            ['Weight', '250KG']
+        ],
+        'size_charts' => [
+            [
+                'headers' => ['Size Range (In mm)'],
+                'values' => [
+                    ['1.60mm'],
+                    ['2.00mm'],
+                    ['2.40mm'],
+                    ['3.20mm'],
+                    ['4.00mm'],
+                    ['5.00mm']
+                ]
+            ]
+        ]
+    ],
+
+
+    'sswires' => [
+        "type" => 'structure-3',
+        'name' => 'S.S. Wires',
+        'subproducts' => [
+            'springwire' => [
+                'name' => 'Spring Wire',
+                'tagline' => 'High tensile spring wire',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Stainless steel spring wire is engineered for high tensile strength and durability, enabling springs to withstand heavy loads and mechanical stress without breaking or deforming.',
+                'button_text' => 'View Details'
+            ],
+            'epqwire' => [
+                'name' => 'EPQ Wire',
+                'tagline' => 'Electro-polish quality wire',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Stainless steel EPQ (Electro Polish Quality) wire is a specialized type of stainless steel wire designed for applications where a superior surface finish, enhanced corrosion resistance, and aesthetic appeal are paramount.',
+                'button_text' => 'View Details'
+            ],
+            'chqwire' => [
+                'name' => 'CHQ Wire',
+                'tagline' => 'Cold heading quality wire',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Cold Heading Quality (CHQ) Wires is a kind of steel wire that is manufactured by drawing and annealing wire rods.',
+                'button_text' => 'View Details'
+            ],
+            'exhaustwire' => [
+                'name' => 'Exhaust Wire',
+                'tagline' => 'Wire for exhaust systems',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Stainless steel (SS) exhaust wire typically refers to welding wire specifically designed for fabricating and repairing automotive and other exhaust systems, where high heat, vibration, and corrosive conditions are prevalent.',
+                'button_text' => 'View Details'
+            ],
+            'vineyardwire' => [
+                'name' => 'Vineyard Wire',
+                'tagline' => 'Durable vineyard trellis wire',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'stainless steel vineyard wires ensure that your vines stay healthy and secure throughout the growing season.',
+                'button_text' => 'View Details'
+            ],
+            'conveyorwire' => [
+                'name' => 'Conveyor Wire',
+                'tagline' => 'For conveyor belt applications',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'stainless steel grade for conveyor wire depends largely on the intended application and the environmental conditions it will encounter.',
+                'button_text' => 'View Details'
+            ],
+            'generalpurposewire' => [
+                'name' => 'General Purpose Wire',
+                'tagline' => 'Versatile stainless wire',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'General purpose stainless steel (SS) wires are versatile and widely used due to their corrosion resistance, strength, and durability.',
+                'button_text' => 'View Details'
+            ],
+            'wirerod' => [
+                'name' => 'Wire Rod',
+                'tagline' => 'Stainless wire rod feedstock',
+                'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+                'card_description' => 'Stainless steel wire rods are incredibly strong and resistant to wear and tear, making them ideal for heavy-duty applications in construction, manufacturing, and more.',
+                'button_text' => 'View Details'
+            ],
+        ],
+    ],
+
+    // Spring Wire
     'springwire' => [
         "type" => 'structure-1',
         'name' => 'Spring Wire',
-        'tagline' => 'High tensile strength wire for spring applications',
+        'tagline' => 'High tensile stainless spring wire',
         'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
         'description' => [
-            'Our spring wire is manufactured to exacting standards with superior tensile strength and excellent fatigue resistance properties.',
-            'Designed specifically for spring manufacturing, this wire maintains consistent mechanical properties and provides reliable performance in demanding applications such as automotive suspension systems, industrial machinery, and precision instruments.'
+            'Stainless steel spring wire is engineered for high tensile strength and durability, enabling springs to withstand heavy loads and mechanical stress without breaking or deforming.',
+            'It retains its strength at operating temperatures up to 250°C and can be used in reduced stress levels up to 450°C.'
         ],
         'specifications' => [
-            ['Diameter Range', '0.1mm to 17mm'],
-            ['Tensile Strength', '1800-2200 N/mm²'],
-            ['Grades', '302, 304, 316, 316L, 17-7 PH'],
-            ['Surface Finish', 'Bright, Pickled, or as specified'],
-            ['Coil Weight', '25kg to 500kg'],
-            ['Standards', 'ASTM A313, EN 10270-3, JIS G4314'],
-            ['Applications', 'Compression springs, Extension springs, Torsion springs']
+            ['Grades', '302, 304, 304H, 316, 631, etc.'],
+            ['Surface Finish', 'Bright & Matt Finish']
         ],
-        'one_line_size' => '0.1mm – 17mm diameter'
+        'one_line_size' => '0.7mm – 10.0mm'
     ],
 
-    // Welding Wire (Individual product details - structure-1 format)
-    'weldingwire' => [
+    // EPQ Wire
+    'epqwire' => [
         "type" => 'structure-1',
-        'name' => 'Welding Wire',
-        'tagline' => 'Professional grade welding wire for superior joints',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'name' => 'EPQ Wire',
+        'tagline' => 'Electro polish quality stainless wire',
+        'image' => 'images/panchratnaContent/Products/epq-wire.jpg',
         'description' => [
-            'Premium quality stainless steel welding wire engineered for superior arc stability and minimal spatter production.',
-            'Our welding wire ensures excellent corrosion resistance in the final weld and provides consistent feeding characteristics for automated welding processes.'
+            'Stainless steel EPQ (Electro Polish Quality) wire is a specialized type of stainless steel wire designed for applications where a superior surface finish, enhanced corrosion resistance, and aesthetic appeal are paramount.',
+            'These wires undergo an electropolishing process to achieve their unique properties.'
         ],
         'specifications' => [
-            ['Diameter', '0.6mm, 0.8mm, 1.0mm, 1.2mm, 1.6mm, 2.0mm, 2.4mm, 3.2mm'],
-            ['Grades', 'ER308, ER308L, ER309, ER309L, ER316, ER316L, ER347'],
-            ['Standards', 'AWS A5.9, EN ISO 14343-A'],
-            ['Packaging', '15kg spools, 25kg spools'],
-            ['Shielding Gas', 'Argon, Argon-CO2 mix'],
-            ['Applications', 'TIG welding, MIG welding, Automated welding'],
-            ['Industries', 'Chemical, Food processing, Pharmaceutical, Marine']
+            ['Grades', '304, 304L, 316, 316L, 316Ti, 321, etc.']
         ],
-        'one_line_size' => '0.6mm – 3.2mm diameter'
+        'one_line_size' => '1.8mm – 10.0mm'
     ],
 
-    // Fine Wire (Individual product details - structure-1 format)
-    'finewire' => [
+    // CHQ Wire
+    'chqwire' => [
         "type" => 'structure-1',
-        'name' => 'Fine Wire',
-        'tagline' => 'Ultra-fine precision wire for delicate applications',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'name' => 'CHQ Wire',
+        'tagline' => 'Cold heading quality stainless wire',
+        'image' => 'images/panchratnaContent/Products/chq-wire.jpg',
         'description' => [
-            'Ultra-fine stainless steel wire manufactured with exceptional precision and superior surface quality for demanding applications.',
-            'Our fine wire offers excellent conductivity, biocompatibility, and corrosion resistance, making it ideal for medical devices, electronics, and precision instruments.'
+            'Cold Heading Quality (CHQ) Wires is a kind of steel wire that is manufactured by drawing and annealing wire rods.',
+            'The manufacturing of the Precision Drawell’s Cold Heading Quality (CHQ) Wires involves two important processes named HRPPD (Hot Rolled Pickling, Phosphating and Drawing) and SAPPD (Spherodised Annealed, Pickling, Phosphating, and Drawing) which are used to make the high-quality CHQ Wires with precision.'
         ],
         'specifications' => [
-            ['Diameter Range', '0.025mm to 0.5mm'],
-            ['Tolerance', '±0.002mm to ±0.01mm'],
-            ['Grades', '304, 316L, 321, Custom alloys'],
-            ['Surface Finish', 'Bright annealed, Ultra-smooth'],
-            ['Tensile Strength', '1000-1800 N/mm²'],
-            ['Packaging', 'Precision spools, Clean room packaging'],
-            ['Applications', 'Medical implants, Electronics, Sensors, Filters']
+            ['Grades', '302HQ, XM7, 304HC, 305, 304, 316, 316L, 321, 410, 430, 431, etc.']
         ],
-        'one_line_size' => '0.025mm – 0.5mm diameter'
+        'one_line_size' => '1.0mm – 10.0mm'
     ],
 
-    // Shaped Wire (Individual product details - structure-1 format)
-    'shapedwire' => [
+    // Exhaust Wire
+    'exhaustwire' => [
         "type" => 'structure-1',
-        'name' => 'Shaped Wire',
-        'tagline' => 'Custom profiled wire solutions',
-        'image' => 'images/panchratnaContent/Products/ss-flatbar.jpg',
+        'name' => 'Exhaust Wire',
+        'tagline' => 'Heat and corrosion resistant exhaust wire',
+        'image' => 'images/panchratnaContent/Products/exhaust-wire.jpg',
         'description' => [
-            'Custom-formed stainless steel wire available in various cross-sectional profiles to meet specific application requirements.',
-            'Our shaped wire solutions offer improved functionality, better space utilization, and enhanced performance compared to traditional round wire in specialized applications.'
+            'Stainless steel (SS) exhaust wire typically refers to welding wire specifically designed for fabricating and repairing automotive and other exhaust systems, where high heat, vibration, and corrosive conditions are prevalent.',
+            'The choice of stainless steel for exhaust systems is driven by its exceptional resistance to rust and oxidation.'
         ],
         'specifications' => [
-            ['Profiles', 'Flat, Square, Rectangular, Hexagonal, Oval, D-shape, Custom'],
-            ['Size Range', '1mm to 25mm (largest dimension)'],
-            ['Grades', '302, 304, 316, 316L, 321, 347'],
-            ['Length', 'Cut to length or continuous coil'],
-            ['Tolerance', 'As per customer specification'],
-            ['Surface Finish', 'Bright, Pickled, Ground'],
-            ['Applications', 'Conveyor belts, Architectural, Springs, Fasteners']
+            ['Grades', '304L, 430LNb (1.4511), 409Cb, 409CbNi, 409, 1.4509, etc.']
         ],
-        'one_line_size' => '1mm – 25mm (largest dimension)'
-    ]
+        'one_line_size' => '5.0mm – 10.0mm'
+    ],
+
+    // Vineyard Wire
+    'vineyardwire' => [
+        "type" => 'structure-1',
+        'name' => 'Vineyard Wire',
+        'tagline' => 'Durable stainless wire for vineyards',
+        'image' => 'images/panchratnaContent/Products/vineyard-wire.jpg',
+        'description' => [
+            'Stainless steel vineyard wires ensure that your vines stay healthy and secure throughout the growing season.',
+            'Additionally, their resilience against environmental factors makes them a reliable choice for viticulturists looking to enhance grapevine growth.',
+            'Stainless Steel Vineyard Wire is a durable and rust-resistant wire used in vineyards.'
+        ],
+        'specifications' => [
+            ['Grades', 'AISI 304, 304L, 201, 204Cu']
+        ],
+        'one_line_size' => '1.2mm – 3.0mm'
+    ],
+
+    // Conveyor Wire
+    'conveyorwire' => [
+        "type" => 'structure-1',
+        'name' => 'Conveyor Wire',
+        'tagline' => 'Stainless steel conveyor belt wire',
+        'image' => 'images/panchratnaContent/Products/conveyor-wire.jpg',
+        'description' => [
+            'The stainless steel grade for conveyor wire depends largely on the intended application and the environmental conditions it will encounter.',
+            'It is a common and popular choice due to its balance of good corrosion resistance, formability, and weldability.'
+        ],
+        'specifications' => [
+            ['Length', 'As per order Metre'],
+            ['Colour', 'Metallic as per selection'],
+            ['Grade', '304, 316'],
+            ['Type', 'Conveyor belt / Metal belts / Industrial belts']
+        ],
+        'one_line_size' => '0.80mm – 8.0mm'
+    ],
+
+    // General Purpose Wire
+    'generalpurposewire' => [
+        "type" => 'structure-1',
+        'name' => 'General Purpose Wire',
+        'tagline' => 'Versatile stainless steel wire',
+        'image' => 'images/panchratnaContent/Products/general-purpose-wire.jpg',
+        'description' => [
+            'General purpose stainless steel (SS) wires are versatile and widely used due to their corrosion resistance, strength, and durability.',
+            'They are available in various grades, diameters, and finishes, with common applications including construction, kitchenware, and general hardware.'
+        ],
+        'specifications' => [
+            ['Grades', '202, 304, 304L, 316, 316L, 410, 430'],
+            ['Finish', 'Bright, dull, matt, or super bright (mirror)']
+        ],
+        'one_line_size' => '5.5mm – 20mm'
+    ],
+
+    // Wire Rod
+    'wirerod' => [
+        "type" => 'structure-1',
+        'name' => 'Wire Rod',
+        'tagline' => 'High strength stainless wire rod',
+        'image' => 'images/panchratnaContent/Products/wire-rod.jpg',
+        'description' => [
+            'Stainless steel wire rods are incredibly strong and resistant to wear and tear, making them ideal for heavy-duty applications in construction, manufacturing, and more.',
+            'They can withstand high and low temperatures, making them suitable for demanding applications like aerospace and automotive industries.'
+        ],
+        'specifications' => [
+            ['Ovality', '0.20 mm (maximum)'],
+            ['Tolerance', '+/- 0.20mm'],
+            ['Surface Defect', '1% of diameter (maximum)'],
+            ['Grades', '302, 303, 304, 304cu, 304L, 316, 316L, etc.']
+        ],
+        'one_line_size' => '5.5mm – 20mm'
+    ],
 
 ];
 
