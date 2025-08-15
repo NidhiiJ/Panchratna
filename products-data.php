@@ -106,11 +106,11 @@ $products = [
         'tag' => 'S.S. Black / Forged Bars'
     ],
     // 16. Plates
-    'ssplates' => [
-        'name' => 'S.S. Plates',
+    'plates' => [
+        'name' => 'Plates',
         'image' => 'images/panchratnaContent/Products/plates.jpg',
         'url' => 'project-single.php',
-        'tag' => 'S.S. Plates'
+        'tag' => 'Plates'
     ],
     // 17. Continuous Cast Billets / Blooms
     'continuouscastbilletsblooms' => [
@@ -981,9 +981,9 @@ $product_details = [
     ],
 
     // Plates
-    'ssplates' => [
+    'plates' => [
         "type" => 'structure-2',
-        'name' => 'S.S. Plates',
+        'name' => 'Plates',
         "products" => [
             [
                 'name' => 'Rockhard Plates',
