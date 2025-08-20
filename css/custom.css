@@ -3055,6 +3055,7 @@ header.main-header .header-sticky.active{
 
 .page-header-services{
 	background: url(../images/panchratnaContent/industries-we-serve-banner.jpg) no-repeat center center !important;
+	background-size: cover !important;
 }
 
 .page-services{
