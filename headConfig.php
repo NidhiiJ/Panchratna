@@ -2,14 +2,14 @@
 /**
  * Head Component
  * Usage: 
- * $page_title = "About Us - Panchratna Overseas";
- * $page_description = "Learn about Panchratna Overseas...";
+ * $page_title = "About Us - Panchratna Overseas Pvt Ltd";
+ * $page_description = "Learn about Panchratna Overseas Pvt Ltd...";
  * include 'components/head.php';
  */
 
 // Default values if not set
 if (!isset($page_title)) {
-    $page_title = "Panchratna";
+    $page_title = "Panchratna Overseas Pvt Ltd";
 }
 
 if (!isset($page_description)) {
@@ -37,7 +37,7 @@ if (!isset($page_author)) {
 <title><?php echo htmlspecialchars($page_title); ?></title>
 
 <!-- Favicon Icon -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 <!-- Google Fonts Css-->
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -15,8 +15,8 @@ $product_detail = $product_details[$key];
 
 <head>
     <?php
-    $page_title = $product_detail['name'] . " - Panchratna Overseas";
-    $page_description = "Learn about " . $product_detail['name'] . " from Panchratna Overseas";
+    $page_title = $product_detail['name'] . " - Panchratna Overseas Pvt Ltd";
+    $page_description = "Learn about " . $product_detail['name'] . " from Panchratna Overseas Pvt Ltd";
     include 'headConfig.php';
     ?>
 </head>

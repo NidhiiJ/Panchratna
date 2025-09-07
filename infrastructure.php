@@ -42,8 +42,10 @@ $galleryCategories = [
 <html lang="zxx">
 
 <head>
-    <?php $page_title = "Infrastructure - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+   <?php 
+    $page_title = "Infrastructure – Panchratna Overseas Pvt Ltd";
+    $page_description = "Our advanced infrastructure ensures premium stainless steel production, with modern machinery, quality control, and reliable global supply capacity.";
+    $page_keywords = "stainless steel plant, steel manufacturing infrastructure, steel quality control, Panchratna Overseas factory, stainless steel production capacity";
     include 'headConfig.php';
     ?>
 </head>

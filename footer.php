@@ -113,7 +113,7 @@ $quick_links = [
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="footer-copyright-text">
-                        <p>© <?php echo date('Y'); ?> Panchratna Overseas. All Rights Reserved.</p>
+                        <p>© <?php echo date('Y'); ?> Panchratna Overseas Pvt Ltd. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

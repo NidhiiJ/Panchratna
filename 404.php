@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <?php $page_title = "About - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+    <?php $page_title = "About - Panchratna Overseas Pvt Ltd";
+    $page_description = "Learn about Panchratna Overseas Pvt Ltd";
     include 'headConfig.php';
     ?>
 </head>

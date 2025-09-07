@@ -20,8 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Email settings
     $to = "popl999663@gmail.com"; // recipient email
-    $subject = "Contact Form Inquiry - Panchratna Overseas";
-    $headers = "From: Panchratna Overseas <popl999663@gmail.com>\r\n";
+    $subject = "Contact Form Inquiry - Panchratna Overseas Pvt Ltd";
+    $headers = "From: Panchratna Overseas Pvt Ltd <popl999663@gmail.com>\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
@@ -53,8 +53,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <?php $page_title = "Contact Us - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+   <?php 
+    $page_title = "Contact Panchratna Overseas Pvt Ltd – Stainless Steel Exporters";
+    $page_description = "Get in touch with Panchratna Overseas Pvt Ltd for stainless steel flat bars, angles, channels, and other products. Reliable supply and global reach.";
+    $page_keywords = "contact Panchratna Overseas, stainless steel enquiry, steel supplier contact, stainless steel distributor, buy stainless steel products, steel exporter";
     include 'headConfig.php';
     ?>
 </head>

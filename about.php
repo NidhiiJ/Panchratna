@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <?php $page_title = "About - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+    <?php 
+    $page_title = "About Us – Panchratna Overseas Pvt Ltd";
+    $page_description = "Discover Panchratna Overseas Pvt Ltd, leading stainless steel exporters known for quality, and a wide range of steel products serving diverse industries.";
+    $page_keywords = "about Panchratna Overseas, stainless steel company, stainless steel brand, steel supplier India, stainless steel manufacturer profile";
     include 'headConfig.php';
     ?>
 </head>

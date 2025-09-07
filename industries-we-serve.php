@@ -2,8 +2,10 @@
 <html lang="zxx">
 
 <head>
-    <?php $page_title = "Industries We Serve - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+    <?php
+    $page_title = "Industries We Serve – Panchratna Overseas Pvt Ltd";
+    $page_description = "Panchratna Overseas Pvt Ltd supplies stainless steel solutions for industries including construction, infrastructure, manufacturing, and engineering sectors.";
+    $page_keywords = "stainless steel industries, construction steel, infrastructure steel, stainless steel for manufacturing, industrial steel supplier, automotives";
     include 'headConfig.php';
     ?>
 </head>

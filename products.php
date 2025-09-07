@@ -2,8 +2,10 @@
 <html lang="zxx">
 
 <head>
-    <?php $page_title = "Products - Panchratna Overseas";
-    $page_description = "Learn about Panchratna Overseas";
+    <?php 
+    $page_title = "Our Products – Panchratna Overseas Pvt Ltd";
+    $page_description = "Explore our wide range of stainless steel products including flat bars, angles, channels, and other customized steel solutions for industrial needs.";
+    $page_keywords = "stainless steel products, steel flat bars, stainless steel angles, stainless steel channels, Panchratna Overseas products, steel supplier India";
     include 'headConfig.php';
     ?>
 </head>
