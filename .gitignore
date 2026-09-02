@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies (in case build tooling is added later)
+node_modules/
+vendor/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# PHP / server cache
+*.cache
+composer.lock
+
+# Backups / temp files
+*.bak
+*.tmp
+*~
+
+# AI assistant / tooling folders
+.claude/
+.cursor/
+.windsurf/
+.aider*
+.copilot/
+.github/copilot/
+CLAUDE.md
