@@ -115,7 +115,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/panchratnaContent/our-strengths.jpg" alt="">
+                                        <img src="images/panchratnaContent/our-strengths.webp" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -151,7 +151,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/panchratnaContent/quality-assurance.jpg" alt="">
+                                        <img src="images/panchratnaContent/quality-assurance.webp" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -188,7 +188,7 @@
                                 <!-- Mission Vision Image Start -->
                                 <div class="mission-vision-image">
                                     <figure class="image-anime">
-                                        <img src="images/panchratnaContent/why-choose-us.png" alt="">
+                                        <img src="images/panchratnaContent/why-choose-us.webp" alt="">
                                     </figure>
                                 </div>
                                 <!-- Mission Vision Image End -->
@@ -231,7 +231,7 @@
                     <!-- Our Process Image Start -->
                     <div class="our-process-image">
                         <figure class="image-anime reveal">
-                            <img src="images/panchratnaContent/boundaries-into-opportunities.jpg" alt="">
+                            <img src="images/panchratnaContent/boundaries-into-opportunities.webp" alt="">
                         </figure>
                     </div>
                     <!-- Our Process Image End -->
@@ -304,9 +304,9 @@
                     <div class="team-member-item wow fadeInUp">
                         <!-- Team Image Start -->
                         <div class="team-image">
-                            <!-- <a href="images/panchratnaContent/ISO-certificate.jpg" data-cursor-text="View"> -->
+                            <!-- <a href="images/panchratnaContent/ISO-certificate.webp" data-cursor-text="View"> -->
                                 <figure class="image-anime">
-                                    <img src="images/panchratnaContent/ISO-certificate.jpg" alt="">
+                                    <img src="images/panchratnaContent/ISO-certificate.webp" alt="">
                                 </figure>
                             <!-- </a> -->
                         </div>
@@ -326,9 +326,9 @@
                     <div class="team-member-item wow fadeInUp">
                         <!-- Team Image Start -->
                         <div class="team-image">
-                            <!-- <a href="images/panchratnaContent/ISO-certificate.jpg" data-cursor-text="View"> -->
+                            <!-- <a href="images/panchratnaContent/ISO-certificate.webp" data-cursor-text="View"> -->
                                 <figure class="image-anime">
-                                    <img src="images/panchratnaContent/IEC-certificate.jpg" alt="">
+                                    <img src="images/panchratnaContent/IEC-certificate.webp" alt="">
                                 </figure>
                             <!-- </a> -->
                         </div>

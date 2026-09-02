@@ -887,7 +887,7 @@ header.main-header .header-sticky.active{
 .hero{
 	padding: 150px 0 40px;
 	position: relative;
-	background: url(../images/panchratnaContent/hero-bg.png) no-repeat;
+	background: url(../images/panchratnaContent/hero-bg-png.webp) no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
@@ -1185,7 +1185,7 @@ header.main-header .header-sticky.active{
 .our-services{
 	position: relative;
 	padding: 100px 0 220px;
-	background: url(/images/panchratnaContent/export-bg.png) no-repeat center center;
+	background: url(/images/panchratnaContent/export-bg.webp) no-repeat center center;
 	background-size: cover;
 }
 
@@ -2360,7 +2360,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background: url(../images/panchratnaContent/about-banner.jpg) no-repeat center center;
+	background: url(../images/panchratnaContent/about-banner.webp) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0;
 }
@@ -2430,7 +2430,7 @@ header.main-header .header-sticky.active{
 
 .mission-vision-bg{
 	position: relative;
-	background: url('../images/panchratnaContent/our-approach-bg.jpg');
+	background: url('../images/panchratnaContent/our-approach-bg.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -3054,7 +3054,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header-services{
-	background: url(../images/panchratnaContent/industries-we-serve-banner.jpg) no-repeat center center !important;
+	background: url(../images/panchratnaContent/industries-we-serve-banner.webp) no-repeat center center !important;
 	background-size: cover !important;
 }
 
@@ -3740,7 +3740,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header-products{
-	background: url(../images/panchratnaContent/products-banner.jpg) no-repeat center center;
+	background: url(../images/panchratnaContent/products-banner.webp) no-repeat center center;
 }
 
 .page-projects{
@@ -4334,7 +4334,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header-infrastructure{
-	background: url(../images/panchratnaContent/infrastructure-banner.jpg) no-repeat center center !important;
+	background: url(../images/panchratnaContent/infrastructure-banner.webp) no-repeat center center !important;
 	background-size: cover !important;
 }
 
@@ -4525,7 +4525,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header-contact{
-	background: url(../images/panchratnaContent/contact-us-banner.jpg) no-repeat center center !important;
+	background: url(../images/panchratnaContent/contact-us-banner.webp) no-repeat center center !important;
 	background-size: cover !important;
 }
 

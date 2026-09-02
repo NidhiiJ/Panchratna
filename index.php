@@ -112,15 +112,15 @@
                 <div id="missionVisionCarousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
                     <figure class="carousel-inner image-anime">
                         <div class="carousel-item active">
-                            <img src="images/panchratnaContent/flagship-slideshow-1.jpg"
+                            <img src="images/panchratnaContent/flagship-slideshow-1.webp"
                                 class="d-block w-100  rounded-0" alt="Steel Flat Bar">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/panchratnaContent/flagship-slideshow-2.jpg"
+                            <img src="images/panchratnaContent/flagship-slideshow-2.webp"
                                 class="d-block w-100  rounded-0" alt="Steel Channel">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/panchratnaContent/flagship-slideshow-3.jpg"
+                            <img src="images/panchratnaContent/flagship-slideshow-3.webp"
                                 class="d-block w-100  rounded-0" alt="Steel Angle">
                         </div>
                     </figure>
@@ -349,23 +349,23 @@
                         data-bs-interval="3000">
                         <figure class="carousel-inner image-anime">
                             <div class="carousel-item active">
-                                <img src="images/panchratnaContent/industries-slideshow-1.jpg" class="d-block w-100"
+                                <img src="images/panchratnaContent/industries-slideshow-1.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/panchratnaContent/industries-slideshow-2.jpg" class="d-block w-100"
+                                <img src="images/panchratnaContent/industries-slideshow-2.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/panchratnaContent/industries-slideshow-3.jpg" class="d-block w-100"
+                                <img src="images/panchratnaContent/industries-slideshow-3.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/panchratnaContent/industries-slideshow-4.jpg" class="d-block w-100"
+                                <img src="images/panchratnaContent/industries-slideshow-4.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/panchratnaContent/industries-slideshow-5.jpg" class="d-block w-100"
+                                <img src="images/panchratnaContent/industries-slideshow-5.webp" class="d-block w-100"
                                     alt="">
                             </div>
                         </figure>

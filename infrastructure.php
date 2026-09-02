@@ -1,39 +1,39 @@
 <?php
 $galleryCategories = [
     "Panchratna Overseas" => [
-        "images/panchratnaContent/Infrastructure/POPL/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/POPL/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/POPL/gallery-3.jpg"
+        "images/panchratnaContent/Infrastructure/POPL/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/POPL/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/POPL/gallery-3.webp"
     ],
     "Panchratna Steel" => [
-        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-3.jpg"
+        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/Panchratna_Steel/gallery-3.webp"
     ],
     "Lakshya Steel" => [
-        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-3.jpg",
-        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-4.jpg"
+        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-3.webp",
+        "images/panchratnaContent/Infrastructure/Lakshya_Steel/gallery-4.webp"
     ],
     "Factory Unit 1" => [
-        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-3.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-4.jpg"
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-3.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-1/gallery-4.webp"
     ],
     "Factory Unit 2" => [
-        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-3.jpg"
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-2/gallery-3.webp"
     ],
     "Factory Unit 3" => [
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-1.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-2.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-3.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-4.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-5.jpg",
-        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-6.jpg"
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-1.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-2.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-3.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-4.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-5.webp",
+        "images/panchratnaContent/Infrastructure/Factory/Unit-3/gallery-6.webp"
     ]
 ];
 

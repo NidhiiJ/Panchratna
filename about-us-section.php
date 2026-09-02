@@ -7,7 +7,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/panchratnaContent/about-img-2(2).jpg" alt="">
+                                <img src="images/panchratnaContent/about-img-2(2).webp" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -15,7 +15,7 @@
                         <!-- About Image Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/panchratnaContent/about-img-1(2).jpg" alt="">
+                                <img src="images/panchratnaContent/about-img-1(2).webp" alt="">
                             </figure>
                         </div>
                         <!-- About Image End -->

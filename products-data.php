@@ -3,154 +3,154 @@ $products = [
     // 1. SS Flat bars
     'ssflatbars' => [
         'name' => 'S.S. Flat Bars',
-        'image' => 'images/panchratnaContent/Products/ssflatbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssflatbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Flat Bars'
     ],
     // 2. SS Angle bars
     'ssanglebars' => [
         'name' => 'S.S. Angle Bars',
-        'image' => 'images/panchratnaContent/Products/ssanglebars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssanglebars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Angle Bars'
     ],
     // 3. SS Channels
     'sschannels' => [
         'name' => 'S.S. Channels',
-        'image' => 'images/panchratnaContent/Products/sschannels.jpg',
+        'image' => 'images/panchratnaContent/Products/sschannels.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Channels'
     ],
     // 4. SS Round bars
     'ssroundbars' => [
         'name' => 'S.S. Round Bars',
-        'image' => 'images/panchratnaContent/Products/ssroundbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssroundbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Round Bars'
     ],
     // 5. SS Pipes
     'sspipes' => [
         'name' => 'S.S. Pipes',
-        'image' => 'images/panchratnaContent/Products/sspipes-seamless.jpg',
+        'image' => 'images/panchratnaContent/Products/sspipes-seamless.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Pipes'
     ],
     // 6. SS Heat Exchanger Tubes
     'ssheatexchangertubes' => [
         'name' => 'S.S. Heat Exchanger Tubes',
-        'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-welded.jpg',
+        'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-welded.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Heat Exchanger Tubes'
     ],
     // 7. S.S. Welded Wires (4 types)
     'ssweldedwires' => [
         'name' => 'S.S. Welded Wires',
-        'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.jpg',
+        'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Welded Wires'
     ],
     // 8. S.S. Wires (8 types)  
     'sswires' => [
         'name' => 'S.S. Wires',
-        'image' => 'images/panchratnaContent/Products/sswires-chqwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-chqwire.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Wires'
     ],
     // 9. SS Bright bars
     'ssbrightbars' => [
         'name' => 'S.S. Bright Bars',
-        'image' => 'images/panchratnaContent/Products/ssbrightbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssbrightbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Bright Bars'
     ],
     // 10. SS Hexagonal bars
     'sshexagonalbars' => [
         'name' => 'S.S. Hexagonal Bars',
-        'image' => 'images/panchratnaContent/Products/sshexagonalbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sshexagonalbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Hexagonal Bars'
     ],
     // 11. SS Sheets / Coils / Plates
     'sssheetscoilsplates' => [
         'name' => 'S.S. Sheets / Coils / Plates',
-        'image' => 'images/panchratnaContent/Products/sssheetscoilsplates.jpg',
+        'image' => 'images/panchratnaContent/Products/sssheetscoilsplates.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Sheets / Coils / Plates'
     ],
     // 12. SS PSQ Bars
     'sspsqbars' => [
         'name' => 'S.S. PSQ Bars',
-        'image' => 'images/panchratnaContent/Products/sspsqbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sspsqbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. PSQ Bars'
     ],
     // 13. SS Square bar
     'sssquarebars' => [
         'name' => 'S.S. Square Bars',
-        'image' => 'images/panchratnaContent/Products/sssquarebars.jpg',
+        'image' => 'images/panchratnaContent/Products/sssquarebars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Square Bars'
     ],
     // 14. SS Flanges
     'ssflanges' => [
         'name' => 'S.S. Flanges',
-        'image' => 'images/panchratnaContent/Products/ssflanges.jpg',
+        'image' => 'images/panchratnaContent/Products/ssflanges.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Flanges'
     ],
     // 15. SS Black / Forged bars
     'ssblackforgedbars' => [
         'name' => 'S.S. Black / Forged Bars',
-        'image' => 'images/panchratnaContent/Products/ssblackforgedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssblackforgedbars.webp',
         'url' => 'project-single.php',
         'tag' => 'S.S. Black / Forged Bars'
     ],
     // 16. Plates
     'plates' => [
         'name' => 'Plates',
-        'image' => 'images/panchratnaContent/Products/plates.jpg',
+        'image' => 'images/panchratnaContent/Products/plates.webp',
         'url' => 'project-single.php',
         'tag' => 'Plates'
     ],
     // 17. Continuous Cast Billets / Blooms
     'continuouscastbilletsblooms' => [
         'name' => 'Continuous Cast Billets / Blooms',
-        'image' => 'images/panchratnaContent/Products/continuouscastbilletsblooms.jpg',
+        'image' => 'images/panchratnaContent/Products/continuouscastbilletsblooms.webp',
         'url' => 'project-single.php',
         'tag' => 'Continuous Cast Billets / Blooms'
     ],
     // 18. Duplex Stainless Steel
     'duplexstainlesssteel' => [
         'name' => 'Duplex Stainless Steel',
-        'image' => 'images/panchratnaContent/Products/duplexstainlesssteel.jpg',
+        'image' => 'images/panchratnaContent/Products/duplexstainlesssteel.webp',
         'url' => 'project-single.php',
         'tag' => 'Duplex Stainless Steel'
     ],
     // 19. Hot Rolled RCS bars
     'sshotrolledrcsbars' => [
         'name' => 'Hot Rolled RCS Bars',
-        'image' => 'images/panchratnaContent/Products/sshotrolledrcsbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sshotrolledrcsbars.webp',
         'url' => 'project-single.php',
         'tag' => 'Hot Rolled RCS Bars'
     ],
     // 20. Forged Quality Ingots
     'ssforgedqualityingots' => [
         'name' => 'Forged Quality Ingots',
-        'image' => 'images/panchratnaContent/Products/ssforgedqualityingots.jpg',
+        'image' => 'images/panchratnaContent/Products/ssforgedqualityingots.webp',
         'url' => 'project-single.php',
         'tag' => 'Forged Quality Ingots'
     ],
     // 21. Deformed bars
     'deformedbars' => [
         'name' => 'Deformed Bars',
-        'image' => 'images/panchratnaContent/Products/deformedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/deformedbars.webp',
         'url' => 'project-single.php',
         'tag' => 'Deformed Bars'
     ],
     // 22. Threaded bars
     'threadedbars' => [
         'name' => 'Threaded Bars',
-        'image' => 'images/panchratnaContent/Products/threadedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/threadedbars.webp',
         'url' => 'project-single.php',
         'tag' => 'Threaded Bars'
     ]
@@ -167,7 +167,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Channels',
         'tagline' => 'Durable and corrosion-resistant channels',
-        'image' => 'images/panchratnaContent/Products/sschannels.jpg',
+        'image' => 'images/panchratnaContent/Products/sschannels.webp',
         'description' => [
             'Stainless steel channels are C-shaped structural components made from stainless steel.',
             'We offer both Parallel (Non-Taper) and Non-Parallel (Taper) channels in various sizes and grades, all hot rolled for high strength.'
@@ -247,7 +247,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Bright Bars',
         'tagline' => 'Polished finish for precision applications',
-        'image' => 'images/panchratnaContent/Products/ssbrightbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssbrightbars.webp',
         'description' => [
             'Bright bars have excellent weldability and machinability, ideal for precision machining components and large structures.',
             'They are produced with cold working processes and fine-finishing such as peeling, turning, grinding, and polishing.'
@@ -272,7 +272,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Hexagonal Bars',
         'tagline' => 'Six-sided precision bars for versatile applications',
-        'image' => 'images/panchratnaContent/Products/sshexagonalbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sshexagonalbars.webp',
         'description' => [
             'Stainless steel hexagonal bars are manufactured in various grades, each offering specific mechanical and corrosion-resistance properties.',
             'They are solid metal bars with a six-sided cross-section, used in many engineering and industrial applications.'
@@ -326,7 +326,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Round Bars',
         'tagline' => 'Versatile and robust',
-        'image' => 'images/panchratnaContent/Products/ssroundbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssroundbars.webp',
         'description' => [
             'Stainless steel round bars are highly resistant to rust, oxidation, and staining, making them ideal for harsh environments such as those with moisture, chemicals, or high salinity.',
             'They possess high tensile strength, enabling them to withstand heavy loads and mechanical stress, making them suitable for demanding construction, automotive, and aerospace applications.'
@@ -348,7 +348,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Sheets / Coils / Plates',
         'tagline' => 'High-quality stainless steel sheets, coils, and plates',
-        'image' => 'images/panchratnaContent/Products/sssheetscoilsplates.jpg',
+        'image' => 'images/panchratnaContent/Products/sssheetscoilsplates.webp',
         'description' => [
             'Stainless steel sheets are flat, thin panels made from a steel alloy with at least 10.5% chromium, providing resistance to rust and corrosion.',
             'Stainless steel coils and plates are valued in various industries for their strength, durability, and corrosion resistance, especially in harsh environments.'
@@ -410,7 +410,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. PSQ Bars',
         'tagline' => 'Precision Shaft Quality stainless bars',
-        'image' => 'images/panchratnaContent/Products/sspsqbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sspsqbars.webp',
         'description' => [
             'Stainless steel PSQ (Precision Shaft Quality) bars are manufactured with precise dimensional tolerances, exceptional straightness, and a smooth surface finish.',
             'They are specifically designed for demanding rotating applications, particularly in the pump industry.'
@@ -429,7 +429,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Square Bars',
         'tagline' => 'Strong and reliable stainless square bars',
-        'image' => 'images/panchratnaContent/Products/sssquarebars.jpg',
+        'image' => 'images/panchratnaContent/Products/sssquarebars.webp',
         'description' => [
             'Stainless steel square bars maintain their structural integrity at high temperatures, making them suitable for furnace parts and heat exchangers.',
             'They offer high tensile strength and can withstand heavy loads, making them ideal for structural and load-bearing applications.'
@@ -488,7 +488,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Continuous Cast Billets / Blooms',
         'tagline' => 'High-quality stainless billets and blooms for manufacturing',
-        'image' => 'images/panchratnaContent/Products/continuouscastbilletsblooms.jpg',
+        'image' => 'images/panchratnaContent/Products/continuouscastbilletsblooms.webp',
         'description' => [
             'Continuous cast billets and blooms are semi-finished stainless steel products manufactured to rigorous international standards to ensure consistent quality and performance.',
             'They are available in a wide range of grades and sizes and are suitable for forging, rolling, ring rolling, up-setting and other heavy manufacturing processes.'
@@ -531,7 +531,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Flanges',
         'tagline' => 'Durable stainless steel flanges for secure pipe connections',
-        'image' => 'images/panchratnaContent/Products/ssflanges.jpg',
+        'image' => 'images/panchratnaContent/Products/ssflanges.webp',
         'description' => [
             'Stainless steel flanges are designed to connect pipes, valves, pumps, and other equipment in a piping system. They provide easy access for cleaning, inspection, or modification.',
             'These flanges are corrosion-resistant and are available in various grades, making them suitable for high-pressure and high-temperature applications in industries such as oil, gas, chemical, and food processing.'
@@ -550,7 +550,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Black / Forged Bars',
         'tagline' => 'Hot-rolled black & forged stainless bars',
-        'image' => 'images/panchratnaContent/Products/ssblackforgedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/ssblackforgedbars.webp',
         'description' => [
             'Stainless steel black bars are hot-rolled bars that have a dark, oxidized surface formed during cooling after hot rolling.',
             'Stainless steel forged bars are produced by shaping metal under heat and pressure to refine the internal grain structure and enhance mechanical properties.'
@@ -568,7 +568,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Hot Rolled RCS (Round Corner Square) Bars',
         'tagline' => 'High-strength hot rolled RCS stainless bars',
-        'image' => 'images/panchratnaContent/Products/sshotrolledrcsbars.jpg',
+        'image' => 'images/panchratnaContent/Products/sshotrolledrcsbars.webp',
         'description' => [
             'Hot rolled RCS (Round Corner Square) bars are produced through a hot rolling process, resulting in enhanced toughness and strength.',
             'They are widely used in forging, machining, and manufacturing applications where dimensional accuracy and durability are required.'
@@ -602,7 +602,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'S.S. Forged Quality Ingots',
         'tagline' => 'High-quality forged ingots for forging applications',
-        'image' => 'images/panchratnaContent/Products/ssforgedqualityingots.jpg',
+        'image' => 'images/panchratnaContent/Products/ssforgedqualityingots.webp',
         'description' => [
             'Stainless steel forged quality ingots are large cast metal blocks designed to be reheated and forged into finished shapes.',
             'They are produced with controlled chemical composition and superior internal soundness, making them suitable for critical engineering applications.'
@@ -651,7 +651,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Duplex Stainless Steel',
         'tagline' => 'High strength, corrosion-resistant duplex stainless steel',
-        'image' => 'images/panchratnaContent/Products/duplexstainlesssteel.jpg',
+        'image' => 'images/panchratnaContent/Products/duplexstainlesssteel.webp',
         'description' => [
             'Duplex stainless steels bars have enormous hardness, making them the first choice for applications that need high strength, such as in the oil and gas industry.',
             'Duplex stainless steels are called "duplex" because they have a two-phase microstructure consisting of grains of Ferrite and Austenite stainless steel.'
@@ -670,7 +670,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Deformed Bars',
         'tagline' => 'High-strength stainless steel deformed bars for construction',
-        'image' => 'images/panchratnaContent/Products/deformedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/deformedbars.webp',
         'description' => [
             'Deformed bars are developed with the highest value of quality for the tough requirements of contemporary infrastructure.',
             'These bars, composed of HYSD steel and hot-rolled deformed steel, are designed to deliver high performance and superior resistance, making them ideal for reinforcing concrete structures.'
@@ -687,7 +687,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Threaded Bars',
         'tagline' => 'Precision-engineered stainless steel threaded bars',
-        'image' => 'images/panchratnaContent/Products/threadedbars.jpg',
+        'image' => 'images/panchratnaContent/Products/threadedbars.webp',
         'description' => [
             'Stainless Steel Threaded bars that ease the need to have precise threading for mechanical applications; 304 and 316 stainless options are commonly used in fastener manufacturing.',
             '316 stainless steel threaded bars (including A2-70 threaded rod and acme threaded rod) are known for high corrosion resistance; double-ended rods and various sizes like M12 are frequently used across industries.'
@@ -715,7 +715,7 @@ $product_details = [
             [
                 'name' => 'S.S. HRAP Flat Bar',
                 'tagline' => 'High resistance against corrosion with HRAP finish',
-                'image' => 'images/panchratnaContent/Products/hrapflatbar.jpg',
+                'image' => 'images/panchratnaContent/Products/hrapflatbar.webp',
                 'description' => [
                     'HRAP Flat Bars are produced when the steel is hot rolled and then solution annealed.',
                     'This ensures the highest level of resistance against corrosion, including chloride ion corrosion. In the final step, the pickling process is performed by immersing the prepared steel in an acid solution to remove any marks or scale on the steel surface.'
@@ -733,7 +733,7 @@ $product_details = [
             [
                 'name' => 'S.S. Cold Drawn Flat Bar',
                 'tagline' => 'Precision finish with improved mechanical properties',
-                'image' => 'images/panchratnaContent/Products/colddrawnflatbar.jpg',
+                'image' => 'images/panchratnaContent/Products/colddrawnflatbar.webp',
                 'description' => [
                     'A cold-drawn flat bar is a type of steel bar that has been processed at room temperature to improve its surface finish, dimensional accuracy, and mechanical properties.',
                     'This process, known as cold drawing, involves pulling a steel bar through a die to reduce its cross-sectional area and refine its shape.'
@@ -788,7 +788,7 @@ $product_details = [
             [
                 'name' => 'Equal Angle',
                 'tagline' => 'L-shaped bars with equal legs for structural support',
-                'image' => 'images/panchratnaContent/Products/equalangle.jpg',
+                'image' => 'images/panchratnaContent/Products/equalangle.webp',
                 'description' => [
                     'Stainless steel equal angles are L-shaped metal bars with legs of equal length and a 90-degree angle.',
                     'The symmetrical shape of equal angles makes them suitable for applications requiring consistent support across two perpendicular surfaces, such as beams, braces, and frames.'
@@ -807,7 +807,7 @@ $product_details = [
             [
                 'name' => 'Unequal Angle',
                 'tagline' => 'Asymmetric L-shaped bars for specialised structural needs',
-                'image' => 'images/panchratnaContent/Products/unequalangle.jpg',
+                'image' => 'images/panchratnaContent/Products/unequalangle.webp',
                 'description' => [
                     'Stainless Steel HRAP unequal angles have one leg longer than the other and are used where unequal support is required.',
                     'They are commonly applied in automotive, construction and heavy-duty applications where asymmetrical profiles are needed.'
@@ -876,7 +876,7 @@ $product_details = [
             [
                 'name' => 'Seamless Pipes',
                 'tagline' => 'High-strength jointless pipes with superior corrosion resistance',
-                'image' => 'images/panchratnaContent/Products/sspipes-seamless.jpg',
+                'image' => 'images/panchratnaContent/Products/sspipes-seamless.webp',
                 'description' => [
                     'Stainless steel seamless pipes are high-quality, jointless cylindrical tubes renowned for their strength, durability, and corrosion resistance.',
                     'They are manufactured without a welded seam by piercing a solid stainless steel billet and then elongating it to the desired dimensions.'
@@ -891,7 +891,7 @@ $product_details = [
             [
                 'name' => 'Welded Pipes',
                 'tagline' => 'Precision welded pipes with smooth finish and excellent durability',
-                'image' => 'images/panchratnaContent/Products/sspipes-welded.jpg',
+                'image' => 'images/panchratnaContent/Products/sspipes-welded.webp',
                 'description' => [
                     'Stainless steel welded pipes are manufactured by shaping stainless steel plates or coils into a round or other specified form and then joining the edges through various welding processes.',
                     'They are known for their strength, durability, corrosion resistance, and smooth surface finish. Typically produced using Electric Resistance Welding (ERW) or Electric Fusion Welding (EFW) processes.'
@@ -932,7 +932,7 @@ $product_details = [
             [
                 'name' => 'Seamless Tubes',
                 'tagline' => 'Superior heat transfer efficiency with seamless construction',
-                'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-seamless.jpg',
+                'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-seamless.webp',
                 'description' => [
                     'Stainless steel seamless heat exchanger tubes are high-performance tubular components designed specifically for applications requiring efficient heat transfer between two fluids without direct contact.',
                     'These tubes are manufactured without a welded seam, ensuring superior structural integrity and reliability, especially crucial in demanding industrial environments.'
@@ -948,7 +948,7 @@ $product_details = [
             [
                 'name' => 'Welded Tubes',
                 'tagline' => 'Cost-effective welded construction for efficient heat exchange',
-                'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-welded.jpg',
+                'image' => 'images/panchratnaContent/Products/ssheatexchangertubes-welded.webp',
                 'description' => [
                     'Stainless steel welded heat exchanger tubes are commonly used in heat exchangers.',
                     'They are produced by forming a flat strip of stainless steel into a cylindrical shape and then welding the edges longitudinally or spirally to create a continuous tube.'
@@ -988,7 +988,7 @@ $product_details = [
             [
                 'name' => 'Rockhard Plates',
                 'tagline' => 'Exceptional wear resistance for mining and construction applications',
-                'image' => 'images/panchratnaContent/Products/plates.jpg',
+                'image' => 'images/panchratnaContent/Products/plates.webp',
                 'description' => [
                     'Rockhard plates offer exceptional wear resistance, especially in applications involving severe abrasion in mining and construction.',
                     'They provide a strong combination of high hardness (like Rockhard 500 plates with 470 – 550 HBW) and toughness for impact resistance. These plates are also designed for ease of fabrication, allowing for cutting, welding, and forming using standard techniques.'
@@ -997,7 +997,7 @@ $product_details = [
             [
                 'name' => 'Discrete Plates',
                 'tagline' => 'Precision-rolled plates with superior finish and dimensional accuracy',
-                'image' => 'images/panchratnaContent/Products/plates-discrete.jpg',
+                'image' => 'images/panchratnaContent/Products/plates-discrete.webp',
                 'description' => [
                     'Discrete plates are typically manufactured through hot rolling or cold rolling. Hot rolling involves heating the steel above its recrystallization temperature and then rolling it into the desired shape.',
                     'Hot rolled discrete plates are known for their durability and strength. Cold rolling is carried out at room temperature, producing plates with a smoother finish and tighter dimensional tolerances.'
@@ -1034,28 +1034,28 @@ $product_details = [
             'migwire' => [
                 'name' => 'MIG Wire',
                 'tagline' => 'High-performance MIG wire for stainless steel welding',
-                'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.jpg',
+                'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.webp',
                 'card_description' => 'Stainless steel (SS) MIG (Metal Inert Gas) wire, also known as GMAW (Gas Metal Arc Welding) wire, is a consumable filler metal specifically designed for welding stainless steel and dissimilar metals.',
                 'button_text' => 'View Details'
             ],
             'tigwire' => [
                 'name' => 'TIG Wire',
                 'tagline' => 'Precision TIG filler rods for high-quality welds',
-                'image' => 'images/panchratnaContent/Products/ssweldedwires-tigwire.jpg',
+                'image' => 'images/panchratnaContent/Products/ssweldedwires-tigwire.webp',
                 'card_description' => 'Stainless steel (SS) TIG (Tungsten Inert Gas) wire, also known as GTAW (Gas Tungsten Arc Welding) wire or filler rods, is a high-quality consumable filler metal used in TIG welding for stainless steel and high-grade alloys.',
                 'button_text' => 'View Details'
             ],
             'sawwire' => [
                 'name' => 'SAW Wire',
                 'tagline' => 'Durable SAW wire for submerged arc welding',
-                'image' => 'images/panchratnaContent/Products/ssweldedwires-sawwire.jpg',
+                'image' => 'images/panchratnaContent/Products/ssweldedwires-sawwire.webp',
                 'card_description' => 'Stainless steel (SS) SAW wire is a consumable filler metal specifically designed for use in Submerged Arc Welding (SAW), a high-productivity process.',
                 'button_text' => 'View Details'
             ],
             'corewire' => [
                 'name' => 'Core Wire',
                 'tagline' => 'Flux-cored stainless steel wire for FCAW',
-                'image' => 'images/panchratnaContent/Products/ssweldedwires-corewire.jpg',
+                'image' => 'images/panchratnaContent/Products/ssweldedwires-corewire.webp',
                 'card_description' => 'Stainless steel (SS) cored wire, particularly flux-cored wire, is a type of welding wire used in the Flux-Cored Arc Welding (FCAW) process.',
                 'button_text' => 'View Details'
             ]
@@ -1067,7 +1067,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'MIG Wire',
         'tagline' => 'High-performance MIG wire for stainless steel welding',
-        'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.jpg',
+        'image' => 'images/panchratnaContent/Products/ssweldedwires-migwire.webp',
         'description' => [
             'Stainless steel (SS) MIG (Metal Inert Gas) wire, also known as GMAW (Gas Metal Arc Welding) wire, is a consumable filler metal specifically designed for welding stainless steel and, in some cases, dissimilar metals.',
             'This wire feeds into a welding gun, melts, and fuses with the base metal to create a strong, clean weld.'
@@ -1096,7 +1096,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'TIG Wire',
         'tagline' => 'Precision TIG filler rods for high-quality welds',
-        'image' => 'images/panchratnaContent/Products/ssweldedwires-tigwire.jpg',
+        'image' => 'images/panchratnaContent/Products/ssweldedwires-tigwire.webp',
         'description' => [
             'Stainless steel (SS) TIG (Tungsten Inert Gas) wire, also known as GTAW (Gas Tungsten Arc Welding) wire or filler rods, is a high-quality consumable filler metal used in the TIG welding process, especially for stainless steel and other high-grade alloys.',
             'In TIG welding, a non-consumable tungsten electrode creates the arc, and the TIG wire is manually fed into the weld pool for strong, precise, and aesthetically pleasing welds. TIG welding is favored for its control, precision, and ability to produce high-quality welds with excellent finish and corrosion resistance.'
@@ -1127,7 +1127,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'SAW Wire',
         'tagline' => 'Durable SAW wire for submerged arc welding',
-        'image' => 'images/panchratnaContent/Products/ssweldedwires-sawwire.jpg',
+        'image' => 'images/panchratnaContent/Products/ssweldedwires-sawwire.webp',
         'description' => [
             'Stainless steel (SS) SAW wire is a consumable filler metal specifically designed for use in Submerged Arc Welding (SAW), a high-productivity welding process.',
             'In SAW, the welding arc is submerged under a layer of granular flux, shielding the weld from atmospheric contamination and producing deep weld penetration with minimal spatter. This method is ideal for heavy fabrication and structural welding applications.'
@@ -1155,7 +1155,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Core Wire',
         'tagline' => 'Flux-cored stainless steel wire for FCAW',
-        'image' => 'images/panchratnaContent/Products/ssweldedwires-corewire.jpg',
+        'image' => 'images/panchratnaContent/Products/ssweldedwires-corewire.webp',
         'description' => [
             'Stainless steel (SS) cored wire, particularly flux-cored wire, is a type of welding wire used in the Flux-Cored Arc Welding (FCAW) process.',
             'Unlike solid wire, cored wire is tubular with a core containing flux materials (for flux-cored wires) or metallic powders (for metal-cored wires). This design enhances welding performance by providing additional shielding, deoxidizers, and alloying elements. FCAW offers high deposition rates and strong welds, making it suitable for heavy fabrication and outdoor welding.'
@@ -1188,56 +1188,56 @@ $product_details = [
             'springwire' => [
                 'name' => 'Spring Wire',
                 'tagline' => 'High tensile spring wire',
-                'image' => 'images/panchratnaContent/Products/sswires-springwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-springwire.webp',
                 'card_description' => 'Stainless steel spring wire is engineered for high tensile strength and durability, enabling springs to withstand heavy loads and mechanical stress without breaking or deforming.',
                 'button_text' => 'View Details'
             ],
             'epqwire' => [
                 'name' => 'EPQ Wire',
                 'tagline' => 'Electro-polish quality wire',
-                'image' => 'images/panchratnaContent/Products/sswires-epqwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-epqwire.webp',
                 'card_description' => 'Stainless steel EPQ (Electro Polish Quality) wire is a specialized type of stainless steel wire designed for applications where a superior surface finish, enhanced corrosion resistance, and aesthetic appeal are paramount.',
                 'button_text' => 'View Details'
             ],
             'chqwire' => [
                 'name' => 'CHQ Wire',
                 'tagline' => 'Cold heading quality wire',
-                'image' => 'images/panchratnaContent/Products/sswires-chqwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-chqwire.webp',
                 'card_description' => 'Cold Heading Quality (CHQ) Wires is a kind of steel wire that is manufactured by drawing and annealing wire rods.',
                 'button_text' => 'View Details'
             ],
             'exhaustwire' => [
                 'name' => 'Exhaust Wire',
                 'tagline' => 'Wire for exhaust systems',
-                'image' => 'images/panchratnaContent/Products/sswires-exhaustwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-exhaustwire.webp',
                 'card_description' => 'Stainless steel (SS) exhaust wire typically refers to welding wire specifically designed for fabricating and repairing automotive and other exhaust systems, where high heat, vibration, and corrosive conditions are prevalent.',
                 'button_text' => 'View Details'
             ],
             'vineyardwire' => [
                 'name' => 'Vineyard Wire',
                 'tagline' => 'Durable vineyard trellis wire',
-                'image' => 'images/panchratnaContent/Products/sswires-vineyardwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-vineyardwire.webp',
                 'card_description' => 'stainless steel vineyard wires ensure that your vines stay healthy and secure throughout the growing season.',
                 'button_text' => 'View Details'
             ],
             'conveyorwire' => [
                 'name' => 'Conveyor Wire',
                 'tagline' => 'For conveyor belt applications',
-                'image' => 'images/panchratnaContent/Products/sswires-conveyorwire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-conveyorwire.webp',
                 'card_description' => 'stainless steel grade for conveyor wire depends largely on the intended application and the environmental conditions it will encounter.',
                 'button_text' => 'View Details'
             ],
             'generalpurposewire' => [
                 'name' => 'General Purpose Wire',
                 'tagline' => 'Versatile stainless wire',
-                'image' => 'images/panchratnaContent/Products/sswires-generalpurposewire.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-generalpurposewire.webp',
                 'card_description' => 'General purpose stainless steel (SS) wires are versatile and widely used due to their corrosion resistance, strength, and durability.',
                 'button_text' => 'View Details'
             ],
             'wirerod' => [
                 'name' => 'Wire Rod',
                 'tagline' => 'Stainless wire rod feedstock',
-                'image' => 'images/panchratnaContent/Products/sswires-wirerod.jpg',
+                'image' => 'images/panchratnaContent/Products/sswires-wirerod.webp',
                 'card_description' => 'Stainless steel wire rods are incredibly strong and resistant to wear and tear, making them ideal for heavy-duty applications in construction, manufacturing, and more.',
                 'button_text' => 'View Details'
             ],
@@ -1249,7 +1249,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Spring Wire',
         'tagline' => 'High tensile stainless spring wire',
-        'image' => 'images/panchratnaContent/Products/sswires-springwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-springwire.webp',
         'description' => [
             'Stainless steel spring wire is engineered for high tensile strength and durability, enabling springs to withstand heavy loads and mechanical stress without breaking or deforming.',
             'It retains its strength at operating temperatures up to 250°C and can be used in reduced stress levels up to 450°C.'
@@ -1266,7 +1266,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'EPQ Wire',
         'tagline' => 'Electro polish quality stainless wire',
-        'image' => 'images/panchratnaContent/Products/sswires-epqwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-epqwire.webp',
         'description' => [
             'Stainless steel EPQ (Electro Polish Quality) wire is a specialized type of stainless steel wire designed for applications where a superior surface finish, enhanced corrosion resistance, and aesthetic appeal are paramount.',
             'These wires undergo an electropolishing process to achieve their unique properties.'
@@ -1282,7 +1282,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'CHQ Wire',
         'tagline' => 'Cold heading quality stainless wire',
-        'image' => 'images/panchratnaContent/Products/sswires-chqwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-chqwire.webp',
         'description' => [
             'Cold Heading Quality (CHQ) Wires is a kind of steel wire that is manufactured by drawing and annealing wire rods.',
             'The manufacturing of the Precision Drawell’s Cold Heading Quality (CHQ) Wires involves two important processes named HRPPD (Hot Rolled Pickling, Phosphating and Drawing) and SAPPD (Spherodised Annealed, Pickling, Phosphating, and Drawing) which are used to make the high-quality CHQ Wires with precision.'
@@ -1298,7 +1298,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Exhaust Wire',
         'tagline' => 'Heat and corrosion resistant exhaust wire',
-        'image' => 'images/panchratnaContent/Products/sswires-exhaustwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-exhaustwire.webp',
         'description' => [
             'Stainless steel (SS) exhaust wire typically refers to welding wire specifically designed for fabricating and repairing automotive and other exhaust systems, where high heat, vibration, and corrosive conditions are prevalent.',
             'The choice of stainless steel for exhaust systems is driven by its exceptional resistance to rust and oxidation.'
@@ -1314,7 +1314,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Vineyard Wire',
         'tagline' => 'Durable stainless wire for vineyards',
-        'image' => 'images/panchratnaContent/Products/sswires-vineyardwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-vineyardwire.webp',
         'description' => [
             'Stainless steel vineyard wires ensure that your vines stay healthy and secure throughout the growing season.',
             'Additionally, their resilience against environmental factors makes them a reliable choice for viticulturists looking to enhance grapevine growth.',
@@ -1331,7 +1331,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Conveyor Wire',
         'tagline' => 'Stainless steel conveyor belt wire',
-        'image' => 'images/panchratnaContent/Products/sswires-conveyorwire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-conveyorwire.webp',
         'description' => [
             'The stainless steel grade for conveyor wire depends largely on the intended application and the environmental conditions it will encounter.',
             'It is a common and popular choice due to its balance of good corrosion resistance, formability, and weldability.'
@@ -1350,7 +1350,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'General Purpose Wire',
         'tagline' => 'Versatile stainless steel wire',
-        'image' => 'images/panchratnaContent/Products/sswires-generalpurposewire.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-generalpurposewire.webp',
         'description' => [
             'General purpose stainless steel (SS) wires are versatile and widely used due to their corrosion resistance, strength, and durability.',
             'They are available in various grades, diameters, and finishes, with common applications including construction, kitchenware, and general hardware.'
@@ -1367,7 +1367,7 @@ $product_details = [
         "type" => 'structure-1',
         'name' => 'Wire Rod',
         'tagline' => 'High strength stainless wire rod',
-        'image' => 'images/panchratnaContent/Products/sswires-wirerod.jpg',
+        'image' => 'images/panchratnaContent/Products/sswires-wirerod.webp',
         'description' => [
             'Stainless steel wire rods are incredibly strong and resistant to wear and tear, making them ideal for heavy-duty applications in construction, manufacturing, and more.',
             'They can withstand high and low temperatures, making them suitable for demanding applications like aerospace and automotive industries.'
